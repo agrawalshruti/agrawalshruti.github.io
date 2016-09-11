@@ -1,0 +1,11 @@
+h5 {
+  font-variant: small-caps;
+}
+
+.top-nav {
+    height: 43px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
