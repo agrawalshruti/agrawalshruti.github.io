@@ -2,10 +2,14 @@ h5 {
   font-variant: small-caps;
 }
 
-.top-nav {
+#top-nav {
     height: 43px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
+}
+
+.description {
+  line-height: 1.8;
 }
