@@ -1,9 +1,16 @@
 jQuery(document).ready(function($){
 
+  //hover light off/on
+  $("#lamp").click(function() {
+     alert($(this).attr("id")); 
+     console.log("test")  ;     
+  });
+  //headroom
   var bookmark = document.querySelector(".bookmark");
   var headroom = new Headroom(bookmark);
   headroom.init();
 
+  //right-side nav
 	var contentSections = $('.cd-section'),
 		navigationItems = $('#cd-vertical-nav a');
 
