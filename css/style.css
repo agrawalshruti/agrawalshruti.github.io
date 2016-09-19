@@ -52,12 +52,18 @@ Main components
 
 -------------------------------- */
 
-.jumbo img{
+svg/*object*/{
   position: absolute;
   top: 50%;
   left: 53%;
   transform: translate(-50%,-50%);
-  max-height: 110%;
+  max-height: 90%;
+  /*border: 1px solid black;*/
+} 
+
+g#lamp {
+  /*border: 1px solid black;*/
+  /*visibility: hidden;*/
 }
 .cd-section {
   min-height: 90%;
