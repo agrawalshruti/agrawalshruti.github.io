@@ -12,45 +12,108 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="js/vendor/headroom.min.js"></script>
+  <script src="https://use.fontawesome.com/53b9bbc941.js"></script>
+
 </head>
 <body>
+  <div class="top-nav">
+    <h1>SA</h1>
+  </div>
+
+  <nav id="cd-vertical-nav">
+    <ul>
+      <li>
+        <a href="#section1" data-number="1">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">Intro</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section2" data-number="2">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">About</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section3" data-number="3">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">Features</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section4" data-number="4">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">Portfolio</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section5" data-number="5">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">Pricing</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section6" data-number="6">
+          <span class="cd-dot"><i class="fa fa-circle-thin" aria-hidden="true"></i></span>
+          <span class="cd-label">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+
+  <section id="section1" class="cd-section">
+    <h1>Shruti Agrawal</h1>
+  </section><!-- cd-section -->
+
+  <section id="section2" class="cd-section">
+    <div class="text-wrapper">
+      
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+    </div>
+    <div class="img-wrapper">
+      <img src="http://placehold.it/600x350" alt="" class = "img-responsive">
+    </div>
+  </section><!-- cd-section -->
+
+  <section id="section3" class="cd-section">
+    <div class="text-wrapper">
+      
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+    </div>
+    <div class="img-wrapper">
+      <img src="http://placehold.it/600x350" alt="" class = "img-responsive">
+    </div>
+  </section><!-- cd-section -->
+
+  <section id="section4" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+  </section><!-- cd-section -->
+
+  <section id="section5" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+  </section><!-- cd-section -->
+
+  <section id="section6" class="cd-section">
+    <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+  </section><!-- cd-section -->
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
 
-            <div class="header-container">
-              <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
-                <nav>
-                  <ul>
-                    <li><a href="#">nav ul li a</a></li>
-                    <li><a href="#">nav ul li a</a></li>
-                    <li><a href="#">nav ul li a</a></li>
-                  </ul>
-                </nav>
-              </header>
-            </div>
-
-            <div class="main-container">
-              <div class="main wrapper clearfix">
 
 
-
-              </div> <!-- #main -->
-            </div> <!-- #main-container -->
-
-            <div class="footer-container">
-              <footer class="wrapper">
-                <h3>footer</h3>
-              </footer>
-            </div>
-
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+            <!-- jquery ui -->
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
             <script src="js/main.js"></script>
 
             <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -64,5 +127,5 @@
             ga('send', 'pageview');
 
             </script>
-            </body>
-            </html>
+          </body>
+          </html>
