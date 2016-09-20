@@ -1,8 +1,7 @@
-<svg data-name="Layer 2" id="desk-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<svg id="desk-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>.cls-1{fill:#dfb731;}.cls-2{fill:#f28d86;}.cls-3{fill:#c1ad73;}.cls-4{fill:#f5874b;}.cls-5{fill:#ebbbad;}.cls-6{fill:#444549;}.cls-7{fill:#ececec;}.cls-8{fill:#fff;}.cls-10,.cls-12,.cls-9{fill:none;}.cls-10,.cls-12{stroke:#ececec;}.cls-10{stroke-linecap:round;stroke-linejoin:round;stroke-width:0;}.cls-11{fill:#7f7977;}.cls-12{stroke-miterlimit:10;stroke-width:3px;}</style>
   </defs>
-  <title>Artboard 1</title>
   <path class="cls-1" d="M274.7,291.81h0a1.28,1.28,0,0,1-1.39-1.07l-2.15-12.84a1.18,1.18,0,0,1,1-1.39h0a1.28,1.28,0,0,1,1.39,1.07l2.15,12.84A1.18,1.18,0,0,1,274.7,291.81Z"/>
   <path class="cls-2" d="M273.6,278l-.07-.42a1.28,1.28,0,0,0-1.39-1.07,1.18,1.18,0,0,0-1,1.39l.08.46Z"/>
   <rect id="test" class="cls-3" height="46.78" width="60.07" x="186.21" y="171.17"/>
