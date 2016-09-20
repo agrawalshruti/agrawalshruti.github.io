@@ -57,14 +57,10 @@ svg/*object*/{
   top: 50%;
   left: 53%;
   transform: translate(-50%,-50%);
-  max-height: 90%;
+  max-height: 100%;
   /*border: 1px solid black;*/
 } 
 
-g#lamp {
-  /*border: 1px solid black;*/
-  /*visibility: hidden;*/
-}
 .cd-section {
   min-height: 90%;
   position: relative;
@@ -74,6 +70,10 @@ g#lamp {
 
 #section1, #section7 {
   min-height: 100%;
+}
+
+#section1 {
+  margin-top: 20%;
 }
 
 .img-wrapper{
