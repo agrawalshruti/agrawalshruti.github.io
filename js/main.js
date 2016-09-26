@@ -1,25 +1,32 @@
+	function hover(element) {
+    element.setAttribute('src', '/img/' + element.getAttribute('id') + '-light.svg');
+	}
+	function unhover(element, name) {
+    element.setAttribute('src', '/img/' + element.getAttribute('id') + '.svg');
+	}
+
 jQuery(document).ready(function($){
 
 	//Hovering over images to switch on light
-	function light (name) {
-		var lightOff = $('#' + name);
-		var lightOn = '<object data="/img/' + name +'-light.svg" type="image/svg+xml" id="' + name + '-light"></object>';
-		$('#' + name + '-wrapper').mouseenter(
-			function() {
-				// lightOff = $('#' + name).detach();
-				$(this).empty();
-				$(this).append(lightOn);
-			});
-			$('#' + name + '-wrapper').mouseleave(
-			function() {
-				$(this).empty();
-				$(this).append(lightOff);
-			}
-			);
+	// function light (name) {
+	// 	var lightOff = $('#' + name);
+	// 	var lightOn = '<object data="/img/' + name +'-light.svg" type="image/svg+xml" id="' + name + '-light"></object>';
+	// 	$('#' + name + '-wrapper').mouseenter(
+	// 		function() {
+	// 			// lightOff = $('#' + name).detach();
+	// 			$(this).empty();
+	// 			$(this).append(lightOn);
+	// 		});
+	// 		$('#' + name + '-wrapper').mouseleave(
+	// 		function() {
+	// 			$(this).empty();
+	// 			$(this).append(lightOff);
+	// 		}
+	// 		);
 
 
-	}
-	light('dm');
+	// }
+	// light('dm');
 
 	//headroom
 	var bookmark = document.querySelector(".bookmark");

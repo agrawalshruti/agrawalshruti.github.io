@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 124 151.2" style="enable-background:new 0 0 124 151.2;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#231F20;}
+	.st0{fill:#231F20;}.st1{isolation:isolate;font-family:copperplate;font-size:5.5px;}
 </style>
 <title>MTWNArtboard 1 copy 22</title>
 <image style="overflow:visible;enable-background:new    ;" width="1574" height="1078" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABiYAAAQ2CAIAAAA4c5IyAAAACXBIWXMAAF0yAABdMgFowdHnAAAg
@@ -1731,5 +1731,5 @@ rkJggg==" transform="matrix(0.1193 0 0 0.1187 -49.29 -1.04)">
 	l1.8,11.8l0.8-4.9l-1.1-6.9H69.8z"/>
 <path class="st0" d="M81.6,115.6H79v-2.8l0.4-0.4v-11.7l-0.4-0.4V98h2.7v2.3l-0.4,0.4v1.8L84,98h1.9v2.3l-0.4,0.4v11.7l0.4,0.4v2.8
 	h-2.7v-2.8l0.4-0.4v-9.3l-2.4,3.9v5.4l0.4,0.4V115.6z M81.2,105.6l2.4-3.9V100l-2.4,3.9V105.6z"/>
-
+<text class="st1" transform="translate(40 122)">coffee &amp; grub</text>
 </svg>

@@ -61,12 +61,6 @@ Main components
   /*border: 1px solid black;*/
 } 
 
-object{
-  max-width: 350px;
-  display: block;
-  margin: 0 auto; 
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -502,14 +496,11 @@ object{
 .u-cf {
   content: "";
   display: table;
-  clear: both; }
+  clear: both; } 
 
-#mootown-subtitle {
-  position: absolute;
-  top: 74%;
-  left: 16.4%;
-  font-size: 11px;
-  font-v
-}  
-
+.img-wrapper img.svg-logo {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto; 
+}
 
