@@ -487,8 +487,12 @@ Main components
 }
 
 #mootown {
-  max-width: 90%;
-  padding-top: 12px;
+  max-width: 75%;
+  margin-top: -18px;
+}
+
+#cbg {
+  margin-top: 4px;
 }
 
 .container:after,
