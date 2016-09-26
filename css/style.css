@@ -52,7 +52,7 @@ Main components
 
 -------------------------------- */
 
-svg/*object*/{
+#desk-svg, #desk-light-svg/*object*/{
   position: absolute;
   top: 50%;
   left: 53%;
@@ -61,10 +61,29 @@ svg/*object*/{
   /*border: 1px solid black;*/
 } 
 
+svg {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
 .cd-section {
   min-height: 90%;
   position: relative;
   padding: 2em 0;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
   /*border: 1px solid black;*/
 }
 
@@ -77,18 +96,18 @@ svg/*object*/{
 }
 
 .img-wrapper{
-    width:50%;
+    width:100%;
     float: left;
     height:auto;
     /*position: relative;*/
     /*display:block;*/
     margin:0 auto;
-    padding-right: 10%;
     /*border: 1px solid black;*/
+    box-sizing: border-box; 
 }
 
 .img-wrapper-br {
-    width:27%;
+    width:100%;
     float: left;
     height:auto;
     /*position: relative;*/
@@ -96,21 +115,38 @@ svg/*object*/{
     margin:0 auto;
     /*padding-right: 10%;*/
     /*border: 1px solid black;*/
-}
-
-.offset-left {
-  margin-left: 9.5%;
+    box-sizing: border-box; 
 }
 
 .text-wrapper{
-    width: 50%;
+    width: 100%;
     float: left;
     height: auto;
-    padding-left: 15%;
-    padding-top: 3%;
-    padding-right: 4%;
+    box-sizing: border-box; 
+    padding-left: 10%;
     /*border: 1px solid black;*/
 }
+
+@media (min-width: 550px) {
+  .text-wrapper {
+    width: 50%;
+    padding-top: 3%;
+    padding-right: -1%;
+  }
+
+  .offset-left {
+  margin-left: 4.5%;
+  }
+  .img-wrapper {
+    padding-right: 5%;
+    width:50%;
+  }
+  .img-wrapper-br {
+    width:30%;
+  }
+
+}
+
 
 .text-wrapper h2 {
   line-height: 1.6;
@@ -455,8 +491,25 @@ svg/*object*/{
 #nirvana {
   max-width: 75%;
 }
-/*#cbg {
-  preserveAspectRatio="xMidYMid meet"
-}*/
+
+#mootown {
+  max-width: 90%;
+  padding-top: 12px;
+}
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+#mootown-subtitle {
+  position: absolute;
+  top: 74%;
+  left: 16.4%;
+  font-size: 11px;
+  font-v
+}  
 
 

@@ -1,20 +1,27 @@
 jQuery(document).ready(function($){
-  $.get('/img/desk.svg', function(data) {
-    $('#desk').replaceWith($(data).contents());
-    $.get('/img/desk-light.svg', function(data) {
-      $('#desk-light').replaceWith($(data).contents());
-      document.getElementById("lamp-p2").addEventListener("mouseleave", function() {
-        var desklightsvg = $('#desk-light-svg').detach();
-        desksvg.appendTo("#desk-wrapper");
+  function light (name, onswitch, offswitch) {
+    var desksvg;
+    $.get('/img/' + name + '.svg', function(data) {
+      $('#'+name).replaceWith($(data).contents());
+      $.get('/img/' + name + '-light.svg', function(data) {
+        $('#' + name +'-light').replaceWith($(data).contents());
+        document.getElementById(offswitch).addEventListener("mouseleave", function() {
+          var desklightsvg = $('#' + name + '-light-svg').detach();
+          desksvg.appendTo("#" + name + "-wrapper");
+        });
+        var desklightsvg = $('#' + name + '-light-svg').detach();
+        document.getElementById(onswitch).addEventListener("mouseover", function() {
+          desksvg = $('#' + name + '-svg').detach();
+          desklightsvg.appendTo('#' + name + '-wrapper');
+        });
+
       });
-      var desklightsvg = $('#desk-light-svg').detach();
-      document.getElementById("lamp-path").addEventListener("mouseover", function() {
-        desksvg = $('#desk-svg').detach();
-        desklightsvg.appendTo('#desk-wrapper');
-      });
+
 
     });
+  }
 
+  light('dm', 'kitchen-lamp', 'kitchen-l2');
+  light('desk', 'lamp-path', 'lamp-p2');
 
-  });
 });
