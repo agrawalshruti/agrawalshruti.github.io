@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-  function light (name, onswitch, offswitch) {
+  function desklight (name, onswitch, offswitch) {
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
     });
   }
 
-  light('dm', 'kitchen-lamp', 'kitchen-l2');
-  light('desk', 'lamp-path', 'lamp-p2');
+  desklight('desk', 'lamp-path', 'lamp-p2');
+  // light('dm', 'kitchen-lamp', 'kitchen-l2');
 
 });

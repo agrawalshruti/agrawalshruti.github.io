@@ -61,10 +61,10 @@ Main components
   /*border: 1px solid black;*/
 } 
 
-svg {
-  max-width: 60%;
+object{
+  max-width: 350px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 .container {

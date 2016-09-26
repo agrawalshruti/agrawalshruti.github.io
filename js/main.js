@@ -1,5 +1,24 @@
 jQuery(document).ready(function($){
 
+	//Hovering over images to switch on light
+	function light (name) {
+		var lightOff;
+		var lightOn = '<object data="/img/' + name +'-light.svg" type="image/svg+xml" id="' + name + '-light"></object>';
+		$('#' + name)
+			.mouseover(function() {
+				lightOff = $('#' + name).detach();
+				$(lightOn).appendTo("#" + name + "-wrapper");
+				console.log(this.id + "mouseover");
+			});
+			$('#' + name + '-light').mouseout(function() {
+				lightOn = $('#' + name + '-light').detach();
+				$(lightOff).appendTo("#" + name + "-wrapper");
+				console.log("mouseout");
+
+			});
+	}
+	light('dm');
+
 	//headroom
 	var bookmark = document.querySelector(".bookmark");
 	var headroom = new Headroom(bookmark);
