@@ -117,7 +117,7 @@ Main components
     float: left;
     height: auto;
     box-sizing: border-box; 
-    padding-left: 10%;
+    padding-left: 12%;
     /*border: 1px solid black;*/
 }
 
@@ -439,7 +439,7 @@ Main components
     width: 100%;
     top: 0;
     z-index: 100;
-    margin-left: 8%;
+    margin-left: 11%;
     padding-top: 10px;
 }
 
