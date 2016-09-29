@@ -447,14 +447,14 @@ Main components
   margin-left: 16%;
 }*/
 
-.square {
+/*.square {
   margin-top: 4px;
   margin-left: 4px;
   height: 6px;
   width: 6px;
   background: #c1ad73;
   float: left;
-}
+}*/
 
 .new-row {
   clear: both;
