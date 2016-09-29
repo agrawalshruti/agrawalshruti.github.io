@@ -436,11 +436,10 @@ Main components
 /*Custom code */
 .bookmark {
     position: fixed;
-    width: 100%;
+    width: 90%;
     top: 0;
     z-index: 100;
-    margin-left: 14%;
-    padding-top: 10px;
+    margin-left: 16.9%;
 }
 
 /*.sunset {
