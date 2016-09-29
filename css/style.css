@@ -154,6 +154,7 @@ Main components
 
 .text-wrapper h2.brand-title {
   padding-bottom: 40px; 
+  margin-top: -20px;
 }
 
 /*.text-wrapper h3 {
