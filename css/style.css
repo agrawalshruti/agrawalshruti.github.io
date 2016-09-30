@@ -89,6 +89,17 @@ Main components
   margin-bottom: 4%;
 }
 
+#section1 h1 {
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-85%);
+  font-size: 18px;
+  color: #a8a8a8;
+  font-weight: 500;
+}
+
 .img-wrapper{
     width:100%;
     float: left;
@@ -165,7 +176,7 @@ Main components
   letter-spacing: 1.5px;
   font-weight: 800;
   margin-top: -8px;
-  color: #b29b59;
+  color: #b59f62;
 }
 
 .text-wrapper h3#dm-subtitle {
