@@ -165,7 +165,11 @@ Main components
   letter-spacing: 1.5px;
   font-weight: 800;
   margin-top: -8px;
-  color: #a8a8a8;
+  color: #b29b59;
+}
+
+.text-wrapper h3#dm-subtitle {
+  margin-top: -5px;
 }
 
 .text-wrapper h3 span {
