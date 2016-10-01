@@ -54,7 +54,7 @@ Main components
 
 #desk-svg, #desk-light-svg/*object*/{
   position: absolute;
-  top: 35%;
+  top: 42%;
   left: 53%;
   transform: translate(-50%,-50%);
   max-height: 100%;
