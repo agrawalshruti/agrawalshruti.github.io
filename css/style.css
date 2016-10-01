@@ -54,10 +54,10 @@ Main components
 
 #desk-svg, #desk-light-svg/*object*/{
   position: absolute;
-  top: 45%;
+  top: 48.5%;
   left: 53%;
   transform: translate(-50%,-50%);
-  max-height: 100%;
+  max-height: 95%;
   /*padding-bottom: 50px;*/
   /*border: 1px solid black;*/
 } 
