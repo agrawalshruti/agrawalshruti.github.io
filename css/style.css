@@ -105,12 +105,31 @@ Main components
 
 }
 
+#section1 h1#instashop-title {
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 55px;
+  font-weight: 300;
+}
+
 #section1 h1 a {
   color: #c1ad73;
 
 }#section1 h1 a:hover {
   text-decoration: underline;
   color: #c1ad73;
+}
+
+#section1 h2 {
+  text-align: center;
+  position: absolute;  
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+  font-weight: 300;  
+  color: #7f7977;
 }
 
 .img-wrapper{
