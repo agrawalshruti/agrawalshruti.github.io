@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
 	var prevWindowpos = 0;
 	$(window).scroll(function () {
 		var windowpos = $(window).scrollTop();
-		if (windowpos >= pos.top - 350 && windowpos > prevWindowpos && intro.is(':visible')) {
+		if (windowpos >= pos.top - 280 && windowpos > prevWindowpos && intro.is(':visible')) {
 			intro.fadeOut(500);
 			prevWindowpos = windowpos;
 			console.log('fading out');
