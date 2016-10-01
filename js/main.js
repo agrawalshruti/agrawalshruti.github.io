@@ -6,27 +6,20 @@
 	}
 
 jQuery(document).ready(function($){
+	// hide intro text when scrolling
+	var intro = $("#intro-text");
+	var pos = intro.position();
+	$(window).scroll(function () {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top - 350) {
+			intro.fadeOut(300);
+		}
 
-	//Hovering over images to switch on light
-	// function light (name) {
-	// 	var lightOff = $('#' + name);
-	// 	var lightOn = '<object data="/img/' + name +'-light.svg" type="image/svg+xml" id="' + name + '-light"></object>';
-	// 	$('#' + name + '-wrapper').mouseenter(
-	// 		function() {
-	// 			// lightOff = $('#' + name).detach();
-	// 			$(this).empty();
-	// 			$(this).append(lightOn);
-	// 		});
-	// 		$('#' + name + '-wrapper').mouseleave(
-	// 		function() {
-	// 			$(this).empty();
-	// 			$(this).append(lightOff);
-	// 		}
-	// 		);
+		else if (windowpos <= pos.top - 350 && intro.is(':hidden')) {
+			intro.fadeIn(300);
+		}
 
-
-	// }
-	// light('dm');
+	});
 
 	//headroom
 	var bookmark = document.querySelector(".bookmark");
