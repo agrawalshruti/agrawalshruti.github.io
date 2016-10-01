@@ -150,8 +150,8 @@ Main components
 @media (min-width: 550px) {
   .text-wrapper {
     width: 50%;
-    padding-top: 6%;
-    padding-right: 4%
+    padding-top: 5%;
+    padding-right: 4%;
   }
 
   .offset-left {
@@ -213,6 +213,7 @@ Main components
 .text-wrapper p {
   font-size: 14px;
   font-size: 1rem;
+  word-spacing: -.075em;
 }
 
 .text-wrapper p a {
@@ -257,7 +258,7 @@ Main components
   }
   .cd-section p {
     font-size: 12px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     letter-spacing: 0.01px;
     font-weight: 300;
