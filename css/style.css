@@ -142,6 +142,7 @@ Main components
     height: auto;
     box-sizing: border-box; 
     padding-left: 12%;
+    color: #555555;
     /*border: 1px solid black;*/
 }
 
@@ -213,6 +214,10 @@ Main components
   font-size: 1rem;
 }
 
+.text-wrapper p a {
+  color: #777777;
+}
+
 .img-wrapper img, .img-wrapper-br img {
     max-width:100%;
     height:auto;
@@ -253,7 +258,7 @@ Main components
     font-size: 0.88rem;
     line-height: 1.5;
     letter-spacing: 0.03px;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
