@@ -9,15 +9,24 @@ jQuery(document).ready(function($){
 	// hide intro text when scrolling
 	var intro = $("#intro-text");
 	var pos = intro.position();
+	var prevWindowpos = 0;
 	$(window).scroll(function () {
 		var windowpos = $(window).scrollTop();
-		if (windowpos >= pos.top - 350) {
-			intro.fadeOut(300);
+		if (windowpos >= pos.top - 350 && windowpos > prevWindowpos && intro.is(':visible')) {
+			intro.fadeOut(500);
+			prevWindowpos = windowpos;
+			console.log('fading out');
+			console.log(windowpos);
+			console.log(pos.top);
 		}
 
-		else if (windowpos <= pos.top - 350 && intro.is(':hidden')) {
-			intro.fadeIn(300);
+		else if (windowpos <= pos.top && windowpos < prevWindowpos && intro.is(':hidden')) {
+			intro.fadeIn(500);
+			console.log('fading in');
+			console.log(windowpos);
+			console.log(pos.top);
 		}
+		prevWindowpos = windowpos;
 
 	});
 
