@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 		}
 
 		else if (windowpos <= pos.top && windowpos < prevWindowpos && intro.is(':hidden')) {
-			intro.fadeIn(500);
+			intro.fadeIn(700);
 			console.log('fading in');
 			console.log(windowpos);
 			console.log(pos.top);
