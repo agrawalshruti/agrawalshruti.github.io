@@ -209,7 +209,7 @@ Main components
 }*/
 
 .text-wrapper p {
-  font-size: 12px;
+  font-size: 14px;
   font-size: 1rem;
 }
 
@@ -249,9 +249,11 @@ Main components
     font-size: 1.875rem;
   }
   .cd-section p {
-    font-size: 14px;
-    font-size: 0.8rem;
-    line-height: 1.6;
+    font-size: 12px;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    letter-spacing: 0.03px;
+    font-weight: 300;
   }
 }
 
