@@ -151,7 +151,7 @@ Main components
   .text-wrapper {
     width: 50%;
     padding-top: 5%;
-    padding-right: 4%;
+    padding-right: 3.5%;
   }
 
   .offset-left {
@@ -554,5 +554,10 @@ Main components
   max-width: 380px;
   display: block;
   margin: 0 auto; 
+}
+
+#amma-name {
+  font-variant: small-caps;
+  font-size: 1.175rem; 
 }
 
