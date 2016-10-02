@@ -54,7 +54,7 @@ Main components
 
 #desk-svg, #desk-light-svg/*object*/{
   position: absolute;
-  top: 48.5%;
+  top: 45%;
   left: 53%;
   transform: translate(-50%,-50%);
   max-height: 95%;
@@ -100,9 +100,10 @@ Main components
   color: #7f7977;
   font-weight: 500;
   line-height: 30px;
-  padding-top: 2%;
-  padding-left: 1.5%;
+}
 
+#intro-text {
+  display: none;
 }
 
 #section1 h1#instashop-title {
@@ -575,6 +576,9 @@ Main components
   margin: 0 auto; 
 }
 
+#instashop {
+  max-width: 382px;  
+}
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem; 
