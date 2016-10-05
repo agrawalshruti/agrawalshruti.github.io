@@ -8,7 +8,7 @@
 jQuery(document).ready(function($){
 	// hide intro text when scrolling
 	var intro = $("#intro-text");
-	intro.fadeIn(2000);
+	intro.fadeIn(600);
 	var pos = intro.position();
 	var prevWindowpos = 0;
 	$(window).scroll(function () {
