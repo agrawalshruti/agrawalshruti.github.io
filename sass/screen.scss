@@ -142,12 +142,18 @@ input[type="button"].button-primary:focus {
 
 //AMMA
 .work-intro {
-  @include position(absolute, 80% null null 50%);
-  transform: translate(-50%,-50%);
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   color: #9AA0A3;
-
+  
+  * {
+    margin: auto;
+  }
   h1 {
+    margin-top: 30%;
     font-size: 70px;
     padding-bottom: 18px;
     color: #f36094;
@@ -162,15 +168,18 @@ input[type="button"].button-primary:focus {
   p {
     padding-bottom: 10px;
     text-transform: uppercase;
-    font-weight: 400; 
+    font-weight: 400;
   }
 }
 
 .phone {
-  width: 50%;
-  transform: translateY(20%);
+  width: 25%;
   display:block;
   margin: 0 auto;
+  // transform: translateY(20%);
+  img {
+    padding-top: 40%;
+  }
 }
 
 
