@@ -170,17 +170,18 @@ input[type="button"].button-primary:focus {
     padding-bottom: rem(10);
     font-size: rem(12);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 
 .phone {
-  width: 60%;
+  width: 45%;
   display:block;
   margin: 0 auto;
   // transform: translateY(20%);
   img {
     margin: 10% auto;
+    padding-left: 3%;
   }
 }
 
