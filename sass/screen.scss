@@ -193,8 +193,8 @@ input[type="button"].button-primary:focus {
 }
 
 .text-part {
-  @include leftfloat(58%);
-  font-family: 'Amiri', sans-serif;
+  @include leftfloat(62%);
+  font-family: 'Amiri', serif;
 
   * {
     @include flex(1);
