@@ -18,8 +18,8 @@ $L:     1170px;
   }
 }
 
-@mixin leftfloat {
-  width:100%;
+@mixin leftfloat($canvas: 100%) {
+  width:$canvas;
   float: left;
   height:auto;
   margin:0 auto;
