@@ -338,7 +338,7 @@ input[type="button"].button-primary:focus {
 
 /* line 195, ../sass/screen.scss */
 .text-part {
-  width: 66%;
+  width: 54%;
   float: left;
   height: auto;
   margin: 0 auto;
@@ -365,16 +365,16 @@ input[type="button"].button-primary:focus {
 }
 /* line 210, ../sass/screen.scss */
 .text-part p {
-  line-height: 1.8;
+  line-height: 1.9;
   font-weight: 300;
   margin-bottom: 40px;
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 /* line 217, ../sass/screen.scss */
 .text-part li {
-  line-height: 1.8;
+  line-height: 1.9;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 
 /* line 225, ../sass/screen.scss */

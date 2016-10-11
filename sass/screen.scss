@@ -193,7 +193,7 @@ input[type="button"].button-primary:focus {
 }
 
 .text-part {
-  @include leftfloat(66%);
+  @include leftfloat(54%);
   font-family: 'Amiri', serif;
 
   * {
@@ -208,16 +208,16 @@ input[type="button"].button-primary:focus {
   }
 
   p {
-    line-height: 1.8;
+    line-height: 1.9;
     font-weight: 300;
     margin-bottom: 40px;
-    font-size: rem(16);
+    font-size: rem(17);
   }
 
   li {
-    line-height: 1.8;
+    line-height: 1.9;
     font-weight: 300;
-    font-size: rem(16);    
+    font-size: rem(17);    
   }
 
 }
