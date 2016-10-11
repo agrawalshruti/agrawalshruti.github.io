@@ -149,7 +149,7 @@ input[type="button"].button-primary:focus {
   @include justify-content(center);
   margin-top: 10%;
   text-align: center;
-  color: #2F2F34;
+  color: #9AA0A3;
   
   * {
     @include flex(1);
@@ -170,7 +170,7 @@ input[type="button"].button-primary:focus {
     padding-bottom: rem(10);
     font-size: rem(12);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
