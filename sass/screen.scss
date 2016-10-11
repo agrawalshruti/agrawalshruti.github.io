@@ -180,7 +180,7 @@ input[type="button"].button-primary:focus {
   margin: 0 auto;
 
   img {
-    margin: 8% auto 5% auto;
+    margin: 6% auto -8% auto;
     padding-left: 3%;
   }
 }
@@ -194,7 +194,7 @@ input[type="button"].button-primary:focus {
 
 .text-part {
   @include leftfloat(48%);
-
+  font-family: 'Libre Baskerville', serif;
   * {
     @include flex(1);
   }
