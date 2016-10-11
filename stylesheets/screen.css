@@ -293,7 +293,7 @@ input[type="button"].button-primary:focus {
 }
 /* line 182, ../sass/screen.scss */
 .phone img {
-  margin: 6% auto -8% auto;
+  margin: 6% auto -4% auto;
   padding-left: 3%;
 }
 
@@ -344,7 +344,7 @@ input[type="button"].button-primary:focus {
   margin: 0 auto;
   box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
-  color: #45454D;
+  color: #2F2F34;
 }
 /* line 199, ../sass/screen.scss */
 .text-part * {
