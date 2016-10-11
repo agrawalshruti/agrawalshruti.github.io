@@ -142,7 +142,7 @@ input[type="button"].button-primary:focus {
 
 //AMMA
 .work-intro {
-  margin-top: 20%;
+  margin-top: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,12 +173,12 @@ input[type="button"].button-primary:focus {
 }
 
 .phone {
-  width: 25%;
+  width: 60%;
   display:block;
   margin: 0 auto;
   // transform: translateY(20%);
   img {
-    padding-top: 40%;
+    margin: 10% auto;
   }
 }
 
