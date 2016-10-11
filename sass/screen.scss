@@ -193,7 +193,7 @@ input[type="button"].button-primary:focus {
 }
 
 .text-part {
-  @include leftfloat(54%);
+  @include leftfloat(48%);
 
   * {
     @include flex(1);
