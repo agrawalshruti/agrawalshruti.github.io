@@ -193,7 +193,7 @@ input[type="button"].button-primary:focus {
 }
 
 .text-part {
-  @include leftfloat(48%);
+  @include leftfloat(50%);
   font-family: 'Libre Baskerville', serif;
   * {
     @include flex(1);
@@ -210,13 +210,13 @@ input[type="button"].button-primary:focus {
     line-height: 1.9;
     font-weight: 300;
     margin-bottom: 40px;
-    font-size: rem(17);
+    font-size: rem(15);
   }
 
   li {
     line-height: 1.9;
     font-weight: 300;
-    font-size: rem(17);    
+    font-size: rem(15);    
   }
 
 }
