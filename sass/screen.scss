@@ -195,6 +195,7 @@ input[type="button"].button-primary:focus {
 .text-part {
   @include leftfloat(50%);
   font-family: 'Libre Baskerville', serif;
+  color: #9AA0A3;
   * {
     @include flex(1);
   }
