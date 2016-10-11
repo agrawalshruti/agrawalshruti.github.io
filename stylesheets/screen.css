@@ -282,7 +282,7 @@ input[type="button"].button-primary:focus {
   padding-bottom: 0.625rem;
   font-size: 0.75rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* line 177, ../sass/screen.scss */
@@ -344,7 +344,7 @@ input[type="button"].button-primary:focus {
   margin: 0 auto;
   box-sizing: border-box;
   font-family: 'Libre Baskerville', serif;
-  color: #9B9BA7;
+  color: #61616A;
 }
 /* line 199, ../sass/screen.scss */
 .text-part * {
