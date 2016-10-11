@@ -140,48 +140,67 @@ input[type="button"].button-primary:focus {
   }
 }
 
+//AMMA
+.work-intro {
+  @include position(absolute, 80% null null 50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #9AA0A3;
+
+  h1 {
+    font-size: 70px;
+    padding-bottom: 18px;
+    color: #f36094;
+    font-weight: 300; 
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  p {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400; 
+  }
+}
+
+.phone {
+  width: 50%;
+  transform: translateY(20%);
+  display:block;
+  margin: 0 auto;
+}
+
+
+//Homepage
 #section1 {
   min-height: 100%;
   margin-bottom: 4%;
 
-  h1 {
+  #intro-text {
     text-align: center;
     position: absolute;
-
-    @include MQ(M) {
-      font-size: 30px;
-      font-size: 1.875rem;
-     }
-
-    &#intro-text {
-     top: 87%;
-     left: 50%;
-     transform: translate(-50%,-87%);
-     font-size: 16px;
-     color: #7f7977;
-     font-weight: 500;
-     line-height: 30px; 
-    
-   }
-
-
-   &#instashop-title {
-    top: 32%;
+    top: 87%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 55px;
-    font-weight: 300;
-  }
-  h2 {
-    text-align: center;
-    position: absolute;  
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 14px;
-    font-weight: 300;  
+    transform: translate(-50%,-87%);
+    font-size: 16px;
     color: #7f7977;
-  }
+    font-weight: 500;
+    line-height: 30px;
+
+
+  // h2 {
+  //   text-align: center;
+  //   position: absolute;  
+  //   top: 40%;
+  //   left: 50%;
+  //   transform: translate(-50%,-50%);
+  //   font-size: 14px;
+  //   font-weight: 300;  
+  //   color: #7f7977;
+  // }
   a {
     color: #c1ad73;
 
