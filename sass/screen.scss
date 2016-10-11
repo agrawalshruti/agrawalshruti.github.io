@@ -155,7 +155,7 @@ input[type="button"].button-primary:focus {
     @include flex(1);
   }
   h1 {
-    font-size: rem(60);
+    font-size: rem(55);
     padding-bottom: rem(16);
     color: #f36094;
     font-weight: 300; 
@@ -170,7 +170,7 @@ input[type="button"].button-primary:focus {
     padding-bottom: rem(10);
     font-size: rem(12);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -178,9 +178,9 @@ input[type="button"].button-primary:focus {
   width: 45%;
   display:block;
   margin: 0 auto;
-  // transform: translateY(20%);
+
   img {
-    margin: 10% auto;
+    margin: 8% auto 5% auto;
     padding-left: 3%;
   }
 }
@@ -202,7 +202,7 @@ input[type="button"].button-primary:focus {
   h2 {
     color: #f36094;
     text-transform: uppercase;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     font-size: 16px;
     font-weight: 600;
   }

@@ -267,7 +267,7 @@ input[type="button"].button-primary:focus {
 }
 /* line 157, ../sass/screen.scss */
 .work-intro h1 {
-  font-size: 3.75rem;
+  font-size: 3.4375rem;
   padding-bottom: 1rem;
   color: #f36094;
   font-weight: 300;
@@ -282,7 +282,7 @@ input[type="button"].button-primary:focus {
   padding-bottom: 0.625rem;
   font-size: 0.75rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* line 177, ../sass/screen.scss */
@@ -293,7 +293,7 @@ input[type="button"].button-primary:focus {
 }
 /* line 182, ../sass/screen.scss */
 .phone img {
-  margin: 10% auto;
+  margin: 8% auto 5% auto;
   padding-left: 3%;
 }
 
@@ -359,7 +359,7 @@ input[type="button"].button-primary:focus {
 .text-part h2 {
   color: #f36094;
   text-transform: uppercase;
-  margin: 20px auto;
+  margin: 0 auto 20px auto;
   font-size: 16px;
   font-weight: 600;
 }
