@@ -361,7 +361,7 @@ input[type="button"].button-primary:focus {
   color: #f36094;
   text-transform: uppercase;
   margin: 0 auto 20px auto;
-  font-size: 16px;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 /* line 208, ../sass/screen.scss */

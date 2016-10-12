@@ -203,7 +203,7 @@ input[type="button"].button-primary:focus {
     color: #f36094;
     text-transform: uppercase;
     margin: 0 auto 20px auto;
-    font-size: 16px;
+    font-size: rem(14);
     font-weight: 600;
     &#problem {
       margin-top: 2%;
