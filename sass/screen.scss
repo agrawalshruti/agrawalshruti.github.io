@@ -326,6 +326,13 @@ input[type="button"].button-primary:focus {
 
 .left-wrapper {
   padding-left: 12%;
+
+  img {
+    max-width: 80%;
+    height:auto;
+    display:block;
+    margin: 0 auto;
+  }
 }
 
 //Homepage
