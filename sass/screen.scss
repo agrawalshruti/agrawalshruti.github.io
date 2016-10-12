@@ -192,15 +192,41 @@ input[type="button"].button-primary:focus {
   @include justify-content(center);
 
   h1 {
-    font-size: rem(40);
+    font-size: rem(48);
     color: #9AA0A3;
-    padding-bottom: 60px;
+    font-weight: 300; 
+    padding-top: 28px;
+    text-align: center;
+    padding-bottom: 40px;
   }
+
+  & > h2 {
+    color: #f36094;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: rem(14);
+    font-weight: 600;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  #underline {
+    width: 20%;
+    margin-bottom: 120px;
+  }
+
+  // hr {
+  //   color: #E4E5EA;
+  //   width: 15%;
+  //   margin-bottom: 140px;
+  //   size: 1;
+  //   border-style: none;
+  // }
 }
 
 .text-part {
-  @include leftfloat(50%);
-  margin-bottom: 40px;
+  @include leftfloat(54%);
+  margin-bottom: 20px;
   font-family: 'Libre Baskerville', serif;
   color: #45454D;
   * {
@@ -220,7 +246,7 @@ input[type="button"].button-primary:focus {
   p {
     line-height: 2;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: rem(16);
   }
 
