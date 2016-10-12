@@ -175,12 +175,12 @@ input[type="button"].button-primary:focus {
 }
 
 .phone {
-  width: 45%;
+  width: 42%;
   display:block;
   margin: 0 auto;
 
   img {
-    margin: 6% auto -8% auto;
+    margin: 6% auto 0 auto;
     padding-left: 3%;
   }
 }
@@ -205,6 +205,9 @@ input[type="button"].button-primary:focus {
     margin: 0 auto 20px auto;
     font-size: 16px;
     font-weight: 600;
+    &#problem {
+      margin-top: 10%;
+    }
   }
 
   p {
