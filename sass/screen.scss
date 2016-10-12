@@ -155,7 +155,7 @@ input[type="button"].button-primary:focus {
     @include flex(1);
   }
   h1 {
-    font-size: rem(55);
+    font-size: rem(50);
     padding-bottom: rem(16);
     color: #f36094;
     font-weight: 300; 
@@ -190,12 +190,19 @@ input[type="button"].button-primary:focus {
   @include display(flex);
   @include flex-direction(column);
   @include justify-content(center);
+
+  h1 {
+    font-size: rem(40);
+    color: #9AA0A3;
+    padding-bottom: 60px;
+  }
 }
 
 .text-part {
   @include leftfloat(50%);
+  margin-bottom: 40px;
   font-family: 'Libre Baskerville', serif;
-  color: #2F2F34;
+  color: #45454D;
   * {
     @include flex(1);
   }
@@ -213,7 +220,7 @@ input[type="button"].button-primary:focus {
   p {
     line-height: 2;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: rem(16);
   }
 
