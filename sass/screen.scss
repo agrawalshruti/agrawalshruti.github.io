@@ -228,9 +228,10 @@ input[type="button"].button-primary:focus {
     &.grey {
     background-color: #F5F6F7;
     color: white;
-    padding-bottom: 400px;
     margin-top: 7%;
-    padding-top: 8%;
+    padding-top: 4%;
+    padding-bottom: 7%;
+    // margin-bottom: 7%;
   }
 
 }
@@ -321,6 +322,7 @@ input[type="button"].button-primary:focus {
     font-weight: 300;
     margin-bottom: 20px;
     font-size: rem(16);
+    font-family: 'Libre Baskerville', serif;
   }
 }
 
@@ -328,13 +330,16 @@ input[type="button"].button-primary:focus {
   padding-left: 12%;
 
   img {
-    max-width: 80%;
+    width: 98%;
     height:auto;
     display:block;
     margin: 0 auto;
   }
 }
 
+.work-section#section5 {
+  height: 600px;
+}
 //Homepage
 #section1 {
   min-height: 100%;
