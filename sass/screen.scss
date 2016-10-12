@@ -199,7 +199,9 @@ input[type="button"].button-primary:focus {
   @include display(flex);
   @include flex-direction(column);
   @include justify-content(center);
-
+  * {
+    @include flex(1);
+  }
   h1 {
     font-size: rem(48);
     color: #9AA0A3;
@@ -221,11 +223,20 @@ input[type="button"].button-primary:focus {
 
   #underline {
     width: 20%;
-    margin-bottom: 120px;
+    margin-bottom: 70px;
+  }
+    &.grey {
+    background-color: #F5F6F7;
+    color: white;
+    padding-bottom: 400px;
+    margin-top: 7%;
+    padding-top: 8%;
   }
 
 }
-
+.text-img-part {
+  @include leftfloat(100%);
+}
 .text-part {
   @include leftfloat(100%);
   padding: 0 27%;
@@ -268,10 +279,6 @@ input[type="button"].button-primary:focus {
     }   
   }
 
-  &.blue {
-    background-color: #61616A;
-    color: white;
-  }
 }
 
 #persona-title {
@@ -287,6 +294,40 @@ input[type="button"].button-primary:focus {
 #lisa {
   margin-top: -5px;
 }
+
+.right-text-wrapper{
+  @include leftfloat;
+  color: #555555;
+  font-family: 'Amiri', serif;
+  margin-bottom: 20%;
+
+  @include MQ(M) {
+    width: 50%;
+    margin-top: 6%;
+    margin-bottom: 0;
+    padding-right: 12%;
+  }
+  h2 {
+    color: #f36094;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: rem(14);
+    font-weight: 600;
+  }
+
+    p {
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: rem(16);
+  }
+}
+
+.left-wrapper {
+  padding-left: 12%;
+}
+
 //Homepage
 #section1 {
   min-height: 100%;
