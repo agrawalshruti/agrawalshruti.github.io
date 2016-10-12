@@ -220,7 +220,11 @@ input[type="button"].button-primary:focus {
   li {
     line-height: 2;
     font-weight: 300;
-    font-size: rem(16);    
+    font-size: rem(16);
+
+    span {
+      font-weight: 700;
+    }   
   }
 
 }
