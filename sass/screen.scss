@@ -254,6 +254,10 @@ input[type="button"].button-primary:focus {
     font-size: rem(16);
   }
 
+  ul {
+    margin-bottom: 20px;
+  }
+
   li {
     line-height: 2;
     font-weight: 300;
@@ -268,6 +272,20 @@ input[type="button"].button-primary:focus {
     background-color: #61616A;
     color: white;
   }
+}
+
+#persona-title {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.persona {
+  width: 100%;
+  margin: 10px auto;
+  padding-left: 25%;
+  padding-right: 27%;
+}
+#lisa {
+  margin-top: -5px;
 }
 //Homepage
 #section1 {
