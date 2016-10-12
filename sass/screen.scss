@@ -140,6 +140,15 @@ input[type="button"].button-primary:focus {
   }
 }
 
+.work-section {
+  position: relative;
+  padding: 2em 0;
+  margin: 0 auto;
+  padding: 0 0;
+  box-sizing: border-box;
+  width: 100%; 
+}
+
 //AMMA
 
 .work-intro {
@@ -175,7 +184,7 @@ input[type="button"].button-primary:focus {
 }
 
 .phone {
-  width: 44%;
+  width: 43%;
   display:block;
   margin: 0 auto;
 
@@ -206,8 +215,8 @@ input[type="button"].button-primary:focus {
     margin: 0 auto;
     font-size: rem(14);
     font-weight: 600;
-    padding-top: 60px;
     text-align: center;
+    padding-top: rem140;
   }
 
   #underline {
@@ -215,27 +224,22 @@ input[type="button"].button-primary:focus {
     margin-bottom: 120px;
   }
 
-  // hr {
-  //   color: #E4E5EA;
-  //   width: 15%;
-  //   margin-bottom: 140px;
-  //   size: 1;
-  //   border-style: none;
-  // }
 }
 
 .text-part {
-  @include leftfloat(54%);
-  margin-bottom: 20px;
+  @include leftfloat(100%);
+  padding: 0 27%;
+  margin-bottom: 10px;
   font-family: 'Libre Baskerville', serif;
   color: #45454D;
   * {
     @include flex(1);
   }
+
   h2 {
     color: #f36094;
     text-transform: uppercase;
-    margin: 0 auto 20px auto;
+    margin: 10px auto 20px auto;
     font-size: rem(14);
     font-weight: 600;
     &#problem {
@@ -260,6 +264,10 @@ input[type="button"].button-primary:focus {
     }   
   }
 
+  &.blue {
+    background-color: #61616A;
+    color: white;
+  }
 }
 //Homepage
 #section1 {
