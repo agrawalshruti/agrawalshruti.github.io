@@ -287,7 +287,7 @@ input[type="button"].button-primary:focus {
 
 /* line 177, ../sass/screen.scss */
 .phone {
-  width: 42%;
+  width: 44%;
   display: block;
   margin: 0 auto;
 }
@@ -366,7 +366,7 @@ input[type="button"].button-primary:focus {
 }
 /* line 208, ../sass/screen.scss */
 .text-part h2#problem {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 /* line 213, ../sass/screen.scss */
 .text-part p {
