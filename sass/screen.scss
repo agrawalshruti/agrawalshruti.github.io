@@ -180,7 +180,7 @@ input[type="button"].button-primary:focus {
   margin: 0 auto;
 
   img {
-    margin: 6% auto -4% auto;
+    margin: 6% auto -8% auto;
     padding-left: 3%;
   }
 }
@@ -208,16 +208,16 @@ input[type="button"].button-primary:focus {
   }
 
   p {
-    line-height: 1.9;
+    line-height: 2;
     font-weight: 300;
     margin-bottom: 40px;
-    font-size: rem(15);
+    font-size: rem(16);
   }
 
   li {
-    line-height: 1.9;
+    line-height: 2;
     font-weight: 300;
-    font-size: rem(15);    
+    font-size: rem(16);    
   }
 
 }
