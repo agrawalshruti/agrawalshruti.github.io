@@ -90,64 +90,64 @@ input[type="button"] {
   border: 1px solid $color-4;
   cursor: pointer;
   box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: $color-4;
-  border-color: $color-4;
-  outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: $color-4;
-  background-color: #33C3F0;
-  border-color: $color-4; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: $color-4;
-  background-color: #1EAEDB;
-  border-color: $color-4; }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: $color-4;
+    border-color: $color-4;
+    outline: 0; }
+    .button.button-primary,
+    button.button-primary,
+    input[type="submit"].button-primary,
+    input[type="reset"].button-primary,
+    input[type="button"].button-primary {
+      color: $color-4;
+      background-color: #33C3F0;
+      border-color: $color-4; }
+      .button.button-primary:hover,
+      button.button-primary:hover,
+      input[type="submit"].button-primary:hover,
+      input[type="reset"].button-primary:hover,
+      input[type="button"].button-primary:hover,
+      .button.button-primary:focus,
+      button.button-primary:focus,
+      input[type="submit"].button-primary:focus,
+      input[type="reset"].button-primary:focus,
+      input[type="button"].button-primary:focus {
+        color: $color-4;
+        background-color: #1EAEDB;
+        border-color: $color-4; }
 
 
-.cd-section {
-  min-height: 100%;
-  position: relative;
-  padding: 2em 0;
-  width: 90%;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
+        .cd-section {
+          min-height: 100%;
+          position: relative;
+          padding: 2em 0;
+          width: 90%;
+          margin: 0 auto;
+          padding: 0 20px;
+          box-sizing: border-box; 
 
-  @include MQ(M) {
-    min-height: 90%;
-  }
-}
+          @include MQ(M) {
+            min-height: 90%;
+          }
+        }
 
-.work-section {
-  position: relative;
-  padding: 2em 0;
-  margin: 0 auto;
-  padding: 0 0;
-  box-sizing: border-box;
-  width: 100%; 
-}
+        .work-section {
+          position: relative;
+          padding: 2em 0;
+          margin: 0 auto;
+          padding: 0 0;
+          box-sizing: border-box;
+          width: 100%; 
+        }
 
 //AMMA
 
@@ -224,25 +224,42 @@ input[type="button"].button-primary:focus {
   }
 
   h3 {
-    font-weight: 300;
+    font-weight: 600;
+    font-size: rem(12);
     text-transform: uppercase;
-    color: #F5F6F7;
+    color: #f36094;
+    text-decoration: underline;
+    margin-top: -10px;
+    margin-bottom: 100px;
+  }
+
+  ol {
+    list-style-type: decimal;
+    list-style-position: inside;
   }
 
   #underline {
     width: 20%;
     margin-bottom: 70px;
   }
-    &.grey {
+  &.grey {
     background-color: #F5F6F7;
     color: white;
-    margin-top: 7%;
     padding-top: 4%;
     padding-bottom: 9%;
   }
   &.blue {
     background-color: #182D46;
+    padding-top: 9%;
 
+    h1 {
+      color: #F5F6F7;
+    }
+
+    p {
+      color: white;
+      margin-bottom: 40px;
+    }
   }
 
 }
@@ -290,8 +307,22 @@ input[type="button"].button-primary:focus {
       font-weight: 700;
     }   
   }
+  .blue-ul {
+    list-style-type: square;
+    list-style-position: inside;
+    color: #f36094;
+
+    span {
+      color: white;
+      font-size: rem(16);
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 300;
+    }
+
+  }
 
 }
+
 
 #persona-title {
   margin-top: 10px;
@@ -324,19 +355,27 @@ input[type="button"].button-primary:focus {
     text-transform: uppercase;
     margin: 0 auto;
     padding-bottom: 20px;
+    padding-top: 16px;
     font-size: rem(14);
     font-weight: 600;
   }
   ul {
     list-style-type: square;
+    list-style-position: inside;
+    color: #f36094;
 
   }
-    p, li {
+  p, li {
     line-height: 1.7;
     font-weight: 300;
-    margin-bottom: 20px;
     font-size: rem(16);
     font-family: 'Libre Baskerville', serif;
+    span {
+      color: #555555;
+    }  
+  }
+  p {
+    margin-bottom: 20px;
   }
 }
 
@@ -487,11 +526,11 @@ input[type="button"].button-primary:focus {
     word-spacing: -.1em;
     
     @include MQ(M) {
-          font-size: 12px;
-    font-size: 1.075rem;
-    line-height: 1.5;
-    letter-spacing: 0.01px;
-    font-weight: 300;
+      font-size: 12px;
+      font-size: 1.075rem;
+      line-height: 1.5;
+      letter-spacing: 0.01px;
+      font-weight: 300;
     }
     a {
       color: #555555;
@@ -756,19 +795,19 @@ input[type="button"].button-primary:focus {
 #mootown {
   max-width: 75%;
   @include MQ(M) {
-  margin-top: -6px;
+    margin-top: -6px;
   }
 }
 
 #cbg {
   @include MQ(M) {
-  margin-top: 4px;
+    margin-top: 4px;
   }
 }
 
 #section7 {
   @include MQ(M) {
-  margin-top: -100px;
+    margin-top: -100px;
   }
 }
 
