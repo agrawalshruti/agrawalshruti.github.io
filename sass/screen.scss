@@ -401,7 +401,8 @@ AMMA
 }
 #amma-app-map {
   @include MQ(M) {
-    max-width: 56%;
+    max-width: 55%;
+    padding-right: 2%;
   }
   margin-bottom: -40px;
 }
@@ -410,7 +411,7 @@ AMMA
 }
 #amma-feature-matrix {
   @include MQ(M) {
-    max-width: 55%;
+    max-width: 57.5%;
   }
 }
 
