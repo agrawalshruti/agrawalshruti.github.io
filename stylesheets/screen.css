@@ -568,7 +568,7 @@ AMMA
 
 /* line 402, ../sass/screen.scss */
 #amma-app-map {
-  margin-bottom: -80px;
+  margin-bottom: -70px;
 }
 @media only screen and (min-width: 768px) {
   /* line 402, ../sass/screen.scss */
@@ -580,7 +580,7 @@ AMMA
 
 /* line 409, ../sass/screen.scss */
 #amma-feature-matrix-title {
-  margin-top: 5%;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 768px) {
