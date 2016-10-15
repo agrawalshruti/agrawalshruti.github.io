@@ -226,7 +226,7 @@ Work pages
   padding: 0;
   @include MQ(M) {
     width: 50%;
-    padding-right: 10%;
+    padding-right: 12%;
     padding-left: 5%;
   }
 }
@@ -236,7 +236,7 @@ Work pages
   @include MQ(M) {
     width: 50%;
     padding-right: 5%;
-    padding-left: 10%;
+    padding-left: 12%;
   }
 }
 
@@ -395,14 +395,15 @@ AMMA
 }
 
 #amma-app-map-title {
-  margin-left: -11.7%;
+  // margin-left: -11.7%;
   margin-bottom: -5px;
-  margin-top: 0;
+  margin-top: -40px;
 }
 #amma-app-map {
   @include MQ(M) {
-    max-width: 85%;
+    max-width: 56%;
   }
+  margin-bottom: -40px;
 }
 #amma-feature-matrix-title {
   margin-top: 5%;
