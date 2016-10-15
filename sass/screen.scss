@@ -117,7 +117,7 @@ Work pages
 }  
 
 .grey {
-  background-color: #F5F6F7;
+  background-color: #f5f6f7;
   color: #555555;
   // padding-top: 4%;
   // padding-bottom: 9%;
@@ -134,11 +134,19 @@ Work pages
 .padding-top-3pct {
   padding-top: 3%; 
 }
+
+.padding-bottom-3pct {
+  padding-bottom: 3%; 
+}
+
 .padding-9pct {
   padding-top: 9%;
   padding-bottom: 9%;
 }
 
+.padding-top-9pct {
+  padding-top: 9%; 
+}
 .blue {
   background-color: #182D46;
   
@@ -208,14 +216,18 @@ Work pages
   padding: 0 27%;
   margin-bottom: 10px;
   color: #45454D;
+  &.img-title {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
 }
 
 .right-wrapper {
   padding: 0;
   @include MQ(M) {
     width: 50%;
-    padding-right: 12%;
-    padding-left: 6%;
+    padding-right: 10%;
+    padding-left: 5%;
   }
 }
 
@@ -223,17 +235,15 @@ Work pages
   padding: 0;
   @include MQ(M) {
     width: 50%;
-    padding-right: 6%;
+    padding-right: 5%;
+    padding-left: 10%;
   }
 }
 
 .bold {
   font-weight: 700;
 }
-#persona-title {
-  margin-top: 10px;
-  margin-bottom: -10px;
-}
+
 .persona {
   width: 100%;
   margin: 10px auto;
@@ -249,12 +259,20 @@ Work pages
   list-style-type: lower-roman;
   list-style-position: inside;
   margin-bottom: 20px;
+    li {
+      text-indent: -1em;
+    padding-left: 1em;
+  }
 }
 
 .text-part-ul {
   list-style-type: square;
   list-style-position: inside;
   margin-bottom: 20px;
+  li {
+      text-indent: -1em;
+    padding-left: 1em;
+  }
   &.pink {color: $pink;}
 }
 
@@ -263,9 +281,6 @@ Work pages
   
 }
 
-.left-wrapper {
-  padding-left: 12%;
-}
 
 .text-part-title {
   text-transform: uppercase;
@@ -375,6 +390,28 @@ AMMA
   font-family: 'Neuzeit Grotesk', sans-serif;
 }
 
+#amma-results-title {
+  margin-bottom: 40px;
+}
+
+#amma-app-map-title {
+  margin-left: -11.7%;
+  margin-bottom: -5px;
+  margin-top: 0;
+}
+#amma-app-map {
+  @include MQ(M) {
+    max-width: 85%;
+  }
+}
+#amma-feature-matrix-title {
+  margin-top: 5%;
+}
+#amma-feature-matrix {
+  @include MQ(M) {
+    max-width: 55%;
+  }
+}
 
 /* -------------------------------- 
 
