@@ -397,14 +397,14 @@ AMMA
 #amma-app-map-title {
   // margin-left: -11.7%;
   margin-bottom: -5px;
-  margin-top: -40px;
+  margin-top: -70px;
 }
 #amma-app-map {
   @include MQ(M) {
     max-width: 55%;
     padding-right: 2%;
   }
-  margin-bottom: -40px;
+  margin-bottom: -80px;
 }
 #amma-feature-matrix-title {
   margin-top: 5%;
