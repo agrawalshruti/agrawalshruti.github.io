@@ -201,7 +201,7 @@ Work pages
   margin-bottom: 80px;
 }
 
-#underline {
+.underline {
   width: 20%;
   margin-bottom: 70px;
 }
@@ -341,28 +341,29 @@ input[type="button"] {
   input[type="button"]:focus {
     color: $color-4;
     border-color: $color-4;
-    outline: 0; }
-    .button.button-primary,
-    button.button-primary,
-    input[type="submit"].button-primary,
-    input[type="reset"].button-primary,
-    input[type="button"].button-primary {
-      color: $color-4;
-      background-color: #33C3F0;
-      border-color: $color-4; }
-      .button.button-primary:hover,
-      button.button-primary:hover,
-      input[type="submit"].button-primary:hover,
-      input[type="reset"].button-primary:hover,
-      input[type="button"].button-primary:hover,
-      .button.button-primary:focus,
-      button.button-primary:focus,
-      input[type="submit"].button-primary:focus,
-      input[type="reset"].button-primary:focus,
-      input[type="button"].button-primary:focus {
-        color: $color-4;
-        background-color: #1EAEDB;
-        border-color: $color-4; }
+    outline: 0;
+    opacity: 0.7; }
+    // .button.button-primary,
+    // button.button-primary,
+    // input[type="submit"].button-primary,
+    // input[type="reset"].button-primary,
+    // input[type="button"].button-primary {
+    //   color: $color-4;
+    //   background-color: #33C3F0;
+    //   border-color: $color-4; }
+    //   .button.button-primary:hover,
+    //   button.button-primary:hover,
+    //   input[type="submit"].button-primary:hover,
+    //   input[type="reset"].button-primary:hover,
+    //   input[type="button"].button-primary:hover,
+    //   .button.button-primary:focus,
+    //   button.button-primary:focus,
+    //   input[type="submit"].button-primary:focus,
+    //   input[type="reset"].button-primary:focus,
+    //   input[type="button"].button-primary:focus {
+    //     color: $color-4;
+    //     background-color: #1EAEDB;
+    //     border-color: $color-4; }
 
 /* -------------------------------- 
 
@@ -390,10 +391,16 @@ AMMA
   font-family: 'Neuzeit Grotesk', sans-serif;
 }
 
+#amma-users {
+  margin-top: -2%;
+}
 #amma-results-title {
   margin-bottom: 40px;
 }
 
+#amma-stage2 {
+  margin-top: -20px;
+}
 #amma-app-map-title {
   // margin-left: -11.7%;
   margin-bottom: -5px;
@@ -401,18 +408,29 @@ AMMA
 }
 #amma-app-map {
   @include MQ(M) {
-    max-width: 55%;
+    max-width: 75%;
     padding-right: 2%;
   }
-  margin-bottom: -70px;
+  // margin-bottom: -90px;
 }
 #amma-feature-matrix-title {
   margin-top: 10px;
+  background: none;
 }
 #amma-feature-matrix {
   @include MQ(M) {
     max-width: 57.5%;
   }
+}
+
+#amma-sketch1-title {
+  padding-top: 30px;
+}
+#amma-sketch1 {
+  margin-bottom: rem(50);
+  @include MQ(M) {
+    max-width: 56%;
+  }  
 }
 
 /* -------------------------------- 
