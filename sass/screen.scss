@@ -139,6 +139,10 @@ Work pages
   padding-bottom: 3%; 
 }
 
+.padding-top-5pct {
+  padding-top: 5.5%; 
+}
+
 .padding-9pct {
   padding-top: 9%;
   padding-bottom: 9%;
@@ -473,9 +477,7 @@ AMMA
 
 #amma-moodboard1, #amma-moodboard2 {
   @include MQ(M) {
-    // max-width: 47%;
   }
-  margin-bottom: 11%;
   margin-left: -1%;
 }
 
@@ -491,6 +493,11 @@ AMMA
   @include leftfloat;
   img {
     background-color: white;
+  }
+  .img-title {
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 5%;
   }
   @include MQ(M) {
     max-width: 50%;
