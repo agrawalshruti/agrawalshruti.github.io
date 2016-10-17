@@ -206,6 +206,7 @@ Work pages
   margin-bottom: 70px;
 }
 
+.pink {color: $pink;}
 
 .text-img-part {
   @include leftfloat;
@@ -411,8 +412,8 @@ AMMA
     max-width: 75%;
     padding-right: 2%;
   }
-  // margin-bottom: -90px;
 }
+
 #amma-feature-matrix-title {
   margin-top: 10px;
   background: none;
@@ -452,21 +453,55 @@ AMMA
 #amma-ui-title {
   color: #9AA0A3;
   margin-top: -44px;
+  margin-bottom: rem(110);
 }
 
-.moodboard {
+.moodboard-left {
   @include MQ(M) {
-    padding-left: 3% !important;
-    padding-right: 3% !important;
+
+    padding-left: 5% !important;
+    padding-right: 3.5% !important;
+  }
+}
+.moodboard-right {
+  @include MQ(M) {
+
+    padding-left: 3.5% !important;
+    padding-right: 5% !important;
   }
 }
 
+#amma-moodboard1, #amma-moodboard2 {
+  @include MQ(M) {
+    // max-width: 47%;
+  }
+  margin-bottom: 11%;
+  margin-left: -1%;
+}
+
+#amma-moodboard1 {
+  margin-top: 7.5%;
+}
+
+#amma-moodboard2 {
+  margin-top: 8%;
+  padding-right: 5.6%;
+}
 .styletile {
   @include leftfloat;
+  img {
+    background-color: white;
+  }
   @include MQ(M) {
-    max-width: 20%;
-    img {
-      padding: 0;
+    max-width: 50%;
+    &.left {
+      padding-left: 21.4%;
+      padding-right: 2.6%;
+    }
+
+    &.right {
+      padding-left: 2.6%;
+      padding-right: 21.4%;
     }
   }
 }
