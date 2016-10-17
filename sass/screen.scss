@@ -429,7 +429,7 @@ AMMA
 #amma-sketch1 {
   margin-bottom: rem(50);
   @include MQ(M) {
-    max-width: 56%;
+    max-width: 50%;
   }  
 }
 
@@ -437,20 +437,26 @@ AMMA
   margin-top: rem(35);
   margin-bottom: rem(30);
   @include MQ(M) {
-    max-width: 56%;
+    max-width: 50%;
   }
 }
 
-#amma-lowfi-wireframes-title {
-  color: $pink;
-}
+// #amma-lowfi-wireframes-title {
+//   color: $pink;
+// }
 #amma-lowfi-wireframes {
   margin-top: rem(80);
-  margin-bottom: rem(140);
+  margin-bottom: rem(120);
   @include MQ(M) {
     max-width: 80%;
   }
 }
+
+
+// #amma-inv {
+//   padding-top: 11%;
+// }
+
 /* -------------------------------- 
 
 Homepage
