@@ -125,7 +125,9 @@ Work pages
     color: #555555;
   }
 }
-
+.no-bottom-padding {
+  padding-bottom: 0;
+}
 .padding-3pct {
   padding-top: 3%;
   padding-bottom: 3%;
@@ -518,6 +520,13 @@ AMMA
       padding-left: 2.6%;
       padding-right: 21.4%;
     }
+  }
+}
+
+#amma-brand-guide {
+  @include MQ(M) {
+    max-width: 80%;
+    margin-left: 12%;
   }
 }
 
