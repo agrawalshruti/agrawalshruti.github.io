@@ -461,17 +461,25 @@ AMMA
 }
 
 .moodboard-left {
+  .text-part-p {
+
+  line-height: 1.5;
+  }
   @include MQ(M) {
 
-    padding-left: 5% !important;
-    padding-right: 3.5% !important;
+    padding-left: 7% !important;
+    padding-right: 4% !important;
   }
 }
 .moodboard-right {
+    .text-part-p {
+    
+  line-height: 1.5;
+  }
   @include MQ(M) {
 
-    padding-left: 3.5% !important;
-    padding-right: 5% !important;
+    padding-left: 4% !important;
+    padding-right: 7% !important;
   }
 }
 
