@@ -514,7 +514,7 @@ AMMA
     padding-bottom: 5%;
   }
   @include MQ(M) {
-    max-width: 50%;
+    width: 50%;
     &.left {
       padding-left: 21.4%;
       padding-right: 2.6%;
@@ -533,6 +533,26 @@ AMMA
   }
 }
 
+/* -------------------------------- 
+
+Prahs
+
+-------------------------------- */
+
+.prahs-button {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.prahs-image {
+  display: block;
+  margin: 5% auto;
+}
+
+#prahs-mobile {
+  display: none;
+}
 /* -------------------------------- 
 
 Homepage

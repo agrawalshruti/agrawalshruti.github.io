@@ -4,16 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-  <link rel="stylesheet" href="/css/reset.css"> <!-- CSS reset -->
-  <link rel="stylesheet" href="/css/style.css"> <!-- Resource style -->
-  <script src="/js/modernizr.js"></script> <!-- Modernizr -->
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />  
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Amiri:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
   <script src="https://use.typekit.net/ktp7jpv.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script src="/js/jquery-2.1.1.js"></script>
-  <script src="/js/headroom.min.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/headroom.min.js"></script>
 
   <title>Shruti Agrawal</title>
 </head>
@@ -23,8 +26,27 @@
       <img src="/img/logo.svg" width="40">
     </a>
   </div>
-  <h1>Prahs</h1>  
+  <div class="prahs-button">
+    <button id="desktop">Desktop</button>
+    <button id="mobile">Mobile</button> 
+  </div>
+      
+  <img src="http://placehold.it/1280x4000" alt="" class="prahs-image" id="prahs-desktop">
+  <img src="http://placehold.it/600x3000" alt="" class="prahs-image" id="prahs-mobile">
+
+
+
   <script src="js/jquery-2.1.1.js"></script>
   <script src="js/main.js"></script> <!-- Resource jQuery -->
+  <script>
+    $('#desktop').click(function () {
+      $('#prahs-mobile').hide();
+      $('#prahs-desktop').show();
+    });
+    $('#mobile').click(function () {
+      $('#prahs-desktop').hide();
+      $('#prahs-mobile').show();
+    });
+  </script>
 </body>
 </html>
