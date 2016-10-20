@@ -570,31 +570,31 @@ Prahs
   }
 }
 
-#prahs-mobile {
+.prahs-mobile {
   display: none;
 }
 
-.modal {
-    display:    none;
-    position:   fixed;
-    z-index:    1000;
-    top:        0;
-    left:       0;
-    height:     100%;
-    width:      100%;
-    background: #000000
-                url('http://i.stack.imgur.com/FhHRx.gif') 
-                50% 50% 
-                no-repeat;
-}
+// .modal {
+//     display:    none;
+//     position:   fixed;
+//     z-index:    1000;
+//     top:        0;
+//     left:       0;
+//     height:     100%;
+//     width:      100%;
+//     background: #000000
+//                 url('http://i.stack.imgur.com/FhHRx.gif') 
+//                 50% 50% 
+//                 no-repeat;
+// }
 
-body.loading {
-    overflow: hidden;   
-}
+// body.loading {
+//     overflow: hidden;   
+// }
 
-body.loading .modal {
-    display: block;
-}
+// body.loading .modal {
+//     display: block;
+// }
 
 /* -------------------------------- 
 

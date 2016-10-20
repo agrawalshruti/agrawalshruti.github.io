@@ -41,17 +41,27 @@ $(document).on({
           <p class="intro-p">my role: design and research</p>
           
         </div>  
-        <div class="img-center padding-3pct"><img src="http://placehold.it/1000x650" alt=""></div>
+        <div class="img-center padding-3pct prahs-desktop"><img src="http://placehold.it/1000x650" alt=""></div>
+        <div class="img-center padding-3pct prahs-mobile"><img src="http://placehold.it/337x559" alt=""></div>
           <div class="prahs-button">
     <button id="desktop">Desktop</button>
     <button id="mobile">Mobile</button> 
+          </div>
+    <div class="work">
+      <div class="text-part prahs-desktop">
+        <p class="text-part-p">Desktop version: With the journey map, it became easier to see how the app could be part of a larger user story. The high-level view of how different user-types interacted and their behaviors before and after interacting with the app, led me to ask more insightful questions about user behavior. I had to think within the context of the user environment, age, user pain and gain points.</p>
+      </div>
+            <div class="text-part prahs-mobile">
+        <p class="text-part-p">Mobile version: With the journey map, it became easier to see how the app could be part of a larger user story. The high-level view of how different user-types interacted and their behaviors before and after interacting with the app, led me to ask more insightful questions about user behavior. I had to think within the context of the user environment, age, user pain and gain points.</p>
+
+    </div>
   </div>
       </section>
 
-  <div class="prahs-wrapper" id="prahs-desktop">  
+  <div class="prahs-wrapper prahs-desktop">  
   <img src="http://placehold.it/1280x4000" alt="" class="prahs-image">
   </div>
-  <div class="prahs-wrapper" id="prahs-mobile">
+  <div class="prahs-wrapper prahs-mobile">
       <img src="http://placehold.it/600x3000" alt="" class="prahs-image">
   </div>
 
@@ -60,12 +70,18 @@ $(document).on({
   $(document).ready(function () {
 
     $('#desktop').click(function () {
-      $('#prahs-mobile').hide();
-      $('#prahs-desktop').show();
+      var tempScrollTop = $(window).scrollTop();
+      $('.prahs-mobile').hide();
+      $('.prahs-desktop').show();
+
+
+$(window).scrollTop(tempScrollTop + 91);
     });
     $('#mobile').click(function () {
-      $('#prahs-desktop').hide();
-      $('#prahs-mobile').show();
+      var tempScrollTop = $(window).scrollTop();
+      $('.prahs-desktop').hide();
+      $('.prahs-mobile').show();
+      $(window).scrollTop(tempScrollTop - 91);
     });
       });
   </script>
