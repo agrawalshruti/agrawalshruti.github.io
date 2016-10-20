@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />  
   <!--[if IE]>
@@ -11,12 +10,20 @@
   <![endif]-->
   <link href="https://fonts.googleapis.com/css?family=Amiri:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <script src="/js/modernizr.js"></script> <!-- Modernizr -->
 
   <script src="https://use.typekit.net/ktp7jpv.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script src="js/jquery-2.1.1.js"></script>
-  <script src="js/headroom.min.js"></script>
+  <script src="/js/jquery-2.1.1.js"></script>
+      <script>
+  $body = $("body");
+  console.log('test');
+$(document).on({
+    ajaxStart: function() { $body.addClass("loading"); console.log("start")},
+     ajaxStop: function() { $body.removeClass("loading"); console.log("loaded") }    
+});
+</script>
+  <script src="/js/headroom.min.js"></script>
 
   <title>Shruti Agrawal</title>
 </head>
@@ -26,19 +33,29 @@
       <img src="/img/logo.svg" width="40">
     </a>
   </div>
+        <section id="work-section1" class="work-section">
+        <div class="work intro padding-3pct">      
+          <h1 class="intro-title">Prahs</h1>
+          <h2 class="intro-subtitle">Native Advertising for Prahs Energydrink</h2>
+          <p class="intro-p">client: T Brand Studio + designlab</p>
+          <p class="intro-p">my role: design and research</p>
+        </div>  
+      </section>
   <div class="prahs-button">
     <button id="desktop">Desktop</button>
     <button id="mobile">Mobile</button> 
   </div>
-      
-  <img src="http://placehold.it/1280x4000" alt="" class="prahs-image" id="prahs-desktop">
-  <img src="http://placehold.it/600x3000" alt="" class="prahs-image" id="prahs-mobile">
+  <div class="prahs-wrapper" id="prahs-desktop">  
+  <img src="http://placehold.it/1280x4000" alt="" class="prahs-image">
+  </div>
+  <div class="prahs-wrapper" id="prahs-mobile">
+      <img src="http://placehold.it/600x3000" alt="" class="prahs-image">
+  </div>
 
+  <div class="modal"><h1 class="intro-title">Did you know that solar panels are awesome?</h1></div>
+<script>
+  $(document).ready(function () {
 
-
-  <script src="js/jquery-2.1.1.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script>
     $('#desktop').click(function () {
       $('#prahs-mobile').hide();
       $('#prahs-desktop').show();
@@ -47,6 +64,8 @@
       $('#prahs-desktop').hide();
       $('#prahs-mobile').show();
     });
+      });
   </script>
+  <script src="/js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

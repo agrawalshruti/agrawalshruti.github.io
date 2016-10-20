@@ -545,14 +545,45 @@ Prahs
   text-align: center;
 }
 
+.prahs-wrapper {
+  padding: 7%;
+  text-align: center;
+  display: block;
+}
 .prahs-image {
   display: block;
-  margin: 5% auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
 }
 
 #prahs-mobile {
   display: none;
 }
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: #000000
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .modal {
+    display: block;
+}
+
 /* -------------------------------- 
 
 Homepage
