@@ -105,7 +105,7 @@ Work pages
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
     height:auto;
     display:block;
     margin: 0 auto;
@@ -537,12 +537,21 @@ AMMA
   }
 }
 
-#amma-brand-guide {
+#amma-brand-guide{
   @include MQ(M) {
     max-width: 80%;
   }
 }
 
+#amma-user-testing {
+  @include MQ(M) {
+    max-width: 60%;
+  }
+}
+
+#amma-fi-title {
+  padding-bottom: rem(30);
+}
 /* -------------------------------- 
 
 Prahs
