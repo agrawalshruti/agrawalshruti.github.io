@@ -117,7 +117,7 @@ Work pages
 }  
 
 .grey {
-  background-color: #f5f6f7;
+  background-color: $light-grey;
   color: #555555;
   // padding-top: 4%;
   // padding-bottom: 9%;
@@ -126,8 +126,17 @@ Work pages
   }
 }
 .no-bottom-padding {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
+
+.no-top-padding {
+  padding-top: 0 !important;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
 .padding-3pct {
   padding-top: 3%;
   padding-bottom: 3%;
@@ -161,7 +170,7 @@ Work pages
   background-color: #182D46;
   
   .work-title {
-    color: #F5F6F7;
+    color: $light-grey;
   }
 
   .text-part-p {
@@ -220,6 +229,11 @@ Work pages
 .text-blue {color: $blue;}
 .red {color: $red;}
 .orange {color: $orange;}
+.purple {color: $purple;}
+
+.white-bg {
+  background-color: white;
+}
 
 .text-img-part {
   @include leftfloat;
@@ -558,6 +572,25 @@ AMMA
 #amma-fi-title {
   padding-bottom: rem(30);
 }
+
+/* -------------------------------- 
+
+Dignity Meals
+
+-------------------------------- */
+
+.persona-tile {
+  img {
+    max-width: 95% !important;
+  }
+}
+
+#dm-user-flow {
+  margin: 10%;
+  @include MQ(M) {
+    max-width: 80%;
+  }
+}
 /* -------------------------------- 
 
 Prahs
@@ -668,7 +701,7 @@ Homepage
   display: none;
 }
 
-.img-wrapper, .img-wrapper-br {
+.img-wrapper, .img-wrapper-br, .img-wrapper-dm {
   @include leftfloat;
   box-sizing: border-box; 
 
@@ -691,6 +724,12 @@ Homepage
   }
   .img-wrapper-br {
     width: 30%;
+  }
+  .img-wrapper-dm {
+    width: 28%;
+    &.offset-left {
+      margin-left: 8%;
+    }
   }
   .offset-left {
     margin-left: 4.5%;
