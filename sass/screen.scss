@@ -167,6 +167,10 @@ Work pages
   padding-top: 9% !important; 
 }
 
+.padding-bottom-9pct {
+  padding-bottom: 9% !important; 
+}
+
 .padding-bottom-12pct {
   padding-bottom: 12%; 
 }
@@ -494,7 +498,6 @@ AMMA
 }
 
 #amma-ui-title {
-  color: #9AA0A3;
   margin-top: -44px;
   margin-bottom: rem(110);
 }
@@ -588,15 +591,16 @@ Dignity Meals
   }
 }
 
-#dm-user-flow {
-  margin: 10%;
+#dm-userflow {
+  margin-top: rem(110);
+  margin-bottom: rem(85);
   @include MQ(M) {
     max-width: 80%;
   }
 }
 
-.bg-red {
-  background-color: $red;
+.bg-purple {
+  background-color: $purple;
   color: white;
   .work-title {
     color: white;
