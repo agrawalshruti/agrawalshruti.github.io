@@ -143,15 +143,19 @@ Work pages
 }
 
 .padding-top-3pct {
-  padding-top: 3%; 
+  padding-top: 3% !important; 
 }
 
 .padding-bottom-3pct {
-  padding-bottom: 3%; 
+  padding-bottom: 3% !important; 
 }
 
 .padding-top-5pct {
-  padding-top: 5.5%; 
+  padding-top: 5.5% !important; 
+}
+
+.padding-bottom-5pct {
+  padding-bottom: 5.5% !important; 
 }
 
 .padding-9pct {
@@ -160,7 +164,7 @@ Work pages
 }
 
 .padding-top-9pct {
-  padding-top: 9%; 
+  padding-top: 9% !important; 
 }
 
 .padding-bottom-12pct {
@@ -214,7 +218,6 @@ Work pages
   font-weight: 600;
   font-size: rem(12);
   text-transform: uppercase;
-  color: $pink;
   text-decoration: underline;
   margin-top: -16px;
   margin-bottom: 80px;
@@ -591,6 +594,50 @@ Dignity Meals
     max-width: 80%;
   }
 }
+
+.bg-red {
+  background-color: $red;
+  color: white;
+  .work-title {
+    color: white;
+  }  
+  .text-part .text-part-p {
+    color: white;
+    margin-bottom: 40px;
+  }
+  // padding-top: 4%;
+  // padding-bottom: 9%;
+  .text-part-ul span {
+    color: white;
+  }
+}
+
+img.dm-highfi-wireframes {
+  margin-bottom: rem(80);
+  @include MQ(M) {
+    max-width: 75%;
+  }
+}
+#dm-highfi-wf-title {
+  padding-bottom: rem(70);
+}
+.dm-wf-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: left;
+  margin-left: -29%;
+  font-size: rem(11);
+  margin-bottom: rem(12);
+}
+
+#dm-highfi-wf1 {
+  margin-top: -7px;
+}
+
+#dm-highfi-wf2 {
+  margin-top: 3px;
+}
+
 /* -------------------------------- 
 
 Prahs
