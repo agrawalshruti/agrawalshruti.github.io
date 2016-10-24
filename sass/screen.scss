@@ -642,6 +642,12 @@ img.dm-highfi-wireframes {
   margin-top: 3px;
 }
 
+#dm-styletile {
+  @include MQ(M) {
+    max-width: 60%;
+  }
+}
+
 /* -------------------------------- 
 
 Prahs
