@@ -675,6 +675,11 @@ Prahs
   }
 }
 
+#prahs-desktop {
+  @include MQ(M) {
+    max-width: 60%;
+  }
+}
 .prahs-mobile {
   display: none;
 }
