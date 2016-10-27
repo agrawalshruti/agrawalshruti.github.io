@@ -616,6 +616,14 @@ Dignity Meals
   }
 }
 
+#dm-sketch3 {
+  margin-top: rem(35);
+  margin-bottom: rem(30);
+  @include MQ(M) {
+    max-width: 60%;
+  }
+}
+
 img.dm-highfi-wireframes {
   margin-bottom: rem(80);
   @include MQ(M) {
