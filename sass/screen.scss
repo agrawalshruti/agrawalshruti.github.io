@@ -111,18 +111,18 @@ Work pages
     margin: 0 auto;
   }
   .text-part-ul span {
-    color: #555555;
+    color: $dark-grey;
   }
 
 }  
 
 .grey {
   background-color: $light-grey;
-  color: #555555;
+  color: $dark-grey;
   // padding-top: 4%;
   // padding-bottom: 9%;
   .text-part-ul span {
-    color: #555555;
+    color: $dark-grey;
   }
 }
 .no-bottom-padding {
@@ -138,8 +138,8 @@ Work pages
 }
 
 .padding-3pct {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
 }
 
 .padding-top-3pct {
@@ -159,8 +159,8 @@ Work pages
 }
 
 .padding-9pct {
-  padding-top: 9%;
-  padding-bottom: 9%;
+  padding-top: 9% !important;
+  padding-bottom: 9% !important;
 }
 
 .padding-top-9pct {
@@ -172,7 +172,7 @@ Work pages
 }
 
 .padding-bottom-12pct {
-  padding-bottom: 12%; 
+  padding-bottom: 12% !important; 
 }
 .blue {
   background-color: #182D46;
@@ -237,6 +237,7 @@ Work pages
 .red {color: $red;}
 .orange {color: $orange;}
 .purple {color: $purple;}
+.green {color: $green;}
 
 .white-bg {
   background-color: white;
@@ -293,10 +294,12 @@ Work pages
 .text-part-ol {
   list-style-type: lower-roman;
   list-style-position: inside;
+  font-size: rem(12);
   margin-bottom: 20px;
   li {
     text-indent: -1em;
     padding-left: 1em;
+    margin-bottom: rem(10);
   }
 }
 
@@ -304,9 +307,11 @@ Work pages
   list-style-type: square;
   list-style-position: inside;
   margin-bottom: 20px;
+  font-size: rem(12);
   li {
     text-indent: -1em;
     padding-left: 1em;
+    margin-bottom: rem(10);
   }
   &.pink {color: $pink;}
 }
@@ -345,7 +350,7 @@ Work pages
   line-height: 2;
   font-weight: 300;
   margin-bottom: 20px;
-  font-size: rem(16);
+  font-size: rem(14);
   &.question{
     margin-bottom: 0px;
   }
@@ -426,17 +431,21 @@ AMMA
 }
 
 .intro-subtitle {
-  font-size: rem(16);
   padding-bottom: rem(40);
-  font-weight: 400;
+  font-style: italic;
+  font-size: rem(20);
+  color: $dark-grey;
+  font-weight: 700;
 }
 
 .intro-p {
-  padding-bottom: 0;
-  font-size: rem(12);
+  padding-bottom: rem(5);
+  font-size: rem(14);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Neuzeit Grotesk', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: rem(0.4);
 }
 
 #amma-users {
@@ -662,6 +671,13 @@ Prahs
 
 -------------------------------- */
 
+#prahs-subtitle {
+  font-variant: italic;
+  font-size: rem(20);
+  color: $dark-grey;
+  font-weight: 700;
+}
+
 .prahs-button {
   margin: auto;
   display: block;
@@ -692,6 +708,10 @@ Prahs
   display: none;
 }
 
+.prahs-moodboard {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
 // .modal {
 //     display:    none;
 //     position:   fixed;
@@ -745,7 +765,7 @@ Homepage
     left: 50%;
     transform: translate(-50%,-87%);
     font-size: 16px;
-    color: #7f7977;
+    color: $medium-grey;
     font-weight: 500;
     line-height: 30px;
 
@@ -808,7 +828,7 @@ Homepage
 
 .text-wrapper{
   @include leftfloat;
-  color: #555555;
+  color: $dark-grey;
   font-family: 'Amiri', serif;
   margin-bottom: 20%;
 
@@ -827,7 +847,7 @@ Homepage
     font-family: "usual light",sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: #7f7977;
+    color: $medium-grey;
 
     &.brand-title {
       padding-bottom: 40px; 
@@ -870,7 +890,7 @@ Homepage
       font-weight: 300;
     }
     a {
-      color: #555555;
+      color: $dark-grey;
       font-weight: 700;
     }
 
