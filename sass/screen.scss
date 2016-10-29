@@ -124,6 +124,9 @@ Work pages
   .text-part-ul span {
     color: $dark-grey;
   }
+  img {
+    background-color: $light-grey;
+  }
 }
 .no-bottom-padding {
   padding-bottom: 0 !important;
@@ -234,9 +237,11 @@ Work pages
 
 .pink {color: $pink;}
 .text-blue {color: $blue;}
+.dark-blue {color: $dark-blue;}
 .red {color: $red;}
 .orange {color: $orange;}
 .purple {color: $purple;}
+.insta-purple {color: $insta-purple;}
 .green {color: $green;}
 
 .white-bg {
@@ -716,8 +721,10 @@ Prahs
 }
 
 .prahs-moodboard {
-  padding-bottom: 10%;
-  padding-top: 10%;
+  margin: 0 auto rem(50);
+  @include MQ(M) {
+    max-width: 47%;
+  }
 }
 // .modal {
 //     display:    none;
