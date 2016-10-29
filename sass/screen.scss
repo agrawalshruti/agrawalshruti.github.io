@@ -294,7 +294,7 @@ Work pages
 .text-part-ol {
   list-style-type: lower-roman;
   list-style-position: inside;
-  font-size: rem(12);
+  font-size: rem(14);
   margin-bottom: 20px;
   li {
     text-indent: -1em;
@@ -307,7 +307,7 @@ Work pages
   list-style-type: square;
   list-style-position: inside;
   margin-bottom: 20px;
-  font-size: rem(12);
+  font-size: rem(14);
   li {
     text-indent: -1em;
     padding-left: 1em;
@@ -350,7 +350,7 @@ Work pages
   line-height: 2;
   font-weight: 300;
   margin-bottom: 20px;
-  font-size: rem(14);
+  font-size: rem(16);
   &.question{
     margin-bottom: 0px;
   }
@@ -662,6 +662,13 @@ img.dm-highfi-wireframes {
 #dm-styletile {
   @include MQ(M) {
     max-width: 60%;
+  }
+}
+
+#dm-reiteration {
+  margin-bottom: rem(60);
+  @include MQ(M) {
+    max-width: 40%;
   }
 }
 
