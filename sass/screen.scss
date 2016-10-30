@@ -236,6 +236,7 @@ Work pages
 }
 
 .pink {color: $pink;}
+.text-grey {color: $dark-grey;}
 .text-blue {color: $blue;}
 .dark-blue {color: $dark-blue;}
 .red {color: $red;}
@@ -337,6 +338,11 @@ Work pages
   }
 }
 
+.text-part-subtitle {
+  font-size: rem(14);
+  font-weight: 700; 
+  margin: 0 auto rem(11) auto; 
+}
 .center {
   text-align: center;
 }
@@ -674,6 +680,29 @@ img.dm-highfi-wireframes {
   margin-bottom: rem(60);
   @include MQ(M) {
     max-width: 40%;
+  }
+}
+
+/* -------------------------------- 
+
+Instashop
+
+-------------------------------- */
+
+#is-challenge {
+  padding-right: 20%;
+  margin-bottom: rem(60);
+}
+
+.text-2-column {
+  padding: 0 20% 0 27%;
+  .left-wrapper {
+    padding-left: 0;
+    padding-right: 5%;
+  }
+  .right-wrapper {
+    padding-right: 0;
+    padding-left: 5%;
   }
 }
 
