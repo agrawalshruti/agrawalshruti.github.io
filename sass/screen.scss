@@ -232,7 +232,12 @@ Work pages
 
 .underline {
   width: 20%;
-  margin-bottom: 70px;
+  margin-bottom: rem(70);
+}
+
+.underline-big {
+  width: 20%;
+  margin-bottom: rem(90);
 }
 
 .pink {color: $pink;}
@@ -340,6 +345,8 @@ Work pages
 
 .text-part-subtitle {
   font-size: rem(14);
+  color: $dark-grey;
+  font-variant: small-caps;
   font-weight: 700; 
   margin: 0 auto rem(11) auto; 
 }
@@ -691,18 +698,17 @@ Instashop
 
 #is-challenge {
   padding-right: 20%;
-  margin-bottom: rem(60);
 }
 
 .text-2-column {
-  padding: 0 20% 0 27%;
+  @include leftfloat;
+  padding-left: 27%;
+  padding-right: 5%;
   .left-wrapper {
-    padding-left: 0;
-    padding-right: 5%;
+    padding: 0;
   }
   .right-wrapper {
-    padding-right: 0;
-    padding-left: 5%;
+    padding: 0;
   }
 }
 
