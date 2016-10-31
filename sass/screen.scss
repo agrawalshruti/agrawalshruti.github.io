@@ -165,6 +165,10 @@ Work pages
   padding-bottom: 5.5% !important; 
 }
 
+.padding-top-8pct {
+  padding-top: 8.4% !important; 
+}
+
 .padding-9pct {
   padding-top: 9% !important;
   padding-bottom: 9% !important;
@@ -726,17 +730,24 @@ Instashop
   }
 }
 
-#is-userflow, #is-ia {
+#is-userflow {
   padding-left: 20%;
   padding-right: 20%;
   margin: 10px auto;
 }
 
-//  {
-//   padding-left: 20%;
-//   padding-right: 20%;
+#is-ia {
+  padding-left: 12%;
+  padding-right: 12%;
+}
 
-// }
+#is-mobile-wf-title {
+  margin-left: -12%;
+}
+#is-mobile-wf {
+  padding-left: 18%;
+  padding-right: 18%;  
+}
 /* -------------------------------- 
 
 Prahs
