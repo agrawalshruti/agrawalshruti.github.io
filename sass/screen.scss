@@ -174,9 +174,19 @@ Work pages
   padding-bottom: 9% !important; 
 }
 
+.padding-12pct {
+  padding-bottom: 12% !important; 
+  padding-top: 12% !important;   
+}
+
 .padding-bottom-12pct {
   padding-bottom: 12% !important; 
 }
+
+.padding-top-12pct {
+  padding-top: 12% !important; 
+}
+
 .blue {
   background-color: #182D46;
   
@@ -258,7 +268,7 @@ Work pages
   @include leftfloat;
 }
 
-.text-part {
+.text-part, .img-part {
   @include leftfloat;
   padding: 0 27%;
   margin-bottom: 10px;
@@ -712,6 +722,11 @@ Instashop
   }
 }
 
+#is-userflow {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 10px auto;
+}
 /* -------------------------------- 
 
 Prahs
