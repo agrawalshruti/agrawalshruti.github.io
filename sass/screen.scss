@@ -362,11 +362,14 @@ Work pages
 }
 
 .text-part-subtitle {
-  font-size: rem(14);
+  font-size: rem(16);
   color: $dark-grey;
   font-variant: small-caps;
   font-weight: 700; 
   margin: 0 auto rem(11) auto; 
+  span {
+    font-size: rem(14);
+  }
 }
 .center {
   text-align: center;
@@ -636,6 +639,11 @@ Dignity Meals
   }
 }
 
+#dm-facts, #dm-facts-truck {
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
 #dm-userflow {
   margin-top: rem(110);
   margin-bottom: rem(85);
@@ -742,12 +750,17 @@ Instashop
 }
 
 #is-mobile-wf-title {
-  margin-left: -12%;
+  margin-top: rem(50);
 }
 #is-mobile-wf {
   padding-left: 18%;
   padding-right: 18%;  
 }
+
+#is-ui-title {
+  margin-top: -44px;
+  margin-bottom: rem(60);
+}is
 /* -------------------------------- 
 
 Prahs
@@ -904,6 +917,9 @@ Homepage
     width: 28%;
     &.offset-left {
       margin-left: 8%;
+    }
+    &.offset-left-2 {
+      margin-left: 22%;
     }
   }
   .offset-left {
@@ -1236,15 +1252,10 @@ Homepage
 
 #mootown {
   max-width: 75%;
-  @include MQ(M) {
-    margin-top: -6px;
-  }
 }
 
 #cbg {
-  @include MQ(M) {
-    margin-top: 4px;
-  }
+  max-width: 75%;
 }
 
 #section7 {
