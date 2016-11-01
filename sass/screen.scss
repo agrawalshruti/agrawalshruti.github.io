@@ -269,7 +269,7 @@ Work pages
 .green {color: $green;}
 
 .white-bg {
-  background-color: white;
+  background-color: white !important;
 }
 
 .text-img-part {
@@ -368,7 +368,7 @@ Work pages
   font-weight: 700; 
   margin: 0 auto rem(11) auto; 
   span {
-    font-size: rem(14);
+    font-size: rem(13);
   }
 }
 .center {
@@ -471,10 +471,11 @@ AMMA
 
 .intro-subtitle {
   padding-bottom: rem(40);
+  font-family: sans-serif;
   font-style: italic;
   font-size: rem(20);
   color: $dark-grey;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .intro-p {
@@ -652,6 +653,11 @@ Dignity Meals
   }
 }
 
+#dm-app-map {
+  padding-left: 26.7%;
+  padding-right: 26.7%;
+}
+
 .bg-purple {
   background-color: $purple;
   color: white;
@@ -760,7 +766,11 @@ Instashop
 #is-ui-title {
   margin-top: -44px;
   margin-bottom: rem(60);
-}is
+}
+
+#is-affinity-map {
+  background-color: $green;
+}
 /* -------------------------------- 
 
 Prahs
@@ -862,7 +872,7 @@ Homepage
     top: 87%;
     left: 50%;
     transform: translate(-50%,-87%);
-    font-size: 16px;
+    font-size: rem(15);
     color: $medium-grey;
     font-weight: 500;
     line-height: 30px;
