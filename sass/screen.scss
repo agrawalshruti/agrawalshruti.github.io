@@ -306,6 +306,10 @@ Work pages
     width: 50%;
     padding-right: 5%;
     padding-left: 12%;
+    iframe {
+      vertical-align: top;
+      margin-top: -21%;
+    }
   }
 }
 
@@ -327,12 +331,12 @@ Work pages
 .text-part-ol {
   list-style-type: lower-roman;
   list-style-position: inside;
-  font-size: rem(14);
+  font-size: rem(16);
   margin-bottom: 20px;
   li {
     text-indent: -1em;
     padding-left: 1em;
-    margin-bottom: rem(10);
+    margin-bottom: rem(5);
   }
 }
 
@@ -340,11 +344,11 @@ Work pages
   list-style-type: square;
   list-style-position: inside;
   margin-bottom: 20px;
-  font-size: rem(14);
+  font-size: rem(16);
   li {
     text-indent: -1em;
     padding-left: 1em;
-    margin-bottom: rem(10);
+    margin-bottom: rem(5);
   }
   &.pink {color: $pink;}
 }
@@ -733,8 +737,9 @@ Instashop
 -------------------------------- */
 
 #is-phone {
-  padding-left: 11%;
-  padding-right: 11%;
+  padding-left: 11.8%;
+  padding-right: 11.8%;
+  margin-top: rem(60);
 }
 #is-challenge {
   padding-right: 20%;
@@ -836,11 +841,23 @@ Prahs
   }
 }
 
+#prahs-wf-left-wrapper {
+  padding-left: 19%;
+  padding-right: 4%;
+}
+
+#prahs-wf-right-wrapper {
+  padding-left: 4%;
+  padding-right: 19%;
+}
+
 #prahs-mobile-wf-title {
-  margin-top: rem(40);
+  margin-left: -8%;
+  margin-top: rem(60);
 }
 #prahs-desktop-wf-title {
-  margin-top: rem(70);
+  margin-left: 15%;
+  margin-top: rem(60);
 }
 
 /* -------------------------------- 
