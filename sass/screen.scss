@@ -767,10 +767,13 @@ Instashop
   margin-top: rem(50);
 }
 #is-mobile-wf {
-  padding-left: 18%;
-  padding-right: 18%;  
+  padding-left: 26.5%;
+  padding-right: 26.5%;  
 }
 
+#is-desktop-wf-title {
+  margin-left: -13%;
+}
 #is-desktop-wf {
   background-color: $green;
 }
@@ -832,27 +835,13 @@ Prahs
     max-width: 47%;
   }
 }
-// .modal {
-//     display:    none;
-//     position:   fixed;
-//     z-index:    1000;
-//     top:        0;
-//     left:       0;
-//     height:     100%;
-//     width:      100%;
-//     background: #000000
-//                 url('http://i.stack.imgur.com/FhHRx.gif') 
-//                 50% 50% 
-//                 no-repeat;
-// }
 
-// body.loading {
-//     overflow: hidden;   
-// }
-
-// body.loading .modal {
-//     display: block;
-// }
+#prahs-mobile-wf-title {
+  margin-top: rem(40);
+}
+#prahs-desktop-wf-title {
+  margin-top: rem(70);
+}
 
 /* -------------------------------- 
 
