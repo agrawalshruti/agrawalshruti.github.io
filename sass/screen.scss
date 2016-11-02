@@ -140,6 +140,10 @@ Work pages
   margin-bottom: 0 !important;
 }
 
+.no-top-margin {
+  margin-top: 0 !important;
+}
+
 .padding-bottom-2pct {
   padding-bottom: 1% !important; 
 }
@@ -728,6 +732,10 @@ Instashop
 
 -------------------------------- */
 
+#is-phone {
+  padding-left: 11%;
+  padding-right: 11%;
+}
 #is-challenge {
   padding-right: 20%;
 }
@@ -761,6 +769,10 @@ Instashop
 #is-mobile-wf {
   padding-left: 18%;
   padding-right: 18%;  
+}
+
+#is-desktop-wf {
+  background-color: $green;
 }
 
 #is-ui-title {
