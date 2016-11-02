@@ -181,11 +181,11 @@
     <button id="desktop">Desktop</button>
     <button id="mobile">Mobile</button> 
   </div>
-  <div class="prahs-wrapper prahs-desktop">  
-    <img src="http://placehold.it/1280x4000" alt="" class="prahs-image">
+  <div class="prahs-wrapper" id="prahs-desktop">  
+    <img src="/img/prahs-desktop-final.jpg" alt="" class="prahs-image">
   </div>
-  <div class="prahs-wrapper prahs-mobile">
-    <img src="http://placehold.it/600x3000" alt="" class="prahs-image">
+  <div class="prahs-wrapper" id="prahs-mobile">
+    <img src="/img/prahs-mobile-final.jpg" alt="" class="prahs-image">
   </div>
 </div>
 </div>
@@ -196,12 +196,12 @@
 $(document).ready(function () {
 
   $('#desktop').click(function () {
-    $('.prahs-mobile').hide();
-    $('.prahs-desktop').show();
+    $('#prahs-mobile').hide();
+    $('#prahs-desktop').show();
   });
   $('#mobile').click(function () {
-    $('.prahs-desktop').hide();
-    $('.prahs-mobile').show();
+    $('#prahs-desktop').hide();
+    $('#prahs-mobile').show();
   });
 });
 </script>

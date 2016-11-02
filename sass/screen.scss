@@ -811,6 +811,7 @@ Prahs
 }
 
 .prahs-wrapper {
+  @include leftfloat;
   padding: 7%;
   text-align: center;
   display: block;
@@ -821,7 +822,7 @@ Prahs
   margin-right: auto;
   max-width: 100%;
   @include MQ(M) {
-    max-width: 80%;
+    max-width: 60%;
   }
 }
 
@@ -830,7 +831,7 @@ Prahs
     max-width: 60%;
   }
 }
-.prahs-mobile {
+#prahs-mobile {
   display: none;
 }
 
