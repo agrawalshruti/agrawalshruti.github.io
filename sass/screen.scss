@@ -91,10 +91,10 @@ Work pages
   background-color: white;
   padding-bottom: 7%;
   padding-top: 7%;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Halant', serif;
   font-weight: 300;
   line-height: 1.7;
-  font-size: rem(16); 
+  font-size: rem(18); 
   * {
     @include flex(1);
   }
@@ -331,7 +331,7 @@ Work pages
 .text-part-ol {
   list-style-type: lower-roman;
   list-style-position: inside;
-  font-size: rem(16);
+  font-size: rem(18);
   margin-bottom: 20px;
   li {
     text-indent: -1em;
@@ -344,7 +344,7 @@ Work pages
   list-style-type: square;
   list-style-position: inside;
   margin-bottom: 20px;
-  font-size: rem(16);
+  font-size: rem(18);
   li {
     text-indent: -1em;
     padding-left: 1em;
@@ -397,7 +397,7 @@ Work pages
   line-height: 2;
   font-weight: 300;
   margin-bottom: 20px;
-  font-size: rem(16);
+  font-size: rem(18);
   &.question{
     margin-bottom: 0px;
   }
@@ -831,6 +831,7 @@ Prahs
     max-width: 60%;
   }
 }
+
 #prahs-mobile {
   display: none;
 }
