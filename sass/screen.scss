@@ -479,11 +479,10 @@ AMMA
 
 .intro-subtitle {
   padding-bottom: rem(40);
-  font-family: sans-serif;
-  font-style: italic;
-  font-size: rem(20);
+  font-family: 'Halant', serif;
+  font-size: 1.4rem;
   color: $dark-grey;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .intro-p {
@@ -797,12 +796,11 @@ Prahs
 
 -------------------------------- */
 
-#prahs-subtitle {
-  font-variant: italic;
-  font-size: rem(20);
-  color: $dark-grey;
-  font-weight: 700;
-}
+// #prahs-subtitle {
+//   font-size: rem(20);
+//   color: $dark-grey;
+//   font-weight: 700;
+// }
 
 .prahs-button {
   margin: auto;
