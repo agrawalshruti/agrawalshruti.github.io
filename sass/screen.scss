@@ -806,7 +806,7 @@ Prahs
 -------------------------------- */
 
 #prahs-desktop-intro {
-  
+
 }
 
 .prahs-button {
@@ -834,6 +834,12 @@ Prahs
 
 .prahs-mobile {
   display: none;
+}
+
+#prahs-mobile-img {
+  @include MQ(M) {
+    max-width: 20%;
+  }
 }
 
 .prahs-moodboard {
