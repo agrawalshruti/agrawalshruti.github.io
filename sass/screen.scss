@@ -92,7 +92,7 @@ Work pages
   padding-bottom: 7%;
   padding-top: 7%;
   font-family: 'Halant', serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   font-size: rem(18); 
   * {
@@ -483,7 +483,7 @@ AMMA
 
 .intro-subtitle {
   padding-bottom: rem(40);
-  font-family: 'Halant', serif;
+  font-family: 'Noto Serif', serif;
   font-size: 1.4rem;
   color: $dark-grey;
   font-weight: 800;
@@ -832,7 +832,7 @@ Prahs
   }
 }
 
-.prahs-mobile {
+.prahs-desktop {
   display: none;
 }
 
