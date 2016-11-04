@@ -282,7 +282,11 @@ Work pages
 
 .text-part, .img-part {
   @include leftfloat;
-  padding: 0 27%;
+  padding: 0 7%;
+  @include MQ(M) {
+    padding: 0 27%;
+  }
+  
   margin-bottom: 10px;
   color: #45454D;
   &.img-title {
@@ -292,7 +296,7 @@ Work pages
 }
 
 .right-wrapper {
-  padding: 0;
+  padding: 0 7%;
   @include MQ(M) {
     width: 50%;
     padding-right: 12%;
@@ -301,7 +305,7 @@ Work pages
 }
 
 .left-wrapper {
-  padding: 0;
+  padding: 0 7%;
   @include MQ(M) {
     width: 50%;
     padding-right: 5%;
@@ -605,6 +609,9 @@ AMMA
     padding-left: 0;
     padding-bottom: 5%;
   }
+  &.left, &.right {
+    padding: 0 7%;
+  }
   @include MQ(M) {
     width: 50%;
     &.left {
@@ -648,8 +655,10 @@ Dignity Meals
 }
 
 #dm-facts, #dm-facts-truck {
+  @include MQ(M) {
   padding-left: 35%;
-  padding-right: 35%;
+  padding-right: 35%;    
+}
 }
 
 #dm-userflow {
@@ -814,6 +823,7 @@ Prahs
   text-align: center;
   display: block;
 }
+
 .prahs-image {
   display: block;
   margin-left: auto;
@@ -824,13 +834,7 @@ Prahs
   }
 }
 
-#prahs-desktop {
-  @include MQ(M) {
-    max-width: 60%;
-  }
-}
-
-#prahs-mobile {
+.prahs-mobile {
   display: none;
 }
 

@@ -182,27 +182,26 @@
     <button id="desktop">Desktop</button>
     <button id="mobile">Mobile</button> 
   </div>
-  <div class="prahs-wrapper" id="prahs-desktop">  
-    <img src="/img/prahs-desktop-final.jpg" alt="" class="prahs-image">
+  <div class="prahs-wrapper prahs-desktop">  
+    <img src="/img/prahs-desktop-final.jpg" alt="" class="prahs-image prahs-desktop">
   </div>
-  <div class="prahs-wrapper" id="prahs-mobile">
-    <img src="/img/prahs-mobile-final.jpg" alt="" class="prahs-image">
+  <div class="prahs-wrapper prahs-mobile">
+    <img src="/img/prahs-mobile-final.jpg" alt="" class="prahs-image prahs-mobile">
   </div>
 </div>
 </div>
 </section>
 
-<!-- <div class="modal"><h1 class="intro-title">Did you know that solar panels are awesome?</h1></div> -->
 <script>
 $(document).ready(function () {
 
   $('#desktop').click(function () {
-    $('#prahs-mobile').hide();
-    $('#prahs-desktop').show();
+    $('.prahs-mobile').hide();
+    $('.prahs-desktop').show();
   });
   $('#mobile').click(function () {
-    $('#prahs-desktop').hide();
-    $('#prahs-mobile').show();
+    $('.prahs-desktop').hide();
+    $('.prahs-mobile').show();
   });
 });
 </script>
