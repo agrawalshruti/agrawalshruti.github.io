@@ -460,7 +460,7 @@ Work pages
   box-sizing: border-box;
   padding: 0 7%;
   margin-bottom: 10px;
-  color: #45454D;
+  color: #555555;
 }
 @media only screen and (min-width: 768px) {
   /* line 283, ../sass/screen.scss */
