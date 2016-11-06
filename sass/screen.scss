@@ -322,7 +322,7 @@ Work pages
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .persona {
@@ -356,8 +356,6 @@ Work pages
   margin-bottom: 20px;
   font-size: rem(18);
   li {
-    // text-indent: -2em;
-    // padding-left: 0em;
     padding-left: 1em;
     margin-bottom: rem(5);
   }
@@ -393,6 +391,7 @@ Work pages
 
 .moodboard-text {
   font-size: rem(16) !important;
+  line-height: 1.7;
 }
 .center {
   text-align: center;
@@ -793,6 +792,12 @@ Instashop
 #is-business-goals {
   padding-right: 2em !important;
 }
+
+#is-business-goals, #is-user-goals {
+  .text-part-ul {
+    font-size: rem(15);
+  }
+}
 #is-userflow {
   padding-left: 20%;
   padding-right: 20%;
@@ -833,9 +838,6 @@ Prahs
 
 -------------------------------- */
 
-#prahs-desktop-intro {
-
-}
 
 .prahs-button {
   margin: auto;
