@@ -351,8 +351,8 @@ Work pages
 
 .text-part-ul {
   list-style: square outside none;
-    margin-left: 0; 
-    padding-left: 1em;
+  margin-left: 0; 
+  padding-left: 1em;
   margin-bottom: 20px;
   font-size: rem(18);
   li {
@@ -786,6 +786,13 @@ Instashop
   }
 }
 
+.is-goals {
+  margin-left: -2em !important;
+}
+
+#is-business-goals {
+  padding-right: 2em !important;
+}
 #is-userflow {
   padding-left: 20%;
   padding-right: 20%;
