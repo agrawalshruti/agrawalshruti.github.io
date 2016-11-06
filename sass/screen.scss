@@ -350,13 +350,15 @@ Work pages
 }
 
 .text-part-ul {
-  list-style-type: square;
-  list-style-position: inside;
+  list-style: square outside none;
+    margin-left: 0; 
+    padding-left: 1em;
   margin-bottom: 20px;
   font-size: rem(18);
   li {
-    text-indent: -2em;
-    padding-left: 0em;
+    // text-indent: -2em;
+    // padding-left: 0em;
+    padding-left: 1em;
     margin-bottom: rem(5);
   }
   &.pink {color: $pink;}
