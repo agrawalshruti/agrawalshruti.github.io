@@ -93,7 +93,7 @@ Work pages
   padding-top: 7%;
   font-family: 'Halant', serif;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   font-size: rem(18); 
   * {
     @include flex(1);
@@ -341,6 +341,7 @@ Work pages
   list-style-position: inside;
   font-size: rem(18);
   margin-bottom: 20px;
+
   li {
     text-indent: -1em;
     padding-left: 1em;
@@ -354,8 +355,8 @@ Work pages
   margin-bottom: 20px;
   font-size: rem(18);
   li {
-    text-indent: -1em;
-    padding-left: 1em;
+    text-indent: -2em;
+    padding-left: 0em;
     margin-bottom: rem(5);
   }
   &.pink {color: $pink;}
@@ -386,6 +387,10 @@ Work pages
   span {
     font-size: rem(13);
   }
+}
+
+.moodboard-text {
+  font-size: rem(16) !important;
 }
 .center {
   text-align: center;
@@ -682,6 +687,7 @@ Dignity Meals
 #dm-ux-strat-title {
   margin-bottom: rem(40);
 }
+
 .bg-purple {
   background-color: $purple;
   color: white;
@@ -737,6 +743,11 @@ img.dm-highfi-wireframes {
   @include MQ(M) {
     max-width: 60%;
   }
+}
+
+#dm-ui-title {
+  margin-top: -44px;
+  margin-bottom: rem(60);
 }
 
 #dm-reiteration {
