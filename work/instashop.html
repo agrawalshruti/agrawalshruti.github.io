@@ -44,14 +44,16 @@
         <div class="work padding-top-3pct">
           <div class="text-part">
            <h2 class="text-part-title green">Background</h2> 
-           <p class="text-part-p"><span class="bold">Goodmarket</span> is a grocery franchise originating in the United States. Their customer satisfaction ratings have remained relatively consistent over the last four years, however their market shares have been decreasing by <span class="bold">8% each year</span>.  
+           <p class="text-part-p">Goodmarket is a grocery franchise originating in the United States. Even though their customer satisfaction ratings had remained relatively consistent over the last four years, recently their market shares had been decreasing by 8% each year. 
            </p> 
-           <p class="text-part-p">Through research, Goodmarket researchers have determined that this decline is mostly due to the global increase in <span class="bold">online grocery ordering and delivery products</span>. Because it’s quicker, convenient, and provides equally fresh food - customers prefer online shopping to that in store. Shopping online means they can shop from their desks, home or even on the go using the mobile app. </p>  
-           <p class="text-part-p">Good Market plans to release their pilot online grocery ordering program — <span class="bold">Instashop</span> — in New York and San Francisco, iterate based on what they learned and expand their products to other cities around the country.  </p>  
+           <p class="text-part-p">Goodmarket researchers had determined that this decline was mostly due to the global increase in online grocery ordering and delivery products. Because it was quicker, more convenient, and provided equally fresh food - customers preferred online shopping to that in store.</p>  
+           <p class="text-part-p">To increase revenue and overall brand appeal, Goodmarket had decided that they needed to release a pilot version of an online grocery ordering program — <span class="bold">Instashop</span>. They would launch Instashop’s mobile app and website in New York and San Francisco in a few months. As Instashop’s product designer, my role became to quickly implement user-friendly digital designs that met both user and business goals.</p>  
          </div>
          <div class="text-part" id="is-challenge">
           <h2 class="text-part-title green">Challenge</h2>
-          <p class="text-part-p">The challenge for Instashop’s web and mobile site was to have both business and user goals met.</p>
+          <p class="text-part-p">In general, the user and business goals were pretty straight-forward. The challenge in this project was in finding a way to structure and organize Instashop’s 100+ product inventory.</p>
+          <p class="text-part-p">In order for the app to work seamlessly and efficiently and generate revenue, users needed to be able to find and purchase the item they wanted out of these 100+ products <span class="bold">easily</span>. A confused and aggravated user that couldn’t locate a product would leave the app at once without purchasing anything.</p>
+          <p class="text-part-p">For the design to accomplish its other set goals, the user needed to be able to navigate the site successfully first. At the heart of this successful navigation was constructing a <span class="bold">user-centric taxonomy</span> for Instashop’s product categories.</p>
         </div>
         <div class="text-2-column">        
           <div class="text-part left-wrapper" id="is-business-goals">
@@ -106,9 +108,11 @@
         <rect x="10" y="0.5" class="st0" width="61" height="0.4"/>
       </svg>
       <div class="text-part">
-        <h2 class="text-part-title green">Exploring User Types</h2>
+        <h2 class="text-part-title green">Exploring User Behavior</h2>
 
-        <p class="text-part-p">Personas and empathy maps allow us to engage with Instashop’s intended users in ways that are much more user-centric. While personas provide user background and personality traits, empathy maps are designed to tell the user’s emotional story and emphasize pains/gains he or she has, relevant to the product. </p>
+        <p class="text-part-p">I tried using empathy maps and personas to better understand user behavior. When that didn’t prove as helpful as I thought, I used a user flow.</p>
+        <p class="text-part-p">The checkout user flow had showed how browsing, searching and locating items were all principal app functions that relied heavily on how product categories were named.</p>
+        <p class="text-part-p">It visually confirmed that without a well-founded taxonomy, users couldn’t even <span class="bold">add to cart</span>.</p>
 
       </div>
       <div class ="text-part img-title">
@@ -132,21 +136,25 @@
       <rect x="10.4" y="0.5" class="st0" width="61" height="0.4"/>
     </svg>
     <div class="text-part">
-     <p class="text-part-p">Next, I began to draft interview questions. I created a set of goals to serve as a guide for these questions. The goals were intentionally kept abstract to keep from writing questions that were too leading.</p>    
-     <p class="text-part-p">Next, I began to draft interview questions. I created a set of goals to serve as a guide for these questions. The goals were intentionally kept abstract to keep from writing questions that were too leading.</p>
+     <p class="text-part-p">But it was card sorting, in the end, that proved to be the <span class="bold">most helpful research tool</span> in determining how to organize the app.</p>    
+     <p class="text-part-p">I printed out the product names, cut them into individual paper strips and had the users group them into their own categories. I didn’t want to lead the users in a certain direction, so I didn’t provide them with any categories and told them come up with their own.</p>
+     <p class="text-part-p">One mistake I did make, at the time, was telling users to create <span class="bold">as few categories as possible</span>. Having few categories could have made it harder to find similarities between them later on, and second and third tier categories amongst users. It got rid of some data that might have helped in the future.</p>
+     <p class="text-part-p">Given the chance to conduct the tests again, I’d split them into two tests (one) that instructs users to make general categories and (two) to make as few categories as possible.</p>
    </div>
    <div class="text-part">
     <h2 class="text-part-title green">Card Sorting</h2>
 
-    <p class="text-part-p">Card sorting is a great way for us determine how the Instashop’s intended user organizes information relevant to the product. In the case of the Instashop app/website, card sorting specifically helped separate individual food categories, which are crucial to user navigation. </p>
+    <p class="text-part-p">Before I had checked the results of the test, I separated the products into my own categories. I figured the card sorting test would have more or less similar results.</p>
+    <p class="text-part-p">Instead, amongst my 6 users, 4 new categories in addition to mine emerged and dozens of product subset variations. There were some categories I hadn’t even imagined; clever ones that really helped and obscure ones that I saved for later.</p>
   </div>
   <div class="img-part"><a href="/img/instashop-card-sorting.jpg" data-lightbox="instashop-card-sorting"><img src="/img/instashop-card-sorting.jpg" alt=""></a></div>
 </div>
 <div class="work no-top-padding padding-bottom-2pct">
   <div class="text-part">
-    <h2 class="text-part-title green">Site Map</h2>
+    <h2 class="text-part-title green">Sitemap</h2>
 
-    <p class="text-part-p">Instashop’s site map helps developers determine how many individual product pages and pages in general must be coded for the live site. Of course, the site map can evolve depending on future user needs, content changes, and business goals. </p>
+    <p class="text-part-p">All the card sorting data, whether it contradicted or supported my prediction, was insightful. With it, I created a chart and kept the most popular categories to form Instashop’s information architecture.</p>
+    <p class="text-part-p">I took the results to build a sitemap, and although there was room for improvement and further testing, because of time constraints, I started building wireframes.</p>
 
   </div>
   <div class="img-part">
@@ -155,7 +163,9 @@
 </div>
 <div class="work no-top-padding">
   <div class="text-part no-bottom-margin">
-    <p class="text-part-p">Using Information Architecture principles makes it easier to start building a more refined wireframe. In the instance of Instashop’s multiple card sorting categories and site map content, IA principles streamline which parts of the wireframe we should focus on before moving on to prototyping and the kind of questions he or she should ask about the final prototypes. For example, is it easy for the user to find desired actions in the wireframe? Are functions, actions learnable? Elements in the user experience delightful? etc…</p>
+    <p class="text-part-p">I created a small diagram summarizing Information Architecture principles to guide me while I designed the mobile and web user experience. Having these IA principles on hand helped streamline app features.</p>
+    <p class="text-part-p no-bottom-margin">I had to ask myself if the feature design was clear, usable, learnable and credible. Was it accessible and did it satisfy findability? Were there parts of the design that were delightful?</p>
+    <p class="text-part-p">Post wireframing and prototyping, I used the diagram as a checklist to see which parts of the design could use more work.</p>
   </div>
 </div>
 <div class="work padding-top-8pct padding-bottom-5pct grey">
@@ -176,10 +186,16 @@
     <rect x="20" y="0.5" class="st0" width="35" height="0.4"/>
   </svg>
   <div class="text-part">
-    <p class="text-part-p">Wireframes, desktop and mobile lay the groundwork for prototyping. For Instashop, we figured, based on previous research on our target demographic — young business professionals - that we start wireframing mobile first. Iterating all screens helped better understand how necessary preliminary research tactics, including site mapping and user flows were to designing each screen. </p>
+    <p class="text-part-p no-bottom-margin">I chose to start with mobile wireframes</p>
+    <ol class="text-part-ol green">
+      <li><span>because most of my target users were young business professionals that were constantly on the move and</span></li>
+      <li><span>because it was easier prioritize content going from a smaller to a larger screen</span></li>
+    </ol>
   </div>
   <div class="text-part">
-    <p class="text-part-p">Wireframes, mobile  will help keep organize test objectives and results. A test plan for larger teams can help delineate user-testing tasks.  In this case, a test plan can also avoid future problems, such as using the wrong audience, mature couples instead of young business professionals.  </p>
+    <p class="text-part-p">Desktop wireframes soon followed. Because they were grounded in research, the product categories for mobile and web stayed the same. However, I struggled a bit with the different visual layouts for the products.</p>
+    <p class="text-part-p">I knew listview wouldn’t work for desktop because it wouldn’t optimize the screen space, but with all the content required for each product it would work nicely on mobile.</p>
+    <p class="text-part-p">I’d later conduct user testing to tell me more about how to handle this challenge.</p>
   </div>
   <div class="text-part img-title" id="is-mobile-wf-title">
     <h2 class="text-part-title green">Mobile</h2>
@@ -213,7 +229,7 @@
 </div>
 </section>
 <section id="work-section6" class="work-section">
-  <div class="work grey padding-9pct">
+  <div class="work grey padding-top-9pct padding-bottom-5pct">
     <h2 class="work-subtitle green">Stage 4</h2>
     <h1 class="work-title">UI Design</h1>
     <svg version="1.1" class="underline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -225,7 +241,7 @@
   </svg>
   <h2 class="work-subtitle green" id="is-ui-title"> styletile &#183; wordmark</h2>
   <div class="img-part">  <img src="/img/instashop-styletile.png" alt="">
-  </div></div>
+  </div>
 </div>
 </section>
 <section id="work-section7" class="work-section">
@@ -241,7 +257,10 @@
   </svg>
   <div class="text-part">
     <h2 class="text-part-title green">User Testing Results</h2>
-    <p class="text-part-p">With the journey map, it became easier to see how the app could be part of a larger user story. The high-level view of how different user-types interacted and their behaviors before and after interacting with the app, led me to ask more insightful questions about user behavior. I had to think within the context of the user environment, age, user pain and gain points.</p>
+    <p class="text-part-p">Mobile user testing revealed that many of the users had similar difficulties with app navigation.</p>
+    <p class="text-part-p">I used my questions to help name column titles and divided up the results below, but this method of data organization felt too rigid and separated from the user.</p>
+    <p class="text-part-p">So to try an alternate approach, I wrote down the users’ direct thoughts and feelings about the app on post-its and grouped the ones that were most alike.</p>
+    <p class="text-part-p padding-bottom-5pct">Much like during the card-sorting exercise, I labelled the categories after I grouped content. This method proved to be more user-centric and was easier to incorporate into the final iterations.</p>
   </div>
   <div class="img-part">  <img src="/img/instashop-user-testing-results.png" alt=""></div>
 </div>

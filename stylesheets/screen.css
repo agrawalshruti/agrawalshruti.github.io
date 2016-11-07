@@ -1302,10 +1302,6 @@ Homepage
   display: block;
   margin: 0 auto;
 }
-/* line 970, ../sass/screen.scss */
-.img-wrapper img.svg-logo, .img-wrapper-br img.svg-logo, .img-wrapper-dm img.svg-logo {
-  max-width: 380px;
-}
 
 @media only screen and (min-width: 768px) {
   /* line 977, ../sass/screen.scss */
