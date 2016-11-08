@@ -9,27 +9,7 @@ jQuery(document).ready(function($){
 	// hide intro text when scrolling
 	var intro = $("#intro-text");
 	intro.fadeIn(600);
-	var pos = intro.position();
-	var prevWindowpos = 0;
-	$(window).scroll(function () {
-		var windowpos = $(window).scrollTop();
-		if (windowpos >= pos.top - 300 && windowpos > prevWindowpos && intro.is(':visible')) {
-			intro.fadeOut(500);
-			prevWindowpos = windowpos;
-			console.log('fading out');
-			console.log(windowpos);
-			console.log(pos.top);
-		}
 
-		else if (windowpos <= pos.top - 100 && windowpos < prevWindowpos && intro.is(':hidden')) {
-			intro.fadeIn(700);
-			console.log('fading in');
-			console.log(windowpos);
-			console.log(pos.top);
-		}
-		prevWindowpos = windowpos;
-
-	});
 
 	//headroom
 	var bookmark = document.querySelector(".bookmark");
