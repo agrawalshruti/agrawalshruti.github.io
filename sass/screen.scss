@@ -928,10 +928,10 @@ Homepage
   #intro-text {
     text-align: center;
     position: absolute;
-    top: 87%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%,-87%);
-    font-size: rem(18);
+    font-size: rem(16);
     color: $medium-grey;
     font-weight: 500;
     line-height: 30px;
@@ -948,7 +948,7 @@ Homepage
 }
 #desk-svg, #desk-light-svg {
   position: absolute;
-  top: 45%;
+  top: 62%;
   left: 53%;
   transform: translate(-50%,-50%);
   max-height: 95%;
@@ -976,8 +976,8 @@ Homepage
 @include MQ(M) {
   .img-wrapper {
     width: 50%;
-    padding-top: 4%;
-    padding-right: 4.5%;
+    padding-top: 5%;
+    padding-right: 4%;
   }
   .img-wrapper-br {
     width: 30%;
@@ -999,7 +999,7 @@ Homepage
 .text-wrapper{
   @include leftfloat;
   color: $dark-grey;
-  font-family: 'Amiri', serif;
+  font-family: 'Halant', serif;
   margin-bottom: 20%;
 
   @include MQ(M) {
@@ -1048,14 +1048,15 @@ Homepage
   }
 
   p {
-    font-size: 14px;
+    font-size: rem(16);
     font-size: 1rem;
     word-spacing: -.1em;
-    
+    line-height: 1.7;
+
     @include MQ(M) {
       font-size: 12px;
       font-size: 1.075rem;
-      line-height: 1.5;
+      
       letter-spacing: 0.01px;
       font-weight: 300;
     }
