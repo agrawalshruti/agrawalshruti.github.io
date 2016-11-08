@@ -931,7 +931,7 @@ Homepage
     top: 87%;
     left: 50%;
     transform: translate(-50%,-87%);
-    font-size: rem(15);
+    font-size: rem(18);
     color: $medium-grey;
     font-weight: 500;
     line-height: 30px;
@@ -976,8 +976,8 @@ Homepage
 @include MQ(M) {
   .img-wrapper {
     width: 50%;
-    padding-top: 5%;
-    padding-right: 3.5%;
+    padding-top: 4%;
+    padding-right: 4.5%;
   }
   .img-wrapper-br {
     width: 30%;
@@ -1306,9 +1306,9 @@ Homepage
 
 // Custom adjustments (per id)
 
-#instashop {
-  max-width: 382px;  
-}
+// #instashop {
+//   max-width: 382px;  
+// }
 
 #amma-name {
   font-variant: small-caps;

@@ -1258,7 +1258,7 @@ Homepage
   top: 87%;
   left: 50%;
   transform: translate(-50%, -87%);
-  font-size: 0.9375rem;
+  font-size: 1.125rem;
   color: #7f7977;
   font-weight: 500;
   line-height: 30px;
@@ -1307,8 +1307,8 @@ Homepage
   /* line 977, ../sass/screen.scss */
   .img-wrapper {
     width: 50%;
-    padding-top: 5%;
-    padding-right: 3.5%;
+    padding-top: 4%;
+    padding-right: 4.5%;
   }
 
   /* line 982, ../sass/screen.scss */
@@ -1720,11 +1720,6 @@ Homepage
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
-}
-
-/* line 1309, ../sass/screen.scss */
-#instashop {
-  max-width: 382px;
 }
 
 /* line 1313, ../sass/screen.scss */
