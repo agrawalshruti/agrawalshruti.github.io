@@ -1255,7 +1255,7 @@ Homepage
 #section1 #intro-text {
   text-align: center;
   position: absolute;
-  top: 26%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, -87%);
   font-size: 1rem;
@@ -1275,7 +1275,7 @@ Homepage
 /* line 949, ../sass/screen.scss */
 #desk-svg, #desk-light-svg {
   position: absolute;
-  top: 62%;
+  top: 56%;
   left: 53%;
   transform: translate(-50%, -50%);
   max-height: 95%;
@@ -1302,13 +1302,17 @@ Homepage
   display: block;
   margin: 0 auto;
 }
+/* line 970, ../sass/screen.scss */
+.img-wrapper img.svg-logo, .img-wrapper-br img.svg-logo, .img-wrapper-dm img.svg-logo {
+  max-width: 450px;
+}
 
 @media only screen and (min-width: 768px) {
   /* line 977, ../sass/screen.scss */
   .img-wrapper {
     width: 50%;
     padding-top: 5%;
-    padding-right: 4%;
+    padding-right: 3.5%;
   }
 
   /* line 982, ../sass/screen.scss */

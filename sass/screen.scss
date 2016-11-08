@@ -928,7 +928,7 @@ Homepage
   #intro-text {
     text-align: center;
     position: absolute;
-    top: 26%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%,-87%);
     font-size: rem(16);
@@ -948,7 +948,7 @@ Homepage
 }
 #desk-svg, #desk-light-svg {
   position: absolute;
-  top: 62%;
+  top: 56%;
   left: 53%;
   transform: translate(-50%,-50%);
   max-height: 95%;
@@ -967,9 +967,9 @@ Homepage
     height:auto;
     display:block;
     margin: 0 auto;
-    // &.svg-logo {
-    //   max-width: 380px;
-    // }
+    &.svg-logo {
+      max-width: 450px;
+    }
   }
 }
 
@@ -977,7 +977,7 @@ Homepage
   .img-wrapper {
     width: 50%;
     padding-top: 5%;
-    padding-right: 4%;
+    padding-right: 3.5%;
   }
   .img-wrapper-br {
     width: 30%;
