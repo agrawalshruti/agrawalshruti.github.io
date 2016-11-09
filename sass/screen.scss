@@ -966,12 +966,38 @@ About
 
 -------------------------------- */
 
-.about-intro {
-  font-size: rem(14) !important;
+.about {
   font-weight: 500;
   color: $dark-gray;
+  font-size: rem(12);
   a {
     color: $gold;
+  }
+}
+
+.about-intro {
+  font-size: rem(14) !important;
+}
+
+#resume-title {
+  color: $gold;
+  padding-bottom: 7%;
+}
+.about-right-wrapper {
+  padding: 0 7%;
+  @include MQ(M) {
+    width: 50%;
+    padding-right: 17%;
+    padding-left: 6%;
+  }
+}
+
+.about-left-wrapper {
+  padding: 0 7%;
+  @include MQ(M) {
+    width: 50%;
+    padding-right: 6%;
+    padding-left: 17%;
   }
 }
 /* -------------------------------- 
