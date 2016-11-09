@@ -110,22 +110,22 @@ Work pages
     display:block;
     margin: 0 auto;
   }
-  .text-part-ul span {
-    color: $dark-grey;
+  .text-part-ul span, .text-part-ol span {
+    color: $dark-gray;
   }
 
 }  
 
-.grey {
-  background-color: $light-grey;
-  color: $dark-grey;
+.gray {
+  background-color: $light-gray;
+  color: $dark-gray;
   // padding-top: 4%;
   // padding-bottom: 9%;
   .text-part-ul span {
-    color: $dark-grey;
+    color: $dark-gray;
   }
   img {
-    background-color: $light-grey;
+    background-color: $light-gray;
   }
 }
 .no-bottom-padding {
@@ -169,6 +169,11 @@ Work pages
   padding-bottom: 5.5% !important; 
 }
 
+.padding-5pct {
+  padding-top: 5.5% !important; 
+  padding-bottom: 5.5% !important;
+}
+
 .padding-top-8pct {
   padding-top: 8.4% !important; 
 }
@@ -203,7 +208,7 @@ Work pages
   background-color: #182D46;
   
   .work-title {
-    color: $light-grey;
+    color: $light-gray;
   }
 
   .text-part-p {
@@ -263,7 +268,7 @@ Work pages
 }
 
 .pink {color: $pink;}
-.text-grey {color: $dark-grey;}
+.text-gray {color: $dark-gray;}
 .text-blue {color: $blue;}
 .dark-blue {color: $dark-blue;}
 .red {color: $red;}
@@ -292,7 +297,7 @@ Work pages
   }
   
   margin-bottom: 10px;
-  color: $dark-grey;
+  color: $dark-gray;
   &.img-title {
     margin-top: 10px;
     margin-bottom: -10px;
@@ -380,7 +385,7 @@ Work pages
 
 .text-part-subtitle {
   font-size: rem(16);
-  color: $dark-grey;
+  color: $dark-gray;
   font-variant: small-caps;
   font-weight: 700; 
   margin: 0 auto rem(11) auto; 
@@ -420,11 +425,6 @@ Work pages
 .img-caption {
   text-align: left;
   font-size: 10px;
-}
-
-.footer-wrapper {
-  padding-top: 8%;
-  padding-bottom: 8%;
 }
 
 .footer-title {
@@ -860,6 +860,17 @@ Instashop
   padding-right: 12%;
 }
 
+#is-wf-ul {
+  padding-left: 0;
+  li {
+    padding-left: 0;
+  }
+}
+
+.is-par {
+  font-size: rem(14);
+}
+
 #is-mobile-wf-title {
   margin-top: rem(50);
 }
@@ -951,6 +962,20 @@ Prahs
 
 /* -------------------------------- 
 
+About
+
+-------------------------------- */
+
+.about-intro {
+  font-size: rem(14) !important;
+  font-weight: 500;
+  color: $medium-gray;
+  a {
+    color: $dark-gray;
+  }
+}
+/* -------------------------------- 
+
 Homepage
 
 -------------------------------- */
@@ -980,7 +1005,7 @@ Homepage
     left: 50%;
     transform: translate(-50%,-87%);
     font-size: rem(16);
-    color: $medium-grey;
+    color: $medium-gray;
     font-weight: 500;
     line-height: 30px;
 
@@ -996,7 +1021,7 @@ Homepage
 }
 #desk-svg, #desk-light-svg {
   position: absolute;
-  top: 51%;
+  top: 54%;
   left: 53%;
   transform: translate(-50%,-50%);
   max-height: 95%;
@@ -1046,7 +1071,7 @@ Homepage
 
 .text-wrapper{
   @include leftfloat;
-  color: $dark-grey;
+  color: $dark-gray;
   font-family: 'Halant', serif;
   margin-bottom: 20%;
 
@@ -1065,7 +1090,7 @@ Homepage
     font-family: "usual light",sans-serif;
     font-style: normal;
     font-weight: 300;
-    color: $medium-grey;
+    color: $medium-gray;
 
     &.brand-title {
       padding-bottom: 40px; 
@@ -1109,7 +1134,7 @@ Homepage
       font-weight: 300;
     }
     a {
-      color: $dark-grey;
+      color: $dark-gray;
       font-weight: 700;
     }
 
