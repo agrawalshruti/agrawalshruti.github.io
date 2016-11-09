@@ -1306,11 +1306,11 @@ About
 .about-intro {
   font-size: 0.875rem !important;
   font-weight: 500;
-  color: #7f7977;
+  color: #555555;
 }
 /* line 973, ../sass/screen.scss */
 .about-intro a {
-  color: #555555;
+  color: #c1ad73;
 }
 
 /* -------------------------------- 
@@ -1393,7 +1393,7 @@ Homepage
 }
 /* line 1043, ../sass/screen.scss */
 .img-wrapper img.svg-logo, .img-wrapper-br img.svg-logo, .img-wrapper-dm img.svg-logo {
-  max-width: 450px;
+  max-width: 400px;
 }
 
 @media only screen and (min-width: 768px) {

@@ -969,9 +969,9 @@ About
 .about-intro {
   font-size: rem(14) !important;
   font-weight: 500;
-  color: $medium-gray;
+  color: $dark-gray;
   a {
-    color: $dark-gray;
+    color: $gold;
   }
 }
 /* -------------------------------- 
@@ -1041,7 +1041,7 @@ Homepage
     display:block;
     margin: 0 auto;
     &.svg-logo {
-      max-width: 450px;
+      max-width: 400px;
     }
   }
 }
