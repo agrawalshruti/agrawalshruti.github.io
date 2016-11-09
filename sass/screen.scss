@@ -979,6 +979,9 @@ About
   font-size: rem(14) !important;
 }
 
+#about-intro-section {
+  min-height: 100%;
+}
 #resume-title {
   color: $gold;
   padding-bottom: 7%;
