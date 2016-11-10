@@ -29,12 +29,23 @@ jQuery(document).ready(function($){
   }
 
   function deskLink(logo, targetName) {
+    console.log(logo);
+    console.log(document.getElementById('desk-amma'));
+    $('#' + logo).hover(function () {
+      $(this).addClass("selected");
+    }, function () {
+      $(this).removeClass("selected");
+    });
     $('#' + logo).click(function () {
+          console.log(logo);
+    console.log(targetName);
       var target = $('#' + targetName);
       smoothScroll(target);
     });
   }
 
   desklight('desk', 'lamp-path', 'lamp-p2');
+
+  deskLink('desk-amma', 'section3');
 
 });
