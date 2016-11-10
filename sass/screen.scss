@@ -985,7 +985,7 @@ About
 #arrow-down {
   width: rem(30);
     position: absolute;
-    top: 87%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%,-87%);
 }
@@ -1019,6 +1019,7 @@ About
 }
 .resume-subtitle {
   margin-bottom: rem(6);
+  color: $gold;
 }
 
 .about-right-wrapper {
