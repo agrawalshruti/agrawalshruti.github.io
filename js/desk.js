@@ -21,7 +21,20 @@ jQuery(document).ready(function($){
     });
   }
 
+  function smoothScroll(target) {
+    $('body,html').animate(
+      {'scrollTop':target.offset().top - 150},
+      600
+      );
+  }
+
+  function deskLink(logo, targetName) {
+    $('#' + logo).click(function () {
+      var target = $('#' + targetName);
+      smoothScroll(target);
+    });
+  }
+
   desklight('desk', 'lamp-path', 'lamp-p2');
-  // light('dm', 'kitchen-lamp', 'kitchen-l2');
 
 });

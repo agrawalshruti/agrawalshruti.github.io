@@ -454,6 +454,7 @@ Work pages
   width: 16%;
   padding: 2%;
   margin: 0 auto;
+  background-color: #f7f7f7;
 img {
     opacity: 0.5;
     filter: alpha(opacity=40);
@@ -978,6 +979,17 @@ About
   font-size: rem(14);
 }
 
+#intro-last-p {
+  margin-bottom: 18%;
+}
+#arrow-down {
+  width: rem(30);
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-87%);
+}
+
 .about {
   font-size: rem(12);
   margin-bottom: rem(2);
@@ -998,6 +1010,9 @@ About
   justify-content: center;
 }
 
+#resume-wrapper {
+  background-color: #f7f7f7;
+}
 #resume-title {
   color: $gold;
   padding-bottom: 7%;

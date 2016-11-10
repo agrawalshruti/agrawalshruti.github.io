@@ -10,7 +10,6 @@ jQuery(document).ready(function($){
 	var intro = $("#intro-text");
 	intro.fadeIn(600);
 
-
 	//headroom
 	var bookmark = document.querySelector(".bookmark");
 	var headroom = new Headroom(bookmark);
