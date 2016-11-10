@@ -1,8 +1,14 @@
 jQuery(document).ready(function($){
+
   function desklight (name, onswitch, offswitch) {
+    var desksections = [['desk-amma', 'section3'], ['desk-is1','section5'], ['desk-is2', 'section5'], ['desk-prahs', 'section4'], ['desk-dm', 'section2'], ['desk-brand', 'section7']];
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
+      desksections.forEach( function(tuple) {
+        deskLink(tuple[0],tuple[1]);
+      });
+      deskLink('desk-amma', 'section3');
       $.get('/img/' + name + '-light.svg', function(data) {
         $('#' + name +'-light').replaceWith($(data).contents());
         document.getElementById(offswitch).addEventListener("mouseleave", function() {
@@ -21,31 +27,27 @@ jQuery(document).ready(function($){
     });
   }
 
-  function smoothScroll(target) {
+  function smoothScroll(target, duration) {
+    duration = typeof duration !== 'undefined' ? duration : 600;
     $('body,html').animate(
       {'scrollTop':target.offset().top - 150},
-      600
+      duration
       );
   }
 
   function deskLink(logo, targetName) {
-    console.log(logo);
-    console.log(document.getElementById('desk-amma'));
-    $('#' + logo).hover(function () {
-      $(this).addClass("selected");
+    var element = $('#' + logo);
+    $(element).hover(function () {
+      $(element).css({fill: "#d8cbad", transition: "0.1s"});
     }, function () {
-      $(this).removeClass("selected");
+      $(element).css({fill: "#c1ad73", transition: "0.1s"});
     });
     $('#' + logo).click(function () {
-          console.log(logo);
-    console.log(targetName);
       var target = $('#' + targetName);
-      smoothScroll(target);
+      smoothScroll(target, 0);
     });
   }
 
   desklight('desk', 'lamp-path', 'lamp-p2');
-
-  deskLink('desk-amma', 'section3');
 
 });

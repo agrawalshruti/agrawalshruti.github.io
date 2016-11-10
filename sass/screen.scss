@@ -49,6 +49,10 @@ img {
   max-width: 100%;
 }
 
+svg, svg * {
+  pointer-events: all;
+}
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -1014,7 +1018,7 @@ About
   background-color: #f7f7f7;
 }
 #resume-title {
-  color: $gold;
+  color: $dark-gray;
   padding-bottom: 7%;
 }
 .resume-subtitle {
@@ -1092,6 +1096,7 @@ Homepage
 
   }
 }
+
 #desk-svg, #desk-light-svg {
   position: absolute;
   top: 54%;
@@ -1475,9 +1480,13 @@ Homepage
 }
 
 #section7 {
+  min-height: 70%;
   @include MQ(M) {
     margin-top: -100px;
   }
 }
 
-
+.selected{
+  opacity:0.5;
+  fill: #000;
+}
