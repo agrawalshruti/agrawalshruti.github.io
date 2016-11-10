@@ -327,7 +327,7 @@ Work pages
 }
 
 .bold {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .persona {
@@ -966,26 +966,46 @@ About
 
 -------------------------------- */
 
-.about {
+.about, .about-intro {
   font-weight: 500;
   color: $dark-gray;
-  font-size: rem(12);
   a {
     color: $gold;
   }
 }
 
 .about-intro {
-  font-size: rem(14) !important;
+  font-size: rem(14);
+}
+
+.about {
+  font-size: rem(12);
+  margin-bottom: rem(2);
+  &.job-description {
+    line-height: 1.7;
+    margin-bottom: rem(25);
+  }
+  span.location {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+  }
 }
 
 #about-intro-section {
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 #resume-title {
   color: $gold;
   padding-bottom: 7%;
 }
+.resume-subtitle {
+  margin-bottom: rem(6);
+}
+
 .about-right-wrapper {
   padding: 0 7%;
   @include MQ(M) {
@@ -1003,6 +1023,14 @@ About
     padding-left: 17%;
   }
 }
+.date {
+  font-size: rem(10) !important;
+}
+
+#tools, #concepts, #sprinklr-award {
+  margin-bottom: rem(8);
+}
+
 /* -------------------------------- 
 
 Homepage
