@@ -1,6 +1,6 @@
 <svg id="desk-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
-		<style>.cls-1{fill:#c1ad73;}.cls-19,.cls-2,.cls-21,.cls-22{isolation:isolate;}.cls-3{fill:#f5874b;}.cls-4{fill:#ebbbad;}.cls-5{fill:#444549;}.cls-6{fill:#ececec;}.cls-11,.cls-7{fill:none;}.cls-22,.cls-8{fill:#fff;}.cls-9{fill:#dfb731;}.cls-10{fill:#f28d86;}.cls-11{stroke:#ececec;stroke-miterlimit:10;stroke-width:3px;}.cls-12{fill:url(#linear-gradient);}.cls-13{fill:url(#linear-gradient-2);}.cls-14{fill:url(#linear-gradient-3);}.cls-15{fill:url(#linear-gradient-4);}.cls-16{fill:url(#linear-gradient-5);}.cls-17{fill:url(#linear-gradient-6);}.cls-18{fill:url(#linear-gradient-7);}.cls-19{opacity:0.1;}.cls-20{fill:url(#linear-gradient-8);}.cls-21,.cls-22{opacity:0.5;}.cls-21{fill:url(#linear-gradient-9);}</style>
+		<style>.cls-1{fill:#c1ad73;}.cls-19,.cls-2,.cls-21,.cls-22{isolation:isolate;}.cls-3{fill:#f5874b;}.cls-4{fill:#ebbbad;}.cls-5{fill:#444549;}.cls-6{fill:#ececec;}.cls-11,.cls-7{fill:none;}.cls-22,.cls-8{fill:#fff;}.cls-9{fill:#dfb731;}.cls-10{fill:#f28d86;}.cls-11{stroke:#ececec;stroke-miterlimit:10;stroke-width:3px;}.cls-12{fill:url(#linear-gradient);}.cls-13{fill:url(#linear-gradient-2);}.cls-14{fill:url(#linear-gradient-3);}.cls-15{fill:url(#linear-gradient-4);}.cls-16{fill:url(#linear-gradient-5);}.cls-17{fill:url(#linear-gradient-6);}.cls-18{fill:url(#linear-gradient-7);}.cls-19{opacity:0.1;}.cls-20{fill:url(#linear-gradient-8);}.cls-21,.cls-22{opacity:0.5;}.cls-21{fill:url(#linear-gradient-9);}.overlay{fill:#d8cbad;opacity:0}</style>
 		<linearGradient gradientTransform="translate(0 -396)" gradientUnits="userSpaceOnUse" id="linear-gradient" x1="385.22" x2="376.42" y1="590.27" y2="590.42">
 			<stop offset="0" stop-color="#ececec"/>
 			<stop offset="0.84" stop-color="#fff"/>
@@ -35,10 +35,10 @@
 	<path class="cls-1" d="M186,171v38h17.2a14.29,14.29,0,0,1,17.7-9.8,14.59,14.59,0,0,1,9.8,9.8H246V171Z"/>
 	<path class="cls-3" d="M216.9,198.7A13.74,13.74,0,0,0,203.2,209h27.5A13.94,13.94,0,0,0,216.9,198.7Z"/>
 	<polygon class="cls-4" points="203.2 209 186 209 186 217.9 186 252 246 252 246 217.9 246 209 230.6 209 203.2 209"/>
-	<rect class="cls-1" height="46.7" id="desk-amma" width="43.4" x="311.4" y="193.3"/>
-	<rect class="cls-5" height="38.4" id="desk-is1" width="42" x="422.6" y="191.7"/>
-	<rect class="cls-1" height="38.4" id="desk-prahs" width="42" x="453.5" y="236.9"/>
-	<rect class="cls-1" height="38.4" id="desk-is2" width="42" x="422.6" y="191.7"/>
+	<rect class="cls-1" height="46.7" width="43.4" x="311.4" y="193.3" id="desk-amma"/>
+	<rect class="cls-5" height="38.4" width="42" x="422.6" y="191.7" id="desk-is1"/>
+	<rect class="cls-1" height="38.4" width="42" x="453.5" y="236.9" id="desk-prahs"/>
+	<rect class="cls-1" height="38.4" width="42" x="422.6" y="191.7" id="desk-is2"/>
 	<polygon class="cls-6" points="603 309 140 309 140 318 220 318 148.1 442.4 153 445.2 226.5 318 531 318 594.5 444.9 599.5 442.4 537.3 318 603 318 603 309"/>
 	<path class="cls-7" d="M330.2,210.7a2,2,0,0,0-1.7-.9,3.55,3.55,0,0,0-1,.2h0c-3.4,1.6-7.3,5.9-6.9,16.7a1.32,1.32,0,0,0,1.1,1.4,17.14,17.14,0,0,0,6.6-1.4,2.59,2.59,0,0,0,1.6-1.9C331,219.6,331.7,213.3,330.2,210.7Z"/>
 	<path class="cls-7" d="M338.4,210.1h0a1.8,1.8,0,0,0-1-.2,2,2,0,0,0-1.7.9c-1.6,2.6-1.1,8.9,0,14a2.44,2.44,0,0,0,1.5,2c4,1.6,6.1,1.6,6.6,1.6a1.24,1.24,0,0,0,1.1-1.4C345.6,216.1,341.8,211.8,338.4,210.1Z"/>
@@ -233,8 +233,16 @@
 		<path class="cls-8" d="M481.3,249.3a12.06,12.06,0,0,0-1.1-1.9.32.32,0,0,0,.3-.3.43.43,0,0,0-.4-.4H469.3a.43.43,0,0,0-.4.4.27.27,0,0,0,.3.3,14.31,14.31,0,0,0-1,1.9,3.28,3.28,0,0,0,0,1l.1,15.9a.31.31,0,0,0,.1.2,1.39,1.39,0,0,1,.5.7h0c0,.2.2.2.3.2h11.3c.2,0,.3,0,.3-.2h0a1.39,1.39,0,0,1,.5-.7.31.31,0,0,0,.1-.2l-.1-15.9A3.28,3.28,0,0,0,481.3,249.3Z"/>
 	</g>
 	<polygon class="cls-1" points="478.9 256.4 475.5 256.4 477.9 252.9 473.7 252.9 470.9 258.3 473.5 258.3 471.5 263.9 478.9 256.4"/>
-	<rect class="cls-1" height="26.5" width="25.1" x="151" y="273.5"/>
+	<rect class="cls-1" height="26.5" width="25.1" x="151" y="273.5" id="desk-about"/>
 	<path class="cls-7" d="M164,283.1a1.61,1.61,0,0,0-.9-.3,1.28,1.28,0,0,0-1,.4,1.23,1.23,0,0,0-.5,1c.1.5.6,1,1.5,1.4.9-.7,1.3-1.2,1.3-1.7A.91.91,0,0,0,164,283.1Z"/>
 	<polygon class="cls-8" points="168.1 283.3 168.1 282 165.2 282 166.1 283.3 168.1 283.3"/>
 	<path class="cls-8" d="M168.1,287.9a12.32,12.32,0,0,0-3.8-1.9,1.76,1.76,0,0,0,.8-1.5,2.23,2.23,0,0,0-.9-1.7,3.14,3.14,0,0,0-2.1-.7,1.37,1.37,0,0,0-1.2.4,1.61,1.61,0,0,0-.5,1.1,1.75,1.75,0,0,0,.7,1.4,5.07,5.07,0,0,0,1.6.9l-2.7,2.6,1.2.5,2.8-2.6a22.13,22.13,0,0,1,3.5,1.6l-4.7,2.2,1.3.8,4.2-2Zm-5-2.3c-.9-.4-1.4-.9-1.5-1.4a1.23,1.23,0,0,1,.5-1,1.28,1.28,0,0,1,1-.4,1.61,1.61,0,0,1,.9.3.91.91,0,0,1,.4.8C164.4,284.4,164,284.9,163.1,285.6Z"/>
+
+	<rect class="overlay" height="31.3" width="34.2" x="274.8" y="150.1" id="desk-brand-overlay"/>
+			<rect class="overlay" height="46.7" width="43.4" x="311.4" y="193.3" id="desk-amma-overlay"/>
+	<rect class="overlay" height="38.4" id="desk-is1-overlay" width="42" x="422.6" y="191.7"/>
+	<rect class="overlay" height="38.4" id="desk-prahs-overlay" width="42" x="453.5" y="236.9"/>
+	<rect class="overlay" height="38.4" id="desk-is2-overlay" width="42" x="422.6" y="191.7"/>
+	<rect class="overlay" height="33.8" width="36.1" x="370.2" y="178.7" id="desk-dm-overlay"/>
+	<rect class="overlay" height="26.5" width="25.1" x="151" y="273.5" id="desk-about-overlay"/>
 </svg>
