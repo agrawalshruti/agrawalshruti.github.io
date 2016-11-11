@@ -1,7 +1,9 @@
-	function hover(element) {
+	function hover(elementName) {
+		element = document.getElementById(elementName);
     element.setAttribute('src', '/img/' + element.getAttribute('id') + '-light.svg');
 	}
-	function unhover(element, name) {
+	function unhover(elementName, name) {
+		element = document.getElementById(elementName);
     element.setAttribute('src', '/img/' + element.getAttribute('id') + '.svg');
 	}
 
