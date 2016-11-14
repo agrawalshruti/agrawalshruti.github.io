@@ -1173,16 +1173,16 @@ Instashop
 }
 
 /* line 868, ../sass/screen.scss */
-#is-wf-ul {
+#is-wf-ul, #amma-ut-ul {
   padding-left: 0;
 }
 /* line 870, ../sass/screen.scss */
-#is-wf-ul li {
+#is-wf-ul li, #amma-ut-ul li {
   padding-left: 0;
 }
 
 /* line 875, ../sass/screen.scss */
-.is-par {
+.parentheses {
   font-size: 0.875rem;
 }
 
@@ -1916,39 +1916,39 @@ Homepage
   transform: translateY(-100%);
 }
 
-/* line 1465, ../sass/screen.scss */
+/* line 1461, ../sass/screen.scss */
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem;
 }
 
-/* line 1470, ../sass/screen.scss */
+/* line 1466, ../sass/screen.scss */
 #nirvana {
   max-width: 75%;
 }
 
-/* line 1474, ../sass/screen.scss */
+/* line 1470, ../sass/screen.scss */
 #mootown {
   max-width: 75%;
 }
 
-/* line 1478, ../sass/screen.scss */
+/* line 1474, ../sass/screen.scss */
 #cbg {
   max-width: 75%;
 }
 
-/* line 1482, ../sass/screen.scss */
+/* line 1478, ../sass/screen.scss */
 #section7 {
   min-height: 80%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1482, ../sass/screen.scss */
+  /* line 1478, ../sass/screen.scss */
   #section7 {
     margin-top: -100px;
   }
 }
 
-/* line 1489, ../sass/screen.scss */
+/* line 1485, ../sass/screen.scss */
 .selected {
   opacity: 0.5;
   fill: #000;

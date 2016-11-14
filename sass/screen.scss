@@ -865,14 +865,14 @@ Instashop
   padding-right: 12%;
 }
 
-#is-wf-ul {
+#is-wf-ul, #amma-ut-ul {
   padding-left: 0;
   li {
     padding-left: 0;
   }
 }
 
-.is-par {
+.parentheses {
   font-size: rem(14);
 }
 
@@ -1457,10 +1457,6 @@ Homepage
 }
 
 // Custom adjustments (per id)
-
-// #instashop {
-//   max-width: 382px;  
-// }
 
 #amma-name {
   font-variant: small-caps;
