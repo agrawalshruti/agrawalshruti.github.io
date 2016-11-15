@@ -148,6 +148,10 @@ Work pages
   margin-top: 0 !important;
 }
 
+.padding-top-2pct {
+  padding-top: 1% !important; 
+}
+
 .padding-bottom-2pct {
   padding-bottom: 1% !important; 
 }
@@ -1060,6 +1064,54 @@ About
   margin-bottom: rem(8);
 }
 
+/* -------------------------------- 
+
+Nirvana
+
+-------------------------------- */
+
+#white-stripe {
+  width: 100%;
+  background-color: white;
+  height: 10px;
+  position: absolute;
+
+}
+
+/* -------------------------------- 
+
+Cowboy's garden
+
+-------------------------------- */
+
+#cg-logo {
+  margin-bottom: rem(40);
+  img {
+    max-width: 48%;
+  }
+}
+
+#cg-logo-text {
+  line-height: 1.85;
+  margin-bottom: rem(40);
+}
+
+#cg-wrapper {
+  padding: 0 27%;
+}
+
+#cg-menu, #cg-jar {
+  padding: 0;
+}
+
+#cg-menu {
+  padding-right: 8%;
+}
+
+#cg-jar {
+  padding-left: 12%;
+  padding-right: 8%;
+}
 /* -------------------------------- 
 
 Homepage
