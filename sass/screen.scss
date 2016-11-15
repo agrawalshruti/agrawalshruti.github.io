@@ -284,6 +284,7 @@ Work pages
 .purple {color: $purple;}
 .insta-purple {color: $insta-purple;}
 .green {color: $green;}
+.white {color: white;}
 
 .dm-green {color: $dm-green;}
 .dm-red {color: $dm-red;}
@@ -908,9 +909,17 @@ Instashop
   background-color: $green;
 }
 
+#is-final-mobile-title {
+  margin-left: -31.5%;
+}
+
 #is-final-mobile {
   max-width: 80%;
   margin: auto;
+}
+
+#is-final-desktop-title {
+  margin-left: -24%;
 }
 
 #is-final-web-wrapper {
