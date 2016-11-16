@@ -812,6 +812,10 @@ img.dm-highfi-wireframes {
   margin-bottom: rem(60);
 }
 
+#dm-final-iterations {
+  max-width: 80%;
+  margin: auto;
+}
 #dm-reiteration {
   margin-bottom: rem(60);
   @include MQ(M) {
