@@ -1019,14 +1019,17 @@ Instashop
 }
 .is-final-mobile {
   @include leftfloat;
-  width: 20%;
-  padding: 0 2%;
+  width: 16%;
+  margin: 0 2%;
   margin-bottom: 4%;
   video {
     max-width: 100%;
   }
 }
 
+#is-video-wrapper {
+  padding-bottom: -20px;
+}
 #is-final-desktop-title {
   margin-left: -24%;
 }
@@ -1050,9 +1053,9 @@ Instashop
 }
 
 .is-final-web-img {
--webkit-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
--moz-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
+-webkit-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.18);
+-moz-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.18);
+box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.18);
 }
 /* -------------------------------- 
 
