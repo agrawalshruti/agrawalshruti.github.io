@@ -1013,19 +1013,15 @@ Instashop
   margin-left: -31.5%;
 }
 
-#is-final-mobile {
+#is-final-mobile-wrapper {
+  @include leftfloat;
   max-width: 80%;
-  margin: auto;
 }
-
-#is-video {
-  position: absolute;
-  z-index: 100;
-  bottom: 34.8%;
-  right: 12.2%;
-  width: 12.8%;
-  height: 5.6%;
-  background-color: #000000;
+.is-final-mobile {
+  @include leftfloat;
+  width: 20%;
+  padding: 0 2%;
+  margin-bottom: 4%;
 }
 
 #is-final-desktop-title {
