@@ -1018,6 +1018,16 @@ Instashop
   margin: auto;
 }
 
+#is-video {
+  position: absolute;
+  z-index: 100;
+  bottom: 34.8%;
+  right: 12.2%;
+  width: 12.8%;
+  height: 5.6%;
+  background-color: #000000;
+}
+
 #is-final-desktop-title {
   margin-left: -24%;
 }
