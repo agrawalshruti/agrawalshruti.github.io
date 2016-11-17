@@ -1019,7 +1019,7 @@ Instashop
 }
 
 #is-final-desktop-title {
-  margin-left: -22.5%;
+  margin-left: -24%;
 }
 
 #is-final-web-wrapper {
@@ -1030,13 +1030,20 @@ Instashop
  padding-top: 1%;
  padding-bottom: 1%;
  padding-left: 16%;
+ padding-right: 3%;
 }
 
 .is-final-web-right {
- padding-left: 2%;
  padding-top: 1%;
  padding-bottom: 1%;
  padding-right: 16%;
+ padding-left: 3%;
+}
+
+.is-final-web-img {
+-webkit-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
+-moz-box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
+box-shadow: 0px 2px 10px 0px rgba(127,121,119,0.25);
 }
 /* -------------------------------- 
 
@@ -1072,6 +1079,11 @@ Prahs
   display: none;
 }
 
+#prahs-desktop-img {
+  @include MQ(M) {
+    max-width: 60%;
+  }  
+}
 #prahs-mobile-img {
   @include MQ(M) {
     max-width: 20%;
