@@ -300,7 +300,6 @@ Work pages
 .insta-purple {color: $insta-purple;}
 .green {color: $green;}
 .white {color: white;}
-
 .dm-green {color: $dm-green;}
 .dm-red {color: $dm-red;}
 .dm-yellow {color: $dm-yellow;}
@@ -787,6 +786,7 @@ AMMA
   @include MQ(M) {
     max-width: 60%;
   }
+  margin: 3% auto;
 }
 
 #amma-fi-title {
@@ -1211,9 +1211,9 @@ Cowboy's garden
 -------------------------------- */
 
 #cg-logo {
-  margin-bottom: rem(40);
+  margin-bottom: rem(52);
   img {
-    max-width: 48%;
+    max-width: 50%;
   }
 }
 
@@ -1237,6 +1237,18 @@ Cowboy's garden
 #cg-jar {
   padding-left: 12%;
   padding-right: 8%;
+}
+
+/* -------------------------------- 
+
+Mootown
+
+-------------------------------- */
+
+#mootown-logo {
+  img {
+    max-width: 60%;
+  }  
 }
 /* -------------------------------- 
 
