@@ -295,6 +295,7 @@ Work pages
 .dark-blue {color: $dark-blue;}
 .red {color: $red;}
 .orange {color: $orange;}
+.cg-orange {color: $cg-orange;}
 .purple {color: $purple;}
 .insta-purple {color: $insta-purple;}
 .green {color: $green;}
@@ -773,7 +774,7 @@ AMMA
   }
 }
 
-#amma-brand-guide{
+#amma-brand-guide, #amma-final-iterations{
   @include MQ(M) {
     max-width: 80%;
   }
@@ -791,6 +792,7 @@ AMMA
 #amma-fi-title {
   padding-bottom: rem(30);
 }
+
 
 /* -------------------------------- 
 
