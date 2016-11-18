@@ -1077,7 +1077,7 @@ Prahs
 
 .prahs-wrapper {
   @include leftfloat;
-  padding: 7%;
+  padding: 0;
   text-align: center;
   display: block;
 }
@@ -1103,6 +1103,7 @@ Prahs
 }
 #prahs-mobile-img {
   transform: scale(0.7); 
+  margin-top: -8%;
 }
 
 .prahs-moodboard {
