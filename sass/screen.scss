@@ -786,7 +786,7 @@ AMMA
   @include MQ(M) {
     max-width: 60%;
   }
-  margin: 3% auto;
+  margin: 1% auto;
 }
 
 #amma-fi-title {
@@ -1102,9 +1102,7 @@ Prahs
   }  
 }
 #prahs-mobile-img {
-  @include MQ(M) {
-    max-width: 20%;
-  }
+  transform: scale(0.7); 
 }
 
 .prahs-moodboard {
@@ -1191,7 +1189,7 @@ About
 }
 
 #resume-link {
-  padding-bottom: 4%;
+  padding-bottom: 1%;
 }
 .resume-subtitle {
   margin-bottom: rem(6);
@@ -1334,6 +1332,7 @@ Homepage
 
   #intro-text {
     text-align: center;
+    z-index: 100;
     position: absolute;
     top: 22%;
     left: 50%;
