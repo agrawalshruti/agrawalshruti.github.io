@@ -303,7 +303,7 @@ Work pages
 .dm-green {color: $dm-green;}
 .dm-red {color: $dm-red;}
 .dm-yellow {color: $dm-yellow;}
-
+.gold {color: $dark-gold;}
 .white-bg {
   background-color: white !important;
 }
@@ -1185,9 +1185,13 @@ About
 #resume-wrapper {
   background-color: #f7f7f7;
 }
+
 #resume-title {
   color: $dark-gray;
-  padding-bottom: 7%;
+}
+
+#resume-link {
+  padding-bottom: 4%;
 }
 .resume-subtitle {
   margin-bottom: rem(6);
