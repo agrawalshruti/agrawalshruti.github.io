@@ -343,7 +343,6 @@ Work pages
     padding-right: 5%;
     padding-left: 12%;
     iframe {
-      transform: scale(0.7);
       vertical-align: top;
       margin-top: -21%;
       @include MQ(L) {
@@ -355,6 +354,13 @@ Work pages
   }
 }
 
+.proto-wrapper {
+  margin-bottom: 0 !important;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  vertical-align: top;
+  margin-top: -5%;
+}
 .bold {
   font-weight: 600 !important;
 }
@@ -460,11 +466,11 @@ Work pages
   }
   &.moodboard-text {
   font-size: rem(16);
+  line-height: 1.8 !important;
   @include MQ(L) {
     font-size: rem(20);
     min-height: 90px;
   }
-  line-height: 1.7;
 }
 
 }
@@ -681,17 +687,6 @@ AMMA
   }  
 }
 
-#amma-sketch2 {
-  margin-top: rem(35);
-  margin-bottom: rem(30);
-  @include MQ(M) {
-    max-width: 50%;
-  }
-  @include MQ(L) {
-    max-width: 30%;
-  }  
-}
-
 #amma-lowfi-wireframes {
   margin-top: rem(80);
   margin-bottom: rem(120);
@@ -793,7 +788,9 @@ AMMA
   padding-bottom: rem(30);
 }
 
-
+#amma-f-m {
+  text-decoration: underline;
+}
 /* -------------------------------- 
 
 Dignity Meals
@@ -856,6 +853,17 @@ Dignity Meals
   }
 }
 
+#dm-sketch2 {
+  margin-top: rem(35);
+  margin-bottom: rem(30);
+  @include MQ(M) {
+    max-width: 50%;
+  }
+  @include MQ(L) {
+    max-width: 30%;
+  }  
+}
+
 #dm-sketch3 {
   margin-top: rem(35);
   margin-bottom: rem(30);
@@ -867,7 +875,7 @@ Dignity Meals
 img.dm-highfi-wireframes {
   margin-bottom: rem(80);
   @include MQ(M) {
-    max-width: 75%;
+    max-width: 70%;
   }
 }
 #dm-highfi-wf-title {
@@ -877,7 +885,7 @@ img.dm-highfi-wireframes {
   text-transform: uppercase;
   font-weight: 600;
   text-align: left;
-  margin-left: -29%;
+  margin-left: -24%;
   font-size: rem(11);
   margin-bottom: rem(12);
 }
@@ -1522,7 +1530,7 @@ Homepage
   z-index: 100;
   margin-left: 16.9%;
   img {
-    width: 5.5%;
+    width: 50px;
   }
 }
 
