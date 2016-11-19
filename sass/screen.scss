@@ -564,8 +564,9 @@ input[type="button"] {
   input[type="submit"]:focus,
   input[type="reset"]:focus,
   input[type="button"]:focus {
-    color: $gold;
+    color: white;
     border-color: $gold;
+    background-color: $gold;
     outline: 0;
     opacity: 0.7; }
     // .button.button-primary,
@@ -788,7 +789,7 @@ AMMA
   padding-bottom: rem(30);
 }
 
-#amma-f-m {
+#amma-f-m, #dm-sketch-link {
   text-decoration: underline;
 }
 /* -------------------------------- 
@@ -851,25 +852,6 @@ Dignity Meals
   // padding-bottom: 9%;
   .text-part-ul span {
     color: white;
-  }
-}
-
-#dm-sketch2 {
-  margin-top: rem(35);
-  margin-bottom: rem(30);
-  @include MQ(M) {
-    max-width: 50%;
-  }
-  @include MQ(L) {
-    max-width: 30%;
-  }  
-}
-
-#dm-sketch3 {
-  margin-top: rem(35);
-  margin-bottom: rem(30);
-  @include MQ(M) {
-    max-width: 54%;
   }
 }
 
