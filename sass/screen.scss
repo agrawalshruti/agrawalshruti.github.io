@@ -565,8 +565,8 @@ input[type="button"] {
   input[type="reset"]:focus,
   input[type="button"]:focus {
     color: white;
-    border-color: $gold;
-    background-color: $gold;
+    border-color: $dark-gold;
+    background-color: $dark-gold;
     outline: 0;
     opacity: 0.7; }
     // .button.button-primary,
@@ -918,6 +918,17 @@ Instashop
     padding-right: 10%;
   }
 }
+
+#vid-top {
+  position: absolute;
+  z-index: 100;
+  left: 41.85%;
+  top: 45%;
+  width: 16.3%;
+  border-style: solid;
+  border-width: 1.25px;
+  border-color: $dark-gray;
+}
 #is-challenge {
   padding-right: 20%;
 }
@@ -1106,13 +1117,13 @@ Prahs
 }
 
 #prahs-wf-left-wrapper {
-  padding-left: 19%;
-  padding-right: 4%;
+  padding-left: 23%;
+  padding-right: 8%;
 }
 
 #prahs-wf-right-wrapper {
-  padding-left: 4%;
-  padding-right: 19%;
+  padding-left: 8%;
+  padding-right: 23%;
 }
 
 #prahs-mobile-wf-title {
@@ -1372,7 +1383,7 @@ Homepage
     display:block;
     margin: 0 auto;
     &.svg-logo {
-      max-width: 400px;
+      max-width: 460px;
     }
   }
 }
