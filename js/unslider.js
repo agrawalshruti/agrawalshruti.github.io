@@ -38,7 +38,7 @@
 			delay: 3000,
 
 			//  Animation speed in millseconds
-			speed: 750,
+			speed: 1000,
 
 			//  An easing string to use. If you're using Velocity, use a
 			//  Velocity string otherwise you can use jQuery/jQ UI options.
@@ -67,10 +67,7 @@
 			//   -> This isn't keyboard support.
 			//  Either set true/false, or an object with the HTML
 			//  elements for each arrow like below:
-			arrows: {
-				prev: '<a class="' + self._ + '-arrow prev">Prev</a>',
-				next: '<a class="' + self._ + '-arrow next">Next</a>'
-			},
+			arrows: false,
 
 			//  How should Unslider animate?
 			//  It can do one of the following types:

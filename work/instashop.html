@@ -12,6 +12,7 @@
       <![endif]-->
 
       <link rel="stylesheet" type="text/css" href="/stylesheets/lightbox.min.css" />
+      <link rel="stylesheet" type="text/css" href="/stylesheets/unslider.css"/>
       <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Halant:400,600" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Vollkorn:500i" rel="stylesheet">      <script src="/js/modernizr.js"></script> <!-- Modernizr -->
@@ -176,7 +177,7 @@
 </div>
 </section>     
 <section id="work-section5" class="work-section">
-  <div class="work padding-9pct">
+  <div class="work padding-9pct" id="is-wf-wrapper">
     <h2 class="work-subtitle green">Stage 3</h2>
     <h1 class="work-title">Wireframes</h1>
     <svg version="1.1" class="underline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -195,35 +196,52 @@
   </div>
   <div class="text-part">
   </div>
-  <div class="text-part img-title" id="is-mobile-wf-title">
+  <div class="text-part img-title center" id="is-mobile-wf-title">
     <h2 class="text-part-title green">Mobile</h2>
   </div>
 
-  <div class="img-part" id="is-mobile-wf">
-    <img src="/img/instashop-mobile-wf.png" alt="">
+  <div id="is-mobile-wf">
+    <ul>
+      <li>
+        <img src="/img/is-mobile-wf1.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf2.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf3.png" alt="" class="is-final-web-img">
+      </li>
+      <li>
+        <img src="/img/is-mobile-wf4.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf5.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf6.png" alt="" class="is-final-web-img">
+      </li>
+      <li>
+        <img src="/img/is-mobile-wf7.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf8.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf9.png" alt="" class="is-final-web-img">
+      </li>
+      <li>
+        <img src="/img/is-mobile-wf10.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf11.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf12.png" alt="" class="is-final-web-img">
+      </li>
+      <li>
+        <img src="/img/is-mobile-wf13.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf14.png" alt="" class="is-final-web-img">
+        <img src="/img/is-mobile-wf15.png" alt="" class="is-final-web-img">
+      </li>
+    </ul>
   </div>
-  <div class="text-part img-title" id="is-desktop-wf-title">
+  <div class="text-part img-title center" id="is-desktop-wf-title">
     <h2 class="text-part-title green">Desktop</h2>
   </div>
 
-  <div class="text-img-part">        
-    <div class="img-part left-wrapper">
-      <img class="white-bg" src="/img/instashop-desktop-wf-landing.png">
-    </div>  
-    <div class="img-part right-wrapper">
-      <img class="white-bg" src="/img/instashop-desktop-wf-login.png">
-    </div> 
-    <div class="img-part left-wrapper">
-      <img class="white-bg" src="/img/instashop-desktop-wf-signup.png">
-    </div> 
-    <div class="img-part right-wrapper">
-     <img class="white-bg" src="/img/instashop-desktop-wf-cart.png">
-   </div> 
-   <div class="left-wrapper">
-    <img class="white-bg" src="/img/instashop-desktop-wf-ship.png">
-  </div>    
+  <div class= "img-text-part" id="is-desktop-wf">
+  <ul>
+            <li><img class="white-bg" src="/img/instashop-desktop-wf-landing.png"></li>
+            <li><img class="white-bg" src="/img/instashop-desktop-wf-login.png"></li>
+            <li><img class="white-bg" src="/img/instashop-desktop-wf-signup.png"></li>
+            <li><img class="white-bg" src="/img/instashop-desktop-wf-cart.png"></li>
+            <li><img class="white-bg" src="/img/instashop-desktop-wf-ship.png"></li>
+          </ul>
 </div>
-
 </div>
 </section>
 <section id="work-section6" class="work-section">
@@ -346,7 +364,14 @@
   </div>
 </section>
 
-<script src="/js/main.js"></script> <!-- Resource jQuery -->
+<script src="/js/main.js"></script>
+<script src="/js/unslider.js"></script>
+<script>
+jQuery(document).ready(function($) {
+  $('#is-mobile-wf').unslider();
+  $('#is-desktop-wf').unslider();
+});
+</script>
 <script src="/js/lightbox.min.js"></script> <!-- Resource lightbox -->
 </body>
 </html>

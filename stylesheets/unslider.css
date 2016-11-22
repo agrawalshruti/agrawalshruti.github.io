@@ -3,6 +3,86 @@
  *   to change anything here, and doing so might break
  *   stuff. Here be dragons and all that.
  */
-/*@import 'variables';
-@import 'unslider/reset';
-@import 'unslider/dots';*/
+/* line 1, ../sass/unslider/reset.scss */
+.unslider {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+/* line 10, ../sass/unslider/reset.scss */
+.unslider-wrap {
+  position: relative;
+}
+/* line 13, ../sass/unslider/reset.scss */
+.unslider-wrap.unslider-carousel > li {
+  float: left;
+}
+/* line 20, ../sass/unslider/reset.scss */
+.unslider-vertical > ul {
+  height: 100%;
+}
+/* line 24, ../sass/unslider/reset.scss */
+.unslider-vertical li {
+  float: none;
+  width: 100%;
+}
+/* line 32, ../sass/unslider/reset.scss */
+.unslider-fade {
+  position: relative;
+}
+/* line 35, ../sass/unslider/reset.scss */
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8;
+}
+/* line 42, ../sass/unslider/reset.scss */
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10;
+}
+/* line 48, ../sass/unslider/reset.scss */
+.unslider ul, .unslider ol, .unslider li {
+  list-style: none;
+  /* Reset any weird spacing */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 58, ../sass/unslider/reset.scss */
+.unslider-arrow {
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+/* line 65, ../sass/unslider/reset.scss */
+.unslider-arrow.next {
+  left: auto;
+  right: 20px;
+}
+
+/* line 4, ../sass/unslider/dots.scss */
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+/* line 8, ../sass/unslider/dots.scss */
+.unslider-nav ol li {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 6px;
+  background: transparent;
+  /*border-radius: 7.5px;*/
+  overflow: hidden;
+  text-indent: -999em;
+  border: 1px solid #555555;
+  cursor: pointer;
+}
+/* line 24, ../sass/unslider/dots.scss */
+.unslider-nav ol li.unslider-active {
+  background: #555555;
+  cursor: default;
+}

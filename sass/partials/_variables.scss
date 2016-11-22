@@ -22,3 +22,13 @@ $dm-yellow: #FFA71F;
 $insta-purple: #5A073E;
 $cg-orange: #F58727;
 
+//Unslider
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+$unslider-dot-navigation: true;
+$unslider-dot-colour: $dark-gray;
+
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+$unslider-transition-function: cubic-bezier(.42,0,.58,1);
+
+// Set a namespace for Unslider
+$unslider-namespace: 'unslider';

@@ -1,0 +1,23 @@
+/* line 4, ../../sass/unslider/dots.scss */
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+/* line 8, ../../sass/unslider/dots.scss */
+.unslider-nav ol li {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 6px;
+  background: transparent;
+  /*border-radius: 7.5px;*/
+  overflow: hidden;
+  text-indent: -999em;
+  border: 1px solid #555555;
+  cursor: pointer;
+}
+/* line 24, ../../sass/unslider/dots.scss */
+.unslider-nav ol li.unslider-active {
+  background: #555555;
+  cursor: default;
+}

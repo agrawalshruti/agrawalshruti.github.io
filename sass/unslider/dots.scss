@@ -1,0 +1,31 @@
+@import '../partials/variables';
+@if($unslider-dot-navigation){
+	.#{$unslider-namespace}-nav, %#{$unslider-namespace}-nav {
+		ol {
+			list-style: none;
+			text-align: center;
+
+			li {
+				display: inline-block;
+				width: 7px;
+				height: 7px;
+				margin: 0 6px;
+
+				background: transparent;
+				/*border-radius: 7.5px;*/
+
+				overflow: hidden;
+				text-indent: -999em;
+
+				border: 1px solid $unslider-dot-colour;
+
+				cursor: pointer;
+
+				&.unslider-active {
+					background: $unslider-dot-colour;
+					cursor: default;
+				}
+			}
+		}
+	}
+}

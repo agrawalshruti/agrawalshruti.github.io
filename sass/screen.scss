@@ -308,6 +308,9 @@ Work pages
   background-color: white !important;
 }
 
+.text-underline {
+  text-decoration: underline !important;
+}
 .text-img-part {
   @include leftfloat;
 }
@@ -365,17 +368,6 @@ Work pages
   font-weight: 600 !important;
 }
 
-.persona {
-  width: 100%;
-  margin: 10px auto;
-  padding-left: 25%;
-  padding-right: 27%;
-}
-
-#lisa {
-  margin-top: -5px;
-}
-
 .text-part-ol {
   list-style-type: lower-roman;
   list-style-position: inside;
@@ -420,9 +412,6 @@ Work pages
     font-size: rem(16);
     margin-bottom: 28px;
   }
-  &.pink {
-    color: $pink;
-  }
 }
 
 .text-part-subtitle {
@@ -465,13 +454,13 @@ Work pages
     font-size: rem(22);
   }
   &.moodboard-text {
-  font-size: rem(16);
-  line-height: 1.8 !important;
-  @include MQ(L) {
-    font-size: rem(20);
-    min-height: 90px;
+    font-size: rem(16);
+    line-height: 1.8 !important;
+    @include MQ(L) {
+      font-size: rem(20);
+      min-height: 90px;
+    }
   }
-}
 
 }
 
@@ -509,13 +498,13 @@ Work pages
   margin: 0 auto;
   background-color: #f7f7f7;
   img {
-    opacity: 0.5;
-    filter: alpha(opacity=40);
+    opacity: 1;
+    filter: alpha(opacity=100);
   }
 
   img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
   }
 }
 
@@ -554,21 +543,21 @@ input[type="button"] {
   }
 
 }
-  .button:hover,
-  button:hover,
-  input[type="submit"]:hover,
-  input[type="reset"]:hover,
-  input[type="button"]:hover,
-  .button:focus,
-  button:focus,
-  input[type="submit"]:focus,
-  input[type="reset"]:focus,
-  input[type="button"]:focus {
-    color: white;
-    border-color: $dark-gold;
-    background-color: $dark-gold;
-    outline: 0;
-    opacity: 0.7; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: white;
+  border-color: $dark-gold;
+  background-color: $dark-gold;
+  outline: 0;
+  opacity: 1; }
     // .button.button-primary,
     // button.button-primary,
     // input[type="submit"].button-primary,
@@ -631,6 +620,50 @@ AMMA
   letter-spacing: rem(0.4);
 }
 
+.amma-personas {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.persona {
+  width: 100%;
+  margin: 10px auto;
+}
+
+#amma-stage1, #amma-styletile-wrapper, #amma-lowfi-wf-wrapper {
+  .unslider-nav ol li {
+    border-color: $pink;
+    &.unslider-active {
+      background-color: $pink;      
+    }
+  }
+}
+
+.amma-graph-left-wrapper {
+  @extend .left-wrapper;
+  padding-left: 17%;
+  padding-right: 0%;
+}
+
+.amma-graph-right-wrapper {
+  @extend .right-wrapper;
+  padding-left: 0;
+  padding-right: 17%;
+}
+
+.amma-graph-title {
+  margin: -8% auto 30px auto;
+  font-size: rem(11);
+  font-weight: 600;
+  line-height: 2;
+  @include MQ(L) {
+    font-size: rem(16);
+  }
+}
+.amma-graph {
+  padding: 12%;
+}
+
 #amma-users {
   margin-top: -2%;
   @include MQ(L) {
@@ -678,6 +711,7 @@ AMMA
 #amma-sketch1-title {
   padding-top: 30px;
 }
+
 #amma-sketch1 {
   margin-bottom: rem(50);
   @include MQ(M) {
@@ -688,14 +722,46 @@ AMMA
   }  
 }
 
-#amma-lowfi-wireframes {
-  margin-top: rem(80);
-  margin-bottom: rem(120);
+#amma-lowfi-wf {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  @include leftfloat;
   @include MQ(M) {
+    margin: 5% 10% 2% 10%;
     max-width: 80%;
   }
+  margin: 0 auto;
+  #amma-lowfi4, #amma-lowfi3 {
+    @include leftfloat;
+    img {
+      @include leftfloat;
+      max-width: 20%;
+
+    }
+  }
+  #amma-lowfi4 img {
+    margin: 0 3.33%;
+    &.amma-lowfi-wf-left {
+      margin-left: 0 !important;
+    }
+    &.amma-lowfi-wf-right {
+      margin-right: 0 !important;
+    }
+  }
+  #amma-lowfi3 img {
+    margin: 0 3.33%;
+    &.amma-lowfi-wf-left {
+      margin-left: 13.33% !important;
+    }
+    &.amma-lowfi-wf-right {
+      margin-right: 13.33% !important;
+    }
+  }  
 }
 
+#amma-prio {
+  margin-top: 5%;
+}
 #amma-ui-title {
   margin-top: -44px;
   margin-bottom: rem(110);
@@ -738,6 +804,15 @@ AMMA
   margin-top: 8%;
   padding-right: 5.6%;
 }
+
+#amma-styletiles {
+  margin-bottom: 2%;
+  @include MQ(M) {
+    margin-left: 19%;  
+    margin-right: 19%;  
+  }
+
+}
 .styletile {
   @include leftfloat;
   img {
@@ -758,20 +833,18 @@ AMMA
   @include MQ(M) {
     width: 50%;
     &.left {
-      padding-left: 21.4%;
       padding-right: 2.6%;
     }
 
     &.right {
       padding-left: 2.6%;
-      padding-right: 21.4%;
     }
   }
 }
 
 #amma-brand-guide, #amma-final-iterations{
   @include MQ(M) {
-    max-width: 80%;
+    max-width: 70%;
   }
   @include MQ(L) {
     max-width: 60%;
@@ -791,6 +864,23 @@ AMMA
 
 #amma-f-m, #dm-sketch-link {
   text-decoration: underline;
+}
+
+/* -------------------------------- 
+
+AMMA Detailed Results
+
+-------------------------------- */
+
+#back-button {
+  color: $pink;
+  border-color: $pink;
+  &:hover, &:focus {
+    background-color: $pink;
+    color: white;
+    opacity: 1;
+
+  }
 }
 /* -------------------------------- 
 
@@ -855,29 +945,40 @@ Dignity Meals
   }
 }
 
-img.dm-highfi-wireframes {
-  margin-bottom: rem(80);
-  @include MQ(M) {
-    max-width: 70%;
+#dm-lowfi-wireframes-wrapper {
+  .unslider-nav ol li {
+    border-color: $purple;
+    &.unslider-active {
+      background-color: $purple;      
+    }
   }
 }
-#dm-highfi-wf-title {
+
+#dm-lowfi-wireframes {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+img.dm-lowfi-wireframe {
+  margin: 0 auto;
+}
+#dm-lowfi-wf-title {
   padding-bottom: rem(70);
 }
 .dm-wf-title {
   text-transform: uppercase;
   font-weight: 600;
   text-align: left;
-  margin-left: -24%;
+  margin-left: -56%;
   font-size: rem(11);
   margin-bottom: rem(12);
 }
 
-#dm-highfi-wf1 {
+#dm-lowfi-wf1 {
   margin-top: -7px;
 }
 
-#dm-highfi-wf2 {
+#dm-lowfi-wf2 {
   margin-top: 3px;
 }
 
@@ -969,6 +1070,16 @@ Instashop
   padding-right: 12%;
 }
 
+#is-wf-wrapper {
+    .unslider-nav ol li {
+    border-color: $green;
+    &.unslider-active {
+      background-color: $green;
+      opacity: 1;     
+    }
+  }
+}
+
 #is-wf-ul, #amma-ut-ul {
   padding-left: 0;
   li {
@@ -985,18 +1096,28 @@ Instashop
 }
 
 #is-mobile-wf-title {
-  margin-top: rem(50);
+  // margin-top: rem(50);
 }
 #is-mobile-wf {
-  padding-left: 26.5%;
-  padding-right: 26.5%;  
+  max-width: 47%;
+  margin: 0 auto;
+  li img {
+    @include leftfloat;
+    margin: 5%;
+    max-width: 23.33%;
+  }  
 }
 
 #is-desktop-wf-title {
-  margin-left: -13%;
+  // margin-left: -13%;
 }
+
 #is-desktop-wf {
-  background-color: $green;
+  max-width: 47%;
+  margin: 0 auto;
+  li img {
+    @include leftfloat
+  }
 }
 
 #is-ui-title {
@@ -1060,9 +1181,9 @@ Instashop
 }
 
 .is-final-web-img {
--webkit-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
--moz-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
+  -webkit-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
+  -moz-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
+  box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
 }
 /* -------------------------------- 
 
@@ -1109,10 +1230,18 @@ Prahs
   margin-top: -8%;
 }
 
+#prahs-stage2 {
+  .unslider-nav ol li {
+    border-color: $dark-blue;
+    &.unslider-active {
+      background-color: $dark-blue;      
+    }
+  }
+}
 .prahs-moodboard {
   margin: 0 auto rem(50);
   @include MQ(M) {
-    max-width: 47%;
+    max-width: 47% !important;
   }
 }
 
@@ -1414,10 +1543,10 @@ Homepage
 @include MQ(L) {
   .img-wrapper {
     img.svg-logo {
-    max-width: 540px;
-    &#amma-users-img {
-      max-width: 680px;
-    }
+      max-width: 540px;
+      &#amma-users-img {
+        max-width: 680px;
+      }
     }
   }
 }
