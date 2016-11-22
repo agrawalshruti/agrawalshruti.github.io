@@ -554,8 +554,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: white;
-  border-color: $dark-gold;
-  background-color: $dark-gold;
+  border-color: $gold;
+  background-color: $gold;
   outline: 0;
   opacity: 1; }
     // .button.button-primary,
@@ -1306,7 +1306,7 @@ About
   }
 }
 
-#about-intro-section {
+#about-intro-section, #contact-intro-section {
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -1352,6 +1352,40 @@ About
 
 #tools, #concepts, #sprinklr-award {
   margin-bottom: rem(8);
+}
+
+/* -------------------------------- 
+
+Contact
+
+-------------------------------- */
+
+#form-fields {
+  .required {
+    @include leftfloat;
+    border: 1px solid transparent;
+    border-color: $gold !important;
+    border-width: 1px;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 100%;
+    padding-top: rem(8);
+    padding-bottom: rem(8);
+    padding-left: rem(8);
+  }
+  #first-name, #last-name {
+    width: 47%;
+  }
+  #first-name {
+    margin-right: 6%;
+  }
+  textarea {
+    min-height: rem(160);
+  }
+  input.button {
+    float: right;
+    margin: 0;
+  }
 }
 
 /* -------------------------------- 
