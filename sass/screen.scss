@@ -1238,11 +1238,21 @@ Prahs
     }
   }
 }
+
+#prahs-moodboards {
+  @include MQ(M) {
+    margin: 0 27.5%;
+  }
+}
+
+.text-part-prahs-mb {
+  @extend .text-part;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 15%;
+}
 .prahs-moodboard {
   margin: 0 auto rem(50);
-  @include MQ(M) {
-    max-width: 47% !important;
-  }
 }
 
 #prahs-wf-left-wrapper {
@@ -1364,6 +1374,10 @@ Contact
   @include leftfloat;
       padding-left: 30%;
     padding-right: 30%;
+    @include MQ(L) {
+      padding-left: 35%;
+      padding-right: 35%;      
+    }
   .required {
     @include leftfloat;
     border: 2.85px solid transparent;
@@ -1418,98 +1432,7 @@ Contact
   }
 }
 
-/* form starting stylings ------------------------------- */
-.group        { 
-  position:relative; 
-  margin-bottom:45px; 
-}
-input         {
-  font-size:18px;
-  padding:10px 10px 10px 5px;
-  display:block;
-  width:300px;
-  border:none;
-  border-bottom:1px solid #757575;
-}
-input:focus     { outline:none; }
 
-/* LABEL ======================================= */
-label          {
-  color:#999; 
-  font-size:18px;
-  font-weight:normal;
-  position:absolute;
-  pointer-events:none;
-  left:5px;
-  top:10px;
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
-  -webkit-transition:0.2s ease all;
-}
-
-/* active state */
-input:focus ~ label, input:valid ~ label    {
-  top:-20px;
-  font-size:14px;
-  color:#5264AE;
-}
-
-/* BOTTOM BARS ================================= */
-.bar  { position:relative; display:block; width:300px; }
-.bar:before, .bar:after   {
-  content:'';
-  height:2px; 
-  width:0;
-  bottom:1px; 
-  position:absolute;
-  background:#5264AE; 
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
-  -webkit-transition:0.2s ease all;
-}
-.bar:before {
-  left:50%;
-}
-.bar:after {
-  right:50%; 
-}
-
-/* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
-  width:50%;
-}
-
-/* HIGHLIGHTER ================================== */
-.highlight {
-  position:absolute;
-  height:60%; 
-  width:100px; 
-  top:25%; 
-  left:0;
-  pointer-events:none;
-  opacity:0.5;
-}
-
-/* active state */
-input:focus ~ .highlight {
-  -webkit-animation:inputHighlighter 0.3s ease;
-  -moz-animation:inputHighlighter 0.3s ease;
-  animation:inputHighlighter 0.3s ease;
-}
-
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {
-  from { background:#5264AE; }
-  to  { width:0; background:transparent; }
-}
-@-moz-keyframes inputHighlighter {
-  from { background:#5264AE; }
-  to  { width:0; background:transparent; }
-}
-@keyframes inputHighlighter {
-  from { background:#5264AE; }
-  to  { width:0; background:transparent; }
-}
 /* -------------------------------- 
 
 Nirvana
@@ -1623,13 +1546,19 @@ Homepage
     text-align: center;
     z-index: 100;
     position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%,-87%);
     font-size: rem(16);
     color: $medium-gray;
     font-weight: 500;
     line-height: rem(30);
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    @include MQ(M) {
+    top: 22%;
+    transform: translate(-50%,-87%);
+    }
+
+
     @include MQ(L) {
       font-size: rem(24);
       line-height: rem(44);
@@ -1647,11 +1576,16 @@ Homepage
 }
 
 #desk-svg, #desk-light-svg {
+  display: none;
+  @include MQ(M) {
+  display: block;
   position: absolute;
   top: 54%;
   left: 53%;
   transform: translate(-50%,-50%);
-  max-height: 95%;
+  max-height: 95%;    
+  }
+
 } 
 
 #intro-text {
