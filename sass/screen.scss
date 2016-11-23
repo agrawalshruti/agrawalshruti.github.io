@@ -1361,33 +1361,155 @@ Contact
 -------------------------------- */
 
 #form-fields {
+  @include leftfloat;
+      padding-left: 30%;
+    padding-right: 30%;
   .required {
     @include leftfloat;
-    border: 1px solid transparent;
+    border: 2.85px solid transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     border-color: $gold !important;
-    border-width: 1px;
-    margin-bottom: 5%;
+    margin-bottom: 3.5%;
     text-align: left;
     width: 100%;
-    padding-top: rem(8);
-    padding-bottom: rem(8);
+    padding-top: rem(12);
+    padding-bottom: rem(12);
     padding-left: rem(8);
+    color: $dark-gray;
+    font-family: 'usual', sans-serif;
+    font-weight: rem(600);
+    font-size: rem(14);
+    letter-spacing: 1px;
   }
-  #first-name, #last-name {
-    width: 47%;
+  #message {
+    border: 2.85px solid;
+    border-color: $gold !important;
+    margin-top: 6%;
+    margin-bottom: 6%;
   }
-  #first-name {
-    margin-right: 6%;
-  }
+  // input, select, textarea {
+  //   color: $dark-gray;
+  // }
+  // textarea:focus, input:focus {
+  //   color: $dark-gray;
+  // }
+
   textarea {
     min-height: rem(160);
   }
+
+  input[type="text"], input[type="email"], textarea, select { 
+    outline: none;
+}
+
   input.button {
     float: right;
     margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-width: 2.85px;
+    border-radius: 0;
+    opacity: 1;
+    font-family: 'usual', sans-serif;
+    font-weight: 600;
+    font-size: rem(16);
   }
 }
 
+/* form starting stylings ------------------------------- */
+.group        { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input         {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+label          {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:300px; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
 /* -------------------------------- 
 
 Nirvana

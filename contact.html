@@ -32,20 +32,33 @@
         </a>
       </div>
       <section class="work-section" id="contact-intro-section">  
-        <div class="work tk-usual">
+        <div class="work">
           <form id='contact_form' action="https://formspree.io/shrutiagrawalny@gmail.com"
       method="POST">
-            <div class="text-part">
+<!--             <div class="text-part">
               <p class="text-part-p" id='thanks' style='display: none;'>
                 Thanks for contacting me, I'll be in touch soon!
               </p>
-            </div>
-            <div class="text-part" id="form-fields">
-              <input class='required' name='first-name' placeholder='First Name' type='text' id="first-name">
-              <input class='required' name='last-name' placeholder='Last Name' type='text' id="last-name">
+            </div> -->
+
+            <div id="form-fields">
+<!--                               <div class="group">      
+      <input type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Name</label>
+    </div>
+      
+    <div class="group">      
+      <input type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Email</label>
+    </div> -->
+              <input class='required' name='name' placeholder='Name' type='text' id="name">
+              <input class='required' name='company' placeholder='Company Name' type='text' id="company">
               <input class='required email'  name="_replyto" placeholder='E-mail' type='email'>
-              <input class='required' name='subject' placeholder='Subject' type='text'>
-              <textarea class='required' name='message' placeholder='Message'></textarea>
+              <textarea class='required' name='message' placeholder='Message' id="message"></textarea>
               <input class='button' type="submit" value="Send">
             </div>
           </form>
