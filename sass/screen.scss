@@ -117,7 +117,6 @@ Work pages
   .text-part-ul span, .text-part-ol span {
     color: $dark-gray;
   }
-
 }  
 
 .gray {
@@ -132,6 +131,102 @@ Work pages
     background-color: $light-gray;
   }
 }
+
+.mobile-no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.mobile-no-top-padding {
+  padding-top: 0 !important;
+}
+
+.mobile-no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
+.mobile-no-top-margin {
+  margin-top: 0 !important;
+}
+
+.mobile-padding-top-2pct {
+  padding-top: 1% !important; 
+}
+
+.mobile-padding-bottom-2pct {
+  padding-bottom: 1% !important; 
+}
+
+.mobile-padding-3pct {
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+}
+
+.mobile-padding-top-3pct {
+  padding-top: 3% !important; 
+}
+
+.mobile-padding-bottom-3pct {
+  padding-bottom: 3% !important; 
+}
+
+.mobile-padding-top-5pct {
+  padding-top: 5.5% !important; 
+}
+
+.mobile-padding-bottom-5pct {
+  padding-bottom: 5.5% !important; 
+}
+
+.mobile-padding-5pct {
+  padding-top: 5.5% !important; 
+  padding-bottom: 5.5% !important;
+}
+
+.mobile-padding-top-8pct {
+  padding-top: 8.4% !important; 
+}
+
+.mobile-padding-9pct {
+  padding-top: 9% !important;
+  padding-bottom: 9% !important;
+}
+
+.mobile-padding-top-9pct {
+  padding-top: 9% !important; 
+}
+
+.mobile-padding-bottom-9pct {
+  padding-bottom: 9% !important; 
+}
+
+.mobile-padding-12pct {
+  padding-bottom: 12% !important; 
+  padding-top: 12% !important;   
+}
+
+.mobile-padding-bottom-12pct {
+  padding-bottom: 12% !important; 
+}
+
+.mobile-padding-top-12pct {
+  padding-top: 12% !important; 
+}
+
+.mobile-padding-15pct {
+  padding-bottom: 15% !important; 
+  padding-top: 15% !important;   
+}
+
+.mobile-padding-18pct {
+  padding-bottom: 18% !important; 
+  padding-top: 18% !important;   
+}
+
+.mobile-padding-top-18pct {
+  padding-top: 18% !important; 
+}
+
+@include MQ(M) {
 .no-bottom-padding {
   padding-bottom: 0 !important;
 }
@@ -211,6 +306,7 @@ Work pages
 .padding-top-12pct {
   padding-top: 12% !important; 
 }
+}
 
 .blue {
   background-color: #182D46;
@@ -229,7 +325,10 @@ Work pages
 }
 
 .phone {
-  width: 43%;
+  width: 60%;
+  @include MQ(M) {
+    width: 43%;
+  }
   display:block;
   margin: 0 auto;
 
@@ -244,11 +343,14 @@ Work pages
 }
 
 .work-title {
-  font-size: rem(48);
+  font-size: rem(38);
   color: #9AA0A3;
   font-weight: 300; 
   text-align: center;
   padding-bottom: 16px;
+  @include MQ(M) {
+    font-size: rem(48);
+  }
   @include MQ(L) {
     font-size: rem(58);
   }
@@ -281,7 +383,10 @@ Work pages
 
 .underline {
   width: 20%;
-  margin-bottom: rem(70);
+  margin-bottom: rem(20); 
+  @include MQ(M) {
+    margin-bottom: rem(70);    
+  }
 }
 
 .underline-big {
@@ -317,7 +422,7 @@ Work pages
 
 .text-part, .img-part {
   @include leftfloat;
-  padding: 0 7%;
+  padding: 0 15%;
   @include MQ(M) {
     padding: 0 27%;
   }
@@ -331,7 +436,7 @@ Work pages
 }
 
 .right-wrapper {
-  padding: 0 7%;
+  padding: 0 9%;
   @include MQ(M) {
     width: 50%;
     padding-right: 12%;
@@ -340,7 +445,7 @@ Work pages
 }
 
 .left-wrapper {
-  padding: 0 7%;
+  padding: 0 9%;
   @include MQ(M) {
     width: 50%;
     padding-right: 5%;
@@ -406,8 +511,11 @@ Work pages
 .text-part-title {
   text-transform: uppercase;
   margin: 10px auto 20px auto;
-  font-size: rem(14);
   font-weight: 600;
+  font-size: rem(12);
+  @include MQ(M) {
+    font-size: rem(14);
+  }
   @include MQ(L) {
     font-size: rem(16);
     margin-bottom: 28px;
@@ -443,15 +551,20 @@ Work pages
 }
 
 .text-part-p {
-  line-height: 2;
+  line-height: 1.6;
   font-weight: 300;
   margin-bottom: 20px;
   font-size: rem(18);
-  &.question{
-    margin-bottom: 0;
+
+  @include MQ(M) {
+    line-height: 2;
   }
   @include MQ(L) {
     font-size: rem(22);
+  }
+
+  &.question{
+    margin-bottom: 0;
   }
   &.moodboard-text {
     font-size: rem(16);
@@ -621,8 +734,10 @@ AMMA
 }
 
 .amma-personas {
-  margin-left: 23%;
-  margin-right: 23%;
+  @include MQ(M) {
+    margin-left: 23%;
+    margin-right: 23%;
+  }
 }
 
 .persona {
@@ -641,14 +756,18 @@ AMMA
 
 .amma-graph-left-wrapper {
   @extend .left-wrapper;
-  padding-left: 17%;
-  padding-right: 0%;
+  @include MQ(M) {
+    padding-left: 17%;
+    padding-right: 0%;
+  }
 }
 
 .amma-graph-right-wrapper {
   @extend .right-wrapper;
-  padding-left: 0;
-  padding-right: 17%;
+  @include MQ(M) {
+    padding-left: 0%;
+    padding-right: 17%;
+  }
 }
 
 .amma-graph-title {
@@ -678,9 +797,11 @@ AMMA
   margin-top: -20px;
 }
 #amma-app-map-title {
-  // margin-left: -11.7%;
+  margin-top: -40px;
   margin-bottom: -5px;
+  @include MQ(M) {
   margin-top: -70px;
+  }
 }
 #amma-app-map {
   @include MQ(M) {
@@ -709,7 +830,10 @@ AMMA
 }
 
 #amma-sketch1-title {
-  padding-top: 30px;
+  @include MQ(M) {
+padding-top: 30px;  
+}  
+  
 }
 
 #amma-sketch1 {
@@ -764,7 +888,10 @@ AMMA
 }
 #amma-ui-title {
   margin-top: -44px;
-  margin-bottom: rem(110);
+  margin-bottom: rem(30);
+  @include MQ(M) {
+margin-bottom: rem(110);
+  }
 }
 
 .moodboard-left {
@@ -889,12 +1016,18 @@ Dignity Meals
 -------------------------------- */
 
 #dm-phone {
-  width: 18%;
-  margin-top: 4.6%;
+  @include MQ(M) {
+    width: 18%;
+    margin-top: 4.6%;
+  }
+
 }
 .persona-tile {
   img {
-    max-width: 95% !important;
+    @include MQ(M) {
+      max-width: 95% !important;
+    }
+    
   }
 }
 
@@ -911,10 +1044,12 @@ Dignity Meals
 }
 
 #dm-userflow {
-  margin-top: rem(110);
-  margin-bottom: rem(85);
+    margin-top: rem(40);
+    margin-bottom: rem(30);
   @include MQ(M) {
     max-width: 80%;
+    margin-top: rem(110);
+    margin-bottom: rem(85);
   }
 }
 
@@ -955,8 +1090,10 @@ Dignity Meals
 }
 
 #dm-lowfi-wireframes {
-  margin-left: 15%;
-  margin-right: 15%;
+  @include MQ(M) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 img.dm-lowfi-wireframe {
@@ -969,9 +1106,11 @@ img.dm-lowfi-wireframe {
   text-transform: uppercase;
   font-weight: 600;
   text-align: left;
-  margin-left: -56%;
   font-size: rem(11);
   margin-bottom: rem(12);
+  @include MQ(M) {
+    margin-left: -56%;
+  }
 }
 
 #dm-lowfi-wf1 {
@@ -1247,8 +1386,10 @@ Prahs
 
 .text-part-prahs-mb {
   @extend .text-part;
-  padding-left: 0;
+  @include MQ(M) {
+    padding-left: 0;
   padding-right: 0;
+  }
   min-height: 15%;
 }
 .prahs-moodboard {
@@ -1526,7 +1667,7 @@ Homepage
 -------------------------------- */
 
 .cd-section {
-  min-height: 100%;
+  // min-height: 100%;
   position: relative;
   padding: 2em 0;
   width: 90%;
@@ -1544,9 +1685,11 @@ Homepage
 
 }
 #section1 {
-  min-height: 100%;
+  min-height: 50%;
   margin-bottom: 4%;
-
+  @include MQ(M) {
+    min-height: 100%;
+  }
   #intro-text {
     text-align: center;
     z-index: 100;
@@ -1651,10 +1794,9 @@ Homepage
   color: $dark-gray;
   font-family: 'Halant', serif;
   margin-bottom: 20%;
-
+  margin-top: 6%;
   @include MQ(M) {
     width: 50%;
-    margin-top: 6%;
     padding-right: 3.5%;
     padding-left: 12%;
     margin-bottom: 0;
@@ -1670,8 +1812,12 @@ Homepage
     color: $medium-gray;
 
     &.brand-title {
-      padding-bottom: 40px; 
-      margin-top: -20px;
+      margin-bottom: -25px;
+      @include MQ(M) {
+        padding-bottom: 40px;
+        margin-top: -20px; 
+      }
+      
     }
     @include MQ(L) {
       line-height: 2;
@@ -1746,7 +1892,10 @@ Homepage
   width: 90%;
   top: 0;
   z-index: 100;
-  margin-left: 16.9%;
+  margin-left: 7%;
+  @include MQ(M) {
+    margin-left: 16.9%;
+  }
   img {
     width: 50px;
   }
@@ -1850,13 +1999,13 @@ Homepage
   height: 44px;
   width: 44px;
   @include border-radius;
-  background: rgba($silver, .9);
+  background: rgba($light-gray, .9);
 
   span {
     position: absolute;
     height: 4px;
     width: 4px;
-    background-color: $color-1;
+    background-color: $dark-gray;
     border-radius: 50%;
     @include center;
 
@@ -1895,19 +2044,19 @@ Homepage
   @include transition-property(transform);
   @include transition-duration(.2s);
   @include border-radius;
-  background-color: rgba($silver, .9);
+  background-color: rgba($light-gray, .9);
 
   a {
     display: block;
     padding: 1em;
-    border-bottom: 1px solid rgba($color-1, .1);
-
+    border-bottom: 1px solid rgba($light-gray, .1);
+    color: $dark-gray;
     span:first-child {
       display: none;
     }
 
     &.is-selected span:last-child {
-      color: $dark-pink;
+      color: $gold;
     }
   }
   
@@ -1919,11 +2068,11 @@ Homepage
     background-color: transparent;
     
     span {
-      background-color: rgba($color-1, 0);  
+      background-color: rgba($light-gray, 0);  
     }
 
     span::before, span::after {
-      background-color: rgba($color-1, 1);
+      background-color: rgba($light-gray, 1);
       height: 3px;
       width: 20px;
       border-radius: 0;
@@ -1999,9 +2148,9 @@ Homepage
 }
 
 #section7 {
-  min-height: 80%;
   @include MQ(M) {
     margin-top: -100px;
+    min-height: 80%;
   }
 }
 

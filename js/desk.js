@@ -1,5 +1,16 @@
 jQuery(document).ready(function($){
 
+  if (window.matchMedia("(max-width: 768px)").matches) {
+      $('.img-wrapper:parent').each(function () {
+    $(this).insertBefore($(this).prev('.text-wrapper'));
+    // $('.cd-section').on('click', 'button', function () {
+    //   var linkName = $(this).attr('id').slice(2);
+    //   console.log(linkName);
+    //   // window.location.href = "/work/" + linkName + ".html";
+    // });
+});
+}
+
   function desklight (name, onswitch, offswitch) {
     var desksections = [['desk-amma', 'section3', 400], ['desk-is1','section5', 500], ['desk-is2', 'section5', 500], ['desk-prahs', 'section4', 600], ['desk-dm', 'section2', 200], ['desk-brand', 'section7', 800], ['desk-about', 'url=/about.html']];
     var desksvg;
