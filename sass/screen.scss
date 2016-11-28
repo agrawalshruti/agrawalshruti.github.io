@@ -217,6 +217,14 @@ Work pages
   padding-top: 15% !important;   
 }
 
+.mobile-padding-top-15pct {
+  padding-top: 15% !important; 
+}
+
+.mobile-padding-bottom-15pct {
+  padding-bottom: 15% !important; 
+}
+
 .mobile-padding-18pct {
   padding-bottom: 18% !important; 
   padding-top: 18% !important;   
@@ -226,86 +234,98 @@ Work pages
   padding-top: 18% !important; 
 }
 
+.no-bottom-margin {
+    margin-bottom: 0 !important;
+  }
 @include MQ(M) {
-.no-bottom-padding {
-  padding-bottom: 0 !important;
-}
+  .no-bottom-padding {
+    padding-bottom: 0 !important;
+  }
 
-.no-top-padding {
-  padding-top: 0 !important;
-}
+  .no-top-padding {
+    padding-top: 0 !important;
+  }
 
 .no-bottom-margin {
-  margin-bottom: 0 !important;
-}
+    margin-bottom: 0 !important;
+  }
 
-.no-top-margin {
-  margin-top: 0 !important;
-}
+  .no-top-margin {
+    margin-top: 0 !important;
+  }
 
-.padding-top-2pct {
-  padding-top: 1% !important; 
-}
+  .padding-top-2pct {
+    padding-top: 1% !important; 
+  }
 
-.padding-bottom-2pct {
-  padding-bottom: 1% !important; 
-}
+  .padding-bottom-2pct {
+    padding-bottom: 1% !important; 
+  }
 
-.padding-3pct {
-  padding-top: 3% !important;
-  padding-bottom: 3% !important;
-}
+  .padding-3pct {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+  }
 
-.padding-top-3pct {
-  padding-top: 3% !important; 
-}
+  .padding-top-3pct {
+    padding-top: 3% !important; 
+  }
 
-.padding-bottom-3pct {
-  padding-bottom: 3% !important; 
-}
+  .padding-bottom-3pct {
+    padding-bottom: 3% !important; 
+  }
 
-.padding-top-5pct {
-  padding-top: 5.5% !important; 
-}
+  .padding-top-5pct {
+    padding-top: 5.5% !important; 
+  }
 
-.padding-bottom-5pct {
-  padding-bottom: 5.5% !important; 
-}
+  .padding-bottom-5pct {
+    padding-bottom: 5.5% !important; 
+  }
 
-.padding-5pct {
-  padding-top: 5.5% !important; 
-  padding-bottom: 5.5% !important;
-}
+  .padding-5pct {
+    padding-top: 5.5% !important; 
+    padding-bottom: 5.5% !important;
+  }
 
-.padding-top-8pct {
-  padding-top: 8.4% !important; 
-}
+  .padding-bottom-standard {
+    padding-bottom: 7% !important;
+  }
 
-.padding-9pct {
-  padding-top: 9% !important;
-  padding-bottom: 9% !important;
-}
+  .padding-standard {
+    padding-top: 7% !important; 
+    padding-bottom: 7% !important;
+  }
 
-.padding-top-9pct {
-  padding-top: 9% !important; 
-}
+  .padding-top-8pct {
+    padding-top: 8.4% !important; 
+  }
 
-.padding-bottom-9pct {
-  padding-bottom: 9% !important; 
-}
+  .padding-9pct {
+    padding-top: 9% !important;
+    padding-bottom: 9% !important;
+  }
 
-.padding-12pct {
-  padding-bottom: 12% !important; 
-  padding-top: 12% !important;   
-}
+  .padding-top-9pct {
+    padding-top: 9% !important; 
+  }
 
-.padding-bottom-12pct {
-  padding-bottom: 12% !important; 
-}
+  .padding-bottom-9pct {
+    padding-bottom: 9% !important; 
+  }
 
-.padding-top-12pct {
-  padding-top: 12% !important; 
-}
+  .padding-12pct {
+    padding-bottom: 12% !important; 
+    padding-top: 12% !important;   
+  }
+
+  .padding-bottom-12pct {
+    padding-bottom: 12% !important; 
+  }
+
+  .padding-top-12pct {
+    padding-top: 12% !important; 
+  }
 }
 
 .blue {
@@ -375,7 +395,10 @@ Work pages
   text-transform: uppercase;
   text-decoration: underline;
   margin-top: -16px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+  @include MQ(M) {
+    margin-bottom: 80px;
+  }
   @include MQ(L) {
     font-size: 16px;
   }
@@ -391,7 +414,11 @@ Work pages
 
 .underline-big {
   width: 20%;
-  margin-bottom: rem(90);
+  margin-bottom: rem(20); 
+  @include MQ(M) {
+    margin-bottom: rem(90);    
+  }
+  
 }
 
 .pink {color: $pink;}
@@ -451,8 +478,12 @@ Work pages
     padding-right: 5%;
     padding-left: 12%;
     iframe {
-      vertical-align: top;
-      margin-top: -21%;
+      display: none;
+      @include MQ(M) {
+        display: inline;
+        vertical-align: top;
+        margin-top: -21%;
+      }
       @include MQ(L) {
         margin-left: 25%;
         margin-top: 0;
@@ -463,11 +494,22 @@ Work pages
 }
 
 .proto-wrapper {
+  display: none;
+  @include MQ(M) {
+    display: flex;
+  }
   margin-bottom: 0 !important;
   transform: scale(0.7);
   -webkit-transform: scale(0.7);
   vertical-align: top;
   margin-top: -5%;
+}
+
+#iframe-wrapper {
+  display: none;
+  @include MQ(M) {
+    display: block;
+  }
 }
 .bold {
   font-weight: 600 !important;
@@ -583,7 +625,13 @@ Work pages
 }
 
 .footer-title {
-  margin-left: 9%;
+  padding-bottom: 5%;
+  text-align: center;
+  @include MQ(M) {
+    padding-bottom: 0;
+    margin-left: 9%;
+    text-align: left;
+  }
   text-transform: uppercase;
   font-size: rem(12);
   font-weight: 500;
@@ -598,6 +646,10 @@ Work pages
   font-size: rem(12);
   color: $dark-gold;
   font-weight: 500;
+  padding-top: 5%;
+  @include MQ(M) {
+    padding-top: 0;
+  }
   a {
     color: $dark-gold;
     text-decoration: underline;
@@ -606,9 +658,12 @@ Work pages
 
 .footer {
   @include leftfloat;
-  width: 16%;
-  padding: 2%;
-  margin: 0 auto;
+  padding: 5% 30%;
+  @include MQ(M) {
+    width: 16%;
+    padding: 2%;
+    margin: 0 auto;
+  }
   background-color: #f7f7f7;
   img {
     opacity: 1;
@@ -622,7 +677,10 @@ Work pages
 }
 
 .footer-left {
-  margin-left: 18% !important;
+  @include MQ(M) {
+   margin-left: 18% !important;   
+ }
+
 }
 
 .button,
@@ -700,18 +758,26 @@ AMMA
 -------------------------------- */
 
 .intro-title {
-  font-size: rem(50);
+  font-size: rem(38);
   font-weight: 300; 
+  @include MQ(M) {
+    font-size: rem(50);
+  }    
   @include MQ(L) {
     font-size: 60px;
   }
 }
 
 .intro-subtitle {
+  max-width: 80%;
+  line-height: 1.2;
   padding-bottom: rem(40);
   font-family: 'Vollkorn', serif;
   font-style: italic;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  @include MQ(M) {
+    font-size: 1.6rem;
+  }  
   @include MQ(L) {
     font-size: 30px;
   }
@@ -720,10 +786,14 @@ AMMA
 }
 
 .intro-p {
-  padding-bottom: rem(5);
-  font-size: rem(14);
+  font-size: rem(11);
+  padding: 0 11% rem(5) 11%;
+  @include MQ(M) {
+    font-size: rem(14);
+  }
   @include MQ(L) {
     font-size: rem(18);
+    padding: 0;
     padding-bottom: rem(7);
   }
   text-transform: uppercase;
@@ -733,6 +803,13 @@ AMMA
   letter-spacing: rem(0.4);
 }
 
+#amma-phone {
+  margin-top: 5%;
+  @include MQ(M) {
+    padding-left: 11.2%;
+    padding-right: 11.2%;
+  }
+}
 .amma-personas {
   @include MQ(M) {
     margin-left: 23%;
@@ -790,7 +867,9 @@ AMMA
   }
 }
 #amma-results-title {
-  margin-bottom: 40px;
+  @include MQ(M) {
+    margin-bottom: 40px;
+  }
 }
 
 #amma-stage2 {
@@ -800,7 +879,7 @@ AMMA
   margin-top: -40px;
   margin-bottom: -5px;
   @include MQ(M) {
-  margin-top: -70px;
+    margin-top: -70px;
   }
 }
 #amma-app-map {
@@ -814,15 +893,22 @@ AMMA
 }
 
 #amma-comp-analysis {
-  margin-bottom: rem(70);
+  padding: 0 11%;
+  margin-bottom: rem(30);
+  @include MQ(M) {
+    margin-bottom: rem(70);
+    padding: 0;
+  }
 }
 #amma-feature-matrix-title {
   margin-top: 10px;
   background: none;
 }
 #amma-feature-matrix {
+  margin-bottom: 7%;
   @include MQ(M) {
     max-width: 57.5%;
+    margin-bottom: 0;
   }
   @include MQ(L) {
     max-width: 50%;
@@ -830,16 +916,19 @@ AMMA
 }
 
 #amma-sketch1-title {
+  margin-top: -11px;
   @include MQ(M) {
-padding-top: 30px;  
-}  
+    padding-top: 30px;  
+    margin-top: 10px;
+  }  
   
 }
 
 #amma-sketch1 {
-  margin-bottom: rem(50);
+  margin-bottom: rem(30);
   @include MQ(M) {
     max-width: 50%;
+    margin-bottom: rem(50);
   }
   @include MQ(L) {
     max-width: 30%;
@@ -886,11 +975,12 @@ padding-top: 30px;
 #amma-prio {
   margin-top: 5%;
 }
-#amma-ui-title {
-  margin-top: -44px;
+#amma-ui-title, #prahs-ui-title {
+  margin-top: -30px;
   margin-bottom: rem(30);
   @include MQ(M) {
-margin-bottom: rem(110);
+    margin-bottom: rem(110);
+    margin-top: -44px;
   }
 }
 
@@ -919,8 +1009,9 @@ margin-bottom: rem(110);
 
 #amma-moodboard1, #amma-moodboard2 {
   @include MQ(M) {
+    margin-left: -1%;
   }
-  margin-left: -1%;
+  
 }
 
 #amma-moodboard1 {
@@ -929,7 +1020,9 @@ margin-bottom: rem(110);
 
 #amma-moodboard2 {
   margin-top: 8%;
-  padding-right: 5.6%;
+  @include MQ(M) {
+    padding-right: 5.6%;
+  }
 }
 
 #amma-styletiles {
@@ -1044,8 +1137,8 @@ Dignity Meals
 }
 
 #dm-userflow {
-    margin-top: rem(40);
-    margin-bottom: rem(30);
+  margin-top: rem(40);
+  margin-bottom: rem(30);
   @include MQ(M) {
     max-width: 80%;
     margin-top: rem(110);
@@ -1054,9 +1147,12 @@ Dignity Meals
 }
 
 #dm-app-map {
-  padding-left: 26.2%;
-  padding-right: 26.2%;
-  margin-top: 1%;
+  @include MQ(M) {
+    padding-left: 26.2%;
+    padding-right: 26.2%;
+    margin-top: 1%;
+  }
+
 }
 
 #dm-ux-strat-title {
@@ -1100,16 +1196,20 @@ img.dm-lowfi-wireframe {
   margin: 0 auto;
 }
 #dm-lowfi-wf-title {
+    @include MQ(M) {
   padding-bottom: rem(70);
+  }
+
 }
 .dm-wf-title {
+  text-align: center;
   text-transform: uppercase;
   font-weight: 600;
-  text-align: left;
   font-size: rem(11);
   margin-bottom: rem(12);
   @include MQ(M) {
     margin-left: -56%;
+    text-align: left;
   }
 }
 
@@ -1129,17 +1229,27 @@ img.dm-lowfi-wireframe {
 
 #dm-ui-title {
   margin-top: -44px;
+  margin-bottom: rem(20);
+    @include MQ(M) {
   margin-bottom: rem(60);
+  }
 }
 
 #dm-final-iterations {
   max-width: 80%;
   margin: auto;
 }
+
+#dm-fi-title {
+  @include MQ(M) {
+    margin-bottom: rem(30);
+  }
+}
 #dm-reiteration {
-  margin-bottom: rem(60);
+  max-width: 80%;
   @include MQ(M) {
     max-width: 40%;
+    margin-bottom: rem(60);
   }
 }
 
@@ -1150,9 +1260,12 @@ Instashop
 -------------------------------- */
 
 #is-phone {
-  padding-left: 11.8%;
-  padding-right: 11.8%;
-  margin-top: rem(60);
+  margin-top: rem(25);
+  @include MQ(M) {
+    padding-left: 11.8%;
+    padding-right: 11.8%;
+    margin-top: rem(60);
+  }  
   @include MQ(L) {
     padding-left: 10%;
     padding-right: 10%;
@@ -1175,22 +1288,30 @@ Instashop
 
 .text-2-column {
   @include leftfloat;
-  padding-left: 27%;
-  padding-right: 5%;
-  .left-wrapper {
-    padding: 0;
+  padding: 0 7.5%;
+  @include MQ(M) {
+    padding-left: 27%;
+    padding-right: 5%;
+    .left-wrapper {
+      padding: 0;
+    }
+    .right-wrapper {
+      padding: 0;
+    }
   }
-  .right-wrapper {
-    padding: 0;
-  }
+
 }
 
 .is-goals {
-  margin-left: -2em !important;
+  @include MQ(M) {
+    margin-left: -2em !important;
+  }
 }
 
 #is-business-goals {
-  padding-right: 2em !important;
+  @include MQ(M) {
+    padding-right: 2em !important;
+  }
 }
 
 #is-business-goals, #is-user-goals {
@@ -1210,7 +1331,7 @@ Instashop
 }
 
 #is-wf-wrapper {
-    .unslider-nav ol li {
+  .unslider-nav ol li {
     border-color: $green;
     &.unslider-active {
       background-color: $green;
@@ -1238,7 +1359,9 @@ Instashop
   // margin-top: rem(50);
 }
 #is-mobile-wf {
-  max-width: 47%;
+  @include MQ(M) {
+    max-width: 47%;
+  }
   margin: 0 auto;
   li img {
     @include leftfloat;
@@ -1252,7 +1375,9 @@ Instashop
 }
 
 #is-desktop-wf {
-  max-width: 47%;
+  @include MQ(M) {
+    max-width: 47%;
+  }
   margin: 0 auto;
   li img {
     @include leftfloat
@@ -1276,7 +1401,11 @@ Instashop
 }
 
 #is-final-mobile-title {
-  margin-left: -31.5%;
+  text-align: center;
+  @include MQ(M) {
+    margin-left: -31.5%;
+    text-align: left;
+  } 
 }
 
 #is-final-mobile-wrapper {
@@ -1293,12 +1422,35 @@ Instashop
   }
 }
 
+#is-video-wrapper {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  @include MQ(M) {
+    width: 16%;
+    margin: 0 2%;
+    margin-bottom: 4%;    
+    clear: none;
+  }
+}
+
+#is-video-title {
+  text-align: center;
+  margin-top: rem(40);
+  @include MQ(M) {
+    display: none;
+  }
+}
 #vid {
   margin-bottom: -4.6%
 }
 
 #is-final-desktop-title {
-  margin-left: -24%;
+  text-align: center;
+  @include MQ(M) {
+    margin-left: -24%;
+    text-align: left;
+  } 
 }
 
 #is-final-web-wrapper {
@@ -1306,17 +1458,22 @@ Instashop
 }
 
 .is-final-web-left {
- padding-top: 1%;
- padding-bottom: 1%;
- padding-left: 16%;
- padding-right: 3%;
+  @include MQ(M) {
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 16%;
+   padding-right: 3%;
+ }
 }
 
 .is-final-web-right {
- padding-top: 1%;
- padding-bottom: 1%;
- padding-right: 16%;
- padding-left: 3%;
+  @include MQ(M) {
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-right: 16%;
+   padding-left: 3%;
+ }
+
 }
 
 .is-final-web-img {
@@ -1378,6 +1535,12 @@ Prahs
   }
 }
 
+#prahs-final-refl {
+  margin-top: 0;
+  @include MQ(M) {
+    margin-top: 10px;
+  }
+}
 #prahs-moodboards {
   @include MQ(M) {
     margin: 0 27.5%;
@@ -1388,7 +1551,7 @@ Prahs
   @extend .text-part;
   @include MQ(M) {
     padding-left: 0;
-  padding-right: 0;
+    padding-right: 0;
   }
   min-height: 15%;
 }
@@ -1402,13 +1565,19 @@ Prahs
 }
 
 #prahs-wf-right-wrapper {
-  padding-left: 8%;
-  padding-right: 23%;
+  padding: 0 15.5%;
+  @include MQ(M) {
+    padding-left: 8%;
+    padding-right: 23%;
+  }
 }
 
 #prahs-mobile-wf-title {
   margin-left: -8%;
-  margin-top: rem(60);
+  @include MQ(M) {
+    margin-top: rem(60);
+  }
+  
 }
 #prahs-desktop-wf-title {
   margin-left: 15%;
@@ -1513,12 +1682,12 @@ Contact
 
 #form-fields {
   @include leftfloat;
-      padding-left: 30%;
-    padding-right: 30%;
-    @include MQ(L) {
-      padding-left: 35%;
-      padding-right: 35%;      
-    }
+  padding-left: 30%;
+  padding-right: 30%;
+  @include MQ(L) {
+    padding-left: 35%;
+    padding-right: 35%;      
+  }
   .required {
     @include leftfloat;
     border: 2.85px solid transparent;
@@ -1557,7 +1726,7 @@ Contact
 
   input[type="text"], input[type="email"], textarea, select { 
     outline: none;
-}
+  }
 
   input.button {
     float: right;
@@ -1600,19 +1769,33 @@ Cowboy's garden
 -------------------------------- */
 
 #cg-logo {
-  margin-bottom: rem(52);
+  padding: 0 20%;
+  margin-top: 10%;
+  @include MQ(M) {
+    margin-bottom: rem(52);
+    margin-top: 0;
+    padding: 0 27%;
+  }
   img {
-    max-width: 50%;
+    @include MQ(M) {
+      max-width: 50%;
+    }
   }
 }
 
 #cg-logo-text {
   line-height: 1.85;
-  margin-bottom: rem(40);
+  @include MQ(M) {
+    margin-bottom: rem(40);
+  }
+  
 }
 
 #cg-wrapper {
-  padding: 0 27%;
+  padding: 0 11%;
+  @include MQ(M) {
+    padding: 0 27%;
+  }
 }
 
 #cg-menu, #cg-jar {
@@ -1620,14 +1803,28 @@ Cowboy's garden
 }
 
 #cg-menu {
-  padding-right: 8%;
+  display: none;
+  @include MQ(M) {
+    padding-right: 8%;
+    display: block;
+  }
 }
 
 #cg-jar {
-  padding-left: 12%;
-  padding-right: 8%;
+  padding: 0 20%;
+  @include MQ(M) {
+    padding-left: 12%;
+    padding-right: 8%;
+  }
+
 }
 
+#cg-prev-title, #cg-prev1, #cg-prev2, #cg-prev3, #cg-prev4 {
+  display: none;
+  @include MQ(M) {
+    display: block;
+  }
+}
 #cg-prev-title {
   font-size: rem(12);
 }
@@ -1656,8 +1853,14 @@ Mootown
 -------------------------------- */
 
 #mootown-logo {
+  margin-bottom: 0;
+  padding: 0 10%;
   img {
-    max-width: 60%;
+    @include MQ(M) {
+      max-width: 60%;
+      margin-bottom: 10px;
+      padding: 0 15%;
+    }
   }  
 }
 /* -------------------------------- 
@@ -1667,7 +1870,8 @@ Homepage
 -------------------------------- */
 
 .cd-section {
-  // min-height: 100%;
+  min-height: 50%;
+  height: auto;
   position: relative;
   padding: 2em 0;
   width: 90%;
@@ -1702,8 +1906,8 @@ Homepage
     left: 50%; 
     transform: translate(-50%, -50%);  
     @include MQ(M) {
-    top: 22%;
-    transform: translate(-50%,-87%);
+      top: 22%;
+      transform: translate(-50%,-87%);
     }
 
 
@@ -1726,12 +1930,12 @@ Homepage
 #desk-svg, #desk-light-svg {
   display: none;
   @include MQ(M) {
-  display: block;
-  position: absolute;
-  top: 54%;
-  left: 53%;
-  transform: translate(-50%,-50%);
-  max-height: 95%;    
+    display: block;
+    position: absolute;
+    top: 54%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    max-height: 95%;    
   }
 
 } 
@@ -2147,6 +2351,7 @@ Homepage
   max-width: 75%;
 }
 
+
 #section7 {
   @include MQ(M) {
     margin-top: -100px;
@@ -2154,7 +2359,7 @@ Homepage
   }
 }
 
-.selected{
+.selected {
   opacity:0.5;
   fill: #000;
 }
