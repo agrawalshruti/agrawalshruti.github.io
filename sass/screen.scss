@@ -423,6 +423,7 @@ Work pages
 
 .pink {color: $pink;}
 .text-gray {color: $dark-gray;}
+.text-medium-gray {color: $medium-gray;}
 .text-blue {color: $blue;}
 .dark-blue {color: $dark-blue;}
 .red {color: $red;}
@@ -1086,6 +1087,26 @@ AMMA
   text-decoration: underline;
 }
 
+#am-fi-title {
+  @include MQ(M) {
+    margin-bottom: rem(30);
+  }
+}
+
+#amma-fi-subtitle {
+  margin-bottom: rem(30);
+  @include MQ(M) {
+    margin-bottom: rem(60);
+  }
+}
+
+#am-reiteration {
+  max-width: 70%;
+  @include MQ(M) {
+    margin-bottom: rem(60);
+  }
+}
+
 /* -------------------------------- 
 
 AMMA Detailed Results
@@ -1245,6 +1266,7 @@ img.dm-lowfi-wireframe {
     margin-bottom: rem(30);
   }
 }
+
 #dm-reiteration {
   max-width: 80%;
   @include MQ(M) {
@@ -1516,14 +1538,20 @@ Prahs
 }
 
 #prahs-desktop-img {
+  margin-top: 8%;
   @include MQ(M) {
     max-width: 56%;
+    margin-top: 4%;
   }  
-  margin-top: 4%;
 }
-#prahs-mobile-img {
+#prahs-mobile-iframe {
   transform: scale(0.7); 
   margin-top: -8%;
+}
+
+#prahs-mobile-img {
+  max-width: 78%;
+  margin-top: 8%;
 }
 
 #prahs-stage2 {
@@ -1690,7 +1718,7 @@ Contact
   }
   .required {
     @include leftfloat;
-    border: 2.85px solid transparent;
+    border: 2px solid transparent;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -1708,7 +1736,7 @@ Contact
     letter-spacing: 1px;
   }
   #message {
-    border: 2.85px solid;
+    border: 2px solid;
     border-color: $gold !important;
     margin-top: 6%;
     margin-bottom: 6%;
