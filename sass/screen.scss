@@ -553,11 +553,12 @@ Work pages
 
 .text-part-title {
   text-transform: uppercase;
-  margin: 10px auto 20px auto;
+  margin: 0 auto 14px auto;
   font-weight: 600;
   font-size: rem(12);
   @include MQ(M) {
     font-size: rem(14);
+    margin: 10px auto 20px auto;
   }
   @include MQ(L) {
     font-size: rem(16);
@@ -596,11 +597,12 @@ Work pages
 .text-part-p {
   line-height: 1.6;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: rem(14);
   font-size: rem(18);
 
   @include MQ(M) {
     line-height: 2;
+    margin-bottom: rem(20);
   }
   @include MQ(L) {
     font-size: rem(22);
@@ -771,13 +773,14 @@ AMMA
 
 .intro-subtitle {
   max-width: 80%;
-  line-height: 1.2;
-  padding-bottom: rem(40);
+  line-height: 1.5;
+  padding-bottom: rem(20);
   font-family: 'Vollkorn', serif;
   font-style: italic;
   font-size: 1.2rem;
   @include MQ(M) {
     font-size: 1.6rem;
+    padding-bottom: rem(40);
   }  
   @include MQ(L) {
     font-size: 30px;
@@ -1602,12 +1605,14 @@ Prahs
 
 #prahs-mobile-wf-title {
   margin-left: -8%;
+  margin-bottom: 0;
   @include MQ(M) {
     margin-top: rem(60);
-  }
-  
+  }  
 }
+
 #prahs-desktop-wf-title {
+  margin-bottom: 0;
   margin-left: 15%;
   margin-top: rem(60);
 }
@@ -1710,15 +1715,20 @@ Contact
 
 #form-fields {
   @include leftfloat;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 12%;
+  padding-right: 12%;
+  @include MQ(M) {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
   @include MQ(L) {
     padding-left: 35%;
     padding-right: 35%;      
   }
+
   .required {
     @include leftfloat;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -1731,12 +1741,12 @@ Contact
     padding-left: rem(8);
     color: $dark-gray;
     font-family: 'usual', sans-serif;
-    font-weight: rem(600);
+    font-weight: 600;
     font-size: rem(14);
     letter-spacing: 1px;
   }
   #message {
-    border: 2px solid;
+    border: 1px solid;
     border-color: $gold !important;
     margin-top: 6%;
     margin-bottom: 6%;
@@ -1761,7 +1771,7 @@ Contact
     margin: 0;
     padding-left: 20%;
     padding-right: 20%;
-    border-width: 2.85px;
+    border-width: 1px;
     border-radius: 0;
     opacity: 1;
     font-family: 'usual', sans-serif;
