@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -2377,8 +2377,8 @@ Contact
 @media only screen and (min-width: 1824px) {
   /* line 1716, ../sass/screen.scss */
   #form-fields {
-    padding-left: 35%;
-    padding-right: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 /* line 1729, ../sass/screen.scss */
@@ -2405,22 +2405,38 @@ Contact
   font-size: 0.875rem;
   letter-spacing: 1px;
 }
-/* line 1748, ../sass/screen.scss */
+@media only screen and (min-width: 1824px) {
+  /* line 1729, ../sass/screen.scss */
+  #form-fields .required {
+    border: 2px solid transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #c1ad73 !important;
+  }
+}
+/* line 1755, ../sass/screen.scss */
 #form-fields #message {
   border: 1px solid;
   border-color: #c1ad73 !important;
   margin-top: 6%;
   margin-bottom: 6%;
 }
-/* line 1761, ../sass/screen.scss */
+@media only screen and (min-width: 1824px) {
+  /* line 1755, ../sass/screen.scss */
+  #form-fields #message {
+    border: 2px solid;
+  }
+}
+/* line 1771, ../sass/screen.scss */
 #form-fields textarea {
   min-height: 10rem;
 }
-/* line 1765, ../sass/screen.scss */
+/* line 1775, ../sass/screen.scss */
 #form-fields input[type="text"], #form-fields input[type="email"], #form-fields textarea, #form-fields select {
   outline: none;
 }
-/* line 1769, ../sass/screen.scss */
+/* line 1779, ../sass/screen.scss */
 #form-fields input.button {
   float: right;
   margin: 0;
@@ -2433,13 +2449,19 @@ Contact
   font-weight: 600;
   font-size: 1rem;
 }
+@media only screen and (min-width: 1824px) {
+  /* line 1779, ../sass/screen.scss */
+  #form-fields input.button {
+    border-width: 2px;
+  }
+}
 
 /* -------------------------------- 
 
 Nirvana
 
 -------------------------------- */
-/* line 1790, ../sass/screen.scss */
+/* line 1803, ../sass/screen.scss */
 #white-stripe {
   width: 100%;
   background-color: white;
@@ -2447,7 +2469,7 @@ Nirvana
   position: absolute;
 }
 
-/* line 1798, ../sass/screen.scss */
+/* line 1811, ../sass/screen.scss */
 .full-bleed {
   margin: 2% 8%;
   max-height: 100%;
@@ -2458,13 +2480,13 @@ Nirvana
 Cowboy's garden
 
 -------------------------------- */
-/* line 1809, ../sass/screen.scss */
+/* line 1822, ../sass/screen.scss */
 #cg-logo {
   padding: 0 20%;
   margin-top: 10%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1809, ../sass/screen.scss */
+  /* line 1822, ../sass/screen.scss */
   #cg-logo {
     margin-bottom: 3.25rem;
     margin-top: 0;
@@ -2472,98 +2494,98 @@ Cowboy's garden
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 1817, ../sass/screen.scss */
+  /* line 1830, ../sass/screen.scss */
   #cg-logo img {
     max-width: 50%;
   }
 }
 
-/* line 1824, ../sass/screen.scss */
+/* line 1837, ../sass/screen.scss */
 #cg-logo-text {
   line-height: 1.85;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1824, ../sass/screen.scss */
+  /* line 1837, ../sass/screen.scss */
   #cg-logo-text {
     margin-bottom: 2.5rem;
   }
 }
 
-/* line 1832, ../sass/screen.scss */
+/* line 1845, ../sass/screen.scss */
 #cg-wrapper {
   padding: 0 11%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1832, ../sass/screen.scss */
+  /* line 1845, ../sass/screen.scss */
   #cg-wrapper {
     padding: 0 27%;
   }
 }
 
-/* line 1839, ../sass/screen.scss */
+/* line 1852, ../sass/screen.scss */
 #cg-menu, #cg-jar {
   padding: 0;
 }
 
-/* line 1843, ../sass/screen.scss */
+/* line 1856, ../sass/screen.scss */
 #cg-menu {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1843, ../sass/screen.scss */
+  /* line 1856, ../sass/screen.scss */
   #cg-menu {
     padding-right: 8%;
     display: block;
   }
 }
 
-/* line 1851, ../sass/screen.scss */
+/* line 1864, ../sass/screen.scss */
 #cg-jar {
   padding: 0 20%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1851, ../sass/screen.scss */
+  /* line 1864, ../sass/screen.scss */
   #cg-jar {
     padding-left: 12%;
     padding-right: 8%;
   }
 }
 
-/* line 1860, ../sass/screen.scss */
+/* line 1873, ../sass/screen.scss */
 #cg-prev-title, #cg-prev1, #cg-prev2, #cg-prev3, #cg-prev4 {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1860, ../sass/screen.scss */
+  /* line 1873, ../sass/screen.scss */
   #cg-prev-title, #cg-prev1, #cg-prev2, #cg-prev3, #cg-prev4 {
     display: block;
   }
 }
 
-/* line 1866, ../sass/screen.scss */
+/* line 1879, ../sass/screen.scss */
 #cg-prev-title {
   font-size: 0.75rem;
 }
 
-/* line 1869, ../sass/screen.scss */
+/* line 1882, ../sass/screen.scss */
 #cg-prev1 {
   padding: 9%;
   margin-bottom: -3%;
 }
 
-/* line 1874, ../sass/screen.scss */
+/* line 1887, ../sass/screen.scss */
 #cg-prev2 {
   padding: 12%;
   margin-bottom: -2%;
 }
 
-/* line 1879, ../sass/screen.scss */
+/* line 1892, ../sass/screen.scss */
 #cg-prev3 {
   padding: 8%;
   margin-bottom: -2%;
 }
 
-/* line 1884, ../sass/screen.scss */
+/* line 1897, ../sass/screen.scss */
 #cg-prev4 {
   padding: 10%;
 }
@@ -2573,13 +2595,13 @@ Cowboy's garden
 Mootown
 
 -------------------------------- */
-/* line 1893, ../sass/screen.scss */
+/* line 1906, ../sass/screen.scss */
 #mootown-logo {
   margin-bottom: 0;
   padding: 0 10%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1896, ../sass/screen.scss */
+  /* line 1909, ../sass/screen.scss */
   #mootown-logo img {
     max-width: 60%;
     margin-bottom: 10px;
@@ -2592,7 +2614,7 @@ Mootown
 Homepage
 
 -------------------------------- */
-/* line 1910, ../sass/screen.scss */
+/* line 1923, ../sass/screen.scss */
 .cd-section {
   min-height: 50%;
   height: auto;
@@ -2604,30 +2626,30 @@ Homepage
   box-sizing: border-box;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1910, ../sass/screen.scss */
+  /* line 1923, ../sass/screen.scss */
   .cd-section {
     min-height: 90%;
   }
 }
 @media only screen and (min-width: 1824px) {
-  /* line 1910, ../sass/screen.scss */
+  /* line 1923, ../sass/screen.scss */
   .cd-section {
     min-height: 80%;
   }
 }
 
-/* line 1929, ../sass/screen.scss */
+/* line 1942, ../sass/screen.scss */
 #section1 {
   min-height: 50%;
   margin-bottom: 4%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1929, ../sass/screen.scss */
+  /* line 1942, ../sass/screen.scss */
   #section1 {
     min-height: 100%;
   }
 }
-/* line 1935, ../sass/screen.scss */
+/* line 1948, ../sass/screen.scss */
 #section1 #intro-text {
   text-align: center;
   z-index: 100;
@@ -2641,34 +2663,34 @@ Homepage
   transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 768px) {
-  /* line 1935, ../sass/screen.scss */
+  /* line 1948, ../sass/screen.scss */
   #section1 #intro-text {
     top: 22%;
     transform: translate(-50%, -87%);
   }
 }
 @media only screen and (min-width: 1824px) {
-  /* line 1935, ../sass/screen.scss */
+  /* line 1948, ../sass/screen.scss */
   #section1 #intro-text {
     font-size: 1.5rem;
     line-height: 2.75rem;
   }
 }
-/* line 1957, ../sass/screen.scss */
+/* line 1970, ../sass/screen.scss */
 #section1 #intro-text a {
   color: #c1ad73;
 }
-/* line 1960, ../sass/screen.scss */
+/* line 1973, ../sass/screen.scss */
 #section1 #intro-text a:hover {
   text-decoration: underline;
 }
 
-/* line 1968, ../sass/screen.scss */
+/* line 1981, ../sass/screen.scss */
 #desk-svg, #desk-light-svg {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  /* line 1968, ../sass/screen.scss */
+  /* line 1981, ../sass/screen.scss */
   #desk-svg, #desk-light-svg {
     display: block;
     position: absolute;
@@ -2679,12 +2701,12 @@ Homepage
   }
 }
 
-/* line 1981, ../sass/screen.scss */
+/* line 1994, ../sass/screen.scss */
 #intro-text {
   display: none;
 }
 
-/* line 1985, ../sass/screen.scss */
+/* line 1998, ../sass/screen.scss */
 .img-wrapper, .img-wrapper-br, .img-wrapper-dm {
   width: 100%;
   float: left;
@@ -2693,60 +2715,60 @@ Homepage
   box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 1989, ../sass/screen.scss */
+/* line 2002, ../sass/screen.scss */
 .img-wrapper img, .img-wrapper-br img, .img-wrapper-dm img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-/* line 1994, ../sass/screen.scss */
+/* line 2007, ../sass/screen.scss */
 .img-wrapper img.svg-logo, .img-wrapper-br img.svg-logo, .img-wrapper-dm img.svg-logo {
   max-width: 460px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 2001, ../sass/screen.scss */
+  /* line 2014, ../sass/screen.scss */
   .img-wrapper {
     width: 50%;
     padding-top: 5%;
     padding-right: 3.5%;
   }
 
-  /* line 2006, ../sass/screen.scss */
+  /* line 2019, ../sass/screen.scss */
   .img-wrapper-br {
     width: 30%;
   }
 
-  /* line 2009, ../sass/screen.scss */
+  /* line 2022, ../sass/screen.scss */
   .img-wrapper-dm {
     width: 28%;
   }
-  /* line 2011, ../sass/screen.scss */
+  /* line 2024, ../sass/screen.scss */
   .img-wrapper-dm.offset-left {
     margin-left: 8%;
   }
-  /* line 2014, ../sass/screen.scss */
+  /* line 2027, ../sass/screen.scss */
   .img-wrapper-dm.offset-left-2 {
     margin-left: 22%;
   }
 
-  /* line 2018, ../sass/screen.scss */
+  /* line 2031, ../sass/screen.scss */
   .offset-left {
     margin-left: 4.5%;
   }
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2025, ../sass/screen.scss */
+  /* line 2038, ../sass/screen.scss */
   .img-wrapper img.svg-logo {
     max-width: 540px;
   }
-  /* line 2027, ../sass/screen.scss */
+  /* line 2040, ../sass/screen.scss */
   .img-wrapper img.svg-logo#amma-users-img {
     max-width: 680px;
   }
 }
-/* line 2034, ../sass/screen.scss */
+/* line 2047, ../sass/screen.scss */
 .text-wrapper {
   width: 100%;
   float: left;
@@ -2759,7 +2781,7 @@ Homepage
   margin-top: 6%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 2034, ../sass/screen.scss */
+  /* line 2047, ../sass/screen.scss */
   .text-wrapper {
     width: 50%;
     padding-right: 3.5%;
@@ -2767,7 +2789,7 @@ Homepage
     margin-bottom: 0;
   }
 }
-/* line 2046, ../sass/screen.scss */
+/* line 2059, ../sass/screen.scss */
 .text-wrapper h2 {
   line-height: 1.6;
   padding-bottom: 17px;
@@ -2778,25 +2800,25 @@ Homepage
   font-weight: 300;
   color: #7f7977;
 }
-/* line 2056, ../sass/screen.scss */
+/* line 2069, ../sass/screen.scss */
 .text-wrapper h2.brand-title {
   margin-bottom: -25px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 2056, ../sass/screen.scss */
+  /* line 2069, ../sass/screen.scss */
   .text-wrapper h2.brand-title {
     padding-bottom: 40px;
     margin-top: -20px;
   }
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2046, ../sass/screen.scss */
+  /* line 2059, ../sass/screen.scss */
   .text-wrapper h2 {
     line-height: 2;
     font-size: 3.125rem;
   }
 }
-/* line 2070, ../sass/screen.scss */
+/* line 2083, ../sass/screen.scss */
 .text-wrapper h3 {
   font-variant: small-caps;
   font-size: 1rem;
@@ -2806,30 +2828,30 @@ Homepage
   margin-top: -8px;
   color: #b59f62;
 }
-/* line 2079, ../sass/screen.scss */
+/* line 2092, ../sass/screen.scss */
 .text-wrapper h3#dm-subtitle {
   margin-top: -5px;
 }
-/* line 2083, ../sass/screen.scss */
+/* line 2096, ../sass/screen.scss */
 .text-wrapper h3 span {
   font-weight: normal;
 }
-/* line 2086, ../sass/screen.scss */
+/* line 2099, ../sass/screen.scss */
 .text-wrapper h3 span span {
   font-size: 12px;
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2070, ../sass/screen.scss */
+  /* line 2083, ../sass/screen.scss */
   .text-wrapper h3 {
     font-size: 1.4375rem;
     padding-bottom: 50px;
   }
-  /* line 2095, ../sass/screen.scss */
+  /* line 2108, ../sass/screen.scss */
   .text-wrapper h3 span span {
     font-size: 1.125rem;
   }
 }
-/* line 2102, ../sass/screen.scss */
+/* line 2115, ../sass/screen.scss */
 .text-wrapper p {
   font-size: 1rem;
   font-size: 1rem;
@@ -2837,7 +2859,7 @@ Homepage
   line-height: 1.7;
 }
 @media only screen and (min-width: 768px) {
-  /* line 2102, ../sass/screen.scss */
+  /* line 2115, ../sass/screen.scss */
   .text-wrapper p {
     font-size: 12px;
     font-size: 1.075rem;
@@ -2846,23 +2868,23 @@ Homepage
   }
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2102, ../sass/screen.scss */
+  /* line 2115, ../sass/screen.scss */
   .text-wrapper p {
     font-size: 1.375rem;
   }
 }
-/* line 2119, ../sass/screen.scss */
+/* line 2132, ../sass/screen.scss */
 .text-wrapper p a {
   color: #555555;
   font-weight: 700;
 }
 
-/* line 2128, ../sass/screen.scss */
+/* line 2141, ../sass/screen.scss */
 .new-row {
   clear: both !important;
 }
 
-/* line 2132, ../sass/screen.scss */
+/* line 2145, ../sass/screen.scss */
 .bookmark {
   position: fixed;
   width: 90%;
@@ -2871,17 +2893,17 @@ Homepage
   margin-left: 7%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 2132, ../sass/screen.scss */
+  /* line 2145, ../sass/screen.scss */
   .bookmark {
     margin-left: 16.9%;
   }
 }
-/* line 2141, ../sass/screen.scss */
+/* line 2154, ../sass/screen.scss */
 .bookmark img {
   width: 50px;
 }
 
-/* line 2148, ../sass/screen.scss */
+/* line 2161, ../sass/screen.scss */
 .cd-scroll-down {
   position: absolute;
   left: 50%;
@@ -2898,12 +2920,12 @@ Homepage
 }
 
 /* No Touch devices */
-/* line 2159, ../sass/screen.scss */
+/* line 2172, ../sass/screen.scss */
 .cd-nav-trigger {
   display: none;
 }
 
-/* line 2163, ../sass/screen.scss */
+/* line 2176, ../sass/screen.scss */
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -2916,11 +2938,11 @@ Homepage
   transform: translateY(-50%);
   z-index: 1;
 }
-/* line 2169, ../sass/screen.scss */
+/* line 2182, ../sass/screen.scss */
 .no-touch #cd-vertical-nav li {
   text-align: right;
 }
-/* line 2173, ../sass/screen.scss */
+/* line 2186, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a {
   display: inline-block;
   /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
@@ -2933,7 +2955,7 @@ Homepage
   content: "";
   display: table;
 }
-/* line 2180, ../sass/screen.scss */
+/* line 2193, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a span {
   float: right;
   display: inline-block;
@@ -2943,7 +2965,7 @@ Homepage
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-/* line 2186, ../sass/screen.scss */
+/* line 2199, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover span {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -2951,15 +2973,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2190, ../sass/screen.scss */
+/* line 2203, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
-/* line 2194, ../sass/screen.scss */
+/* line 2207, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #7f7977;
 }
-/* line 2199, ../sass/screen.scss */
+/* line 2212, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -2978,11 +3000,11 @@ Homepage
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 2213, ../sass/screen.scss */
+/* line 2226, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot#first-dot {
   border-radius: 0;
 }
-/* line 2218, ../sass/screen.scss */
+/* line 2231, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
@@ -3002,7 +3024,7 @@ Homepage
 }
 
 /* Touch devices */
-/* line 2235, ../sass/screen.scss */
+/* line 2248, ../sass/screen.scss */
 .touch .cd-nav-trigger {
   display: block;
   z-index: 2;
@@ -3014,7 +3036,7 @@ Homepage
   border-radius: 0.25em;
   background: rgba(245, 246, 247, 0.9);
 }
-/* line 2246, ../sass/screen.scss */
+/* line 2259, ../sass/screen.scss */
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
@@ -3031,7 +3053,7 @@ Homepage
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 2254, ../sass/screen.scss */
+/* line 2267, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
   content: '';
   height: 100%;
@@ -3041,16 +3063,16 @@ Homepage
   background-color: inherit;
   border-radius: inherit;
 }
-/* line 2264, ../sass/screen.scss */
+/* line 2277, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before {
   top: -9px;
 }
-/* line 2268, ../sass/screen.scss */
+/* line 2281, ../sass/screen.scss */
 .touch .cd-nav-trigger span::after {
   bottom: -9px;
 }
 
-/* line 2274, ../sass/screen.scss */
+/* line 2287, ../sass/screen.scss */
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
@@ -3080,22 +3102,22 @@ Homepage
   border-radius: 0.25em;
   background-color: rgba(245, 246, 247, 0.9);
 }
-/* line 2291, ../sass/screen.scss */
+/* line 2304, ../sass/screen.scss */
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
   color: #555555;
 }
-/* line 2296, ../sass/screen.scss */
+/* line 2309, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
-/* line 2300, ../sass/screen.scss */
+/* line 2313, ../sass/screen.scss */
 .touch #cd-vertical-nav a.is-selected span:last-child {
   color: #c1ad73;
 }
-/* line 2305, ../sass/screen.scss */
+/* line 2318, ../sass/screen.scss */
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3103,15 +3125,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2309, ../sass/screen.scss */
+/* line 2322, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger {
   background-color: transparent;
 }
-/* line 2312, ../sass/screen.scss */
+/* line 2325, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
   background-color: rgba(245, 246, 247, 0);
 }
-/* line 2316, ../sass/screen.scss */
+/* line 2329, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #f5f6f7;
   height: 3px;
@@ -3119,7 +3141,7 @@ Homepage
   border-radius: 0;
   left: -8px;
 }
-/* line 2324, ../sass/screen.scss */
+/* line 2337, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -3128,7 +3150,7 @@ Homepage
   transform: rotate(45deg);
   top: 1px;
 }
-/* line 2329, ../sass/screen.scss */
+/* line 2342, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -3137,18 +3159,18 @@ Homepage
   transform: rotate(135deg);
   bottom: 0;
 }
-/* line 2335, ../sass/screen.scss */
+/* line 2348, ../sass/screen.scss */
 .touch #cd-vertical-nav li:last-child a {
   border-bottom: none;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 2341, ../sass/screen.scss */
+  /* line 2354, ../sass/screen.scss */
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
 }
-/* line 2348, ../sass/screen.scss */
+/* line 2361, ../sass/screen.scss */
 .headroom {
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -3157,7 +3179,7 @@ Homepage
   transition: all 200ms linear;
 }
 
-/* line 2355, ../sass/screen.scss */
+/* line 2368, ../sass/screen.scss */
 .headroom--pinned {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -3166,7 +3188,7 @@ Homepage
   transform: translateY(0%);
 }
 
-/* line 2362, ../sass/screen.scss */
+/* line 2375, ../sass/screen.scss */
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -3175,42 +3197,42 @@ Homepage
   transform: translateY(-100%);
 }
 
-/* line 2372, ../sass/screen.scss */
+/* line 2385, ../sass/screen.scss */
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem;
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2372, ../sass/screen.scss */
+  /* line 2385, ../sass/screen.scss */
   #amma-name {
     font-size: 1.4rem;
   }
 }
 
-/* line 2380, ../sass/screen.scss */
+/* line 2393, ../sass/screen.scss */
 #nirvana {
   max-width: 75%;
 }
 
-/* line 2384, ../sass/screen.scss */
+/* line 2397, ../sass/screen.scss */
 #mootown {
   max-width: 75%;
 }
 
-/* line 2388, ../sass/screen.scss */
+/* line 2401, ../sass/screen.scss */
 #cbg {
   max-width: 75%;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 2393, ../sass/screen.scss */
+  /* line 2406, ../sass/screen.scss */
   #section7 {
     margin-top: -100px;
     min-height: 80%;
   }
 }
 
-/* line 2400, ../sass/screen.scss */
+/* line 2413, ../sass/screen.scss */
 .selected {
   opacity: 0.5;
   fill: #000;
