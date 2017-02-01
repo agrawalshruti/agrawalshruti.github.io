@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +24,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -114,7 +114,7 @@ svg, svg * {
   pointer-events: all;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -128,12 +128,12 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
-/* -------------------------------- 
+/* --------------------------------
 
 Work pages
 
@@ -1097,7 +1097,7 @@ input[type="button"]:focus {
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 AMMA
 
@@ -1598,7 +1598,7 @@ AMMA
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 AMMA Detailed Results
 
@@ -1615,7 +1615,7 @@ AMMA Detailed Results
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Dignity Meals
 
@@ -1796,7 +1796,7 @@ img.dm-lowfi-wireframe {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Instashop
 
@@ -2098,7 +2098,7 @@ Instashop
   box-shadow: -4px 10px 5px 0px rgba(217, 217, 217, 0.11);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Prahs
 
@@ -2246,7 +2246,7 @@ Prahs
   margin-top: 3.75rem;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 About
 
@@ -2361,7 +2361,7 @@ About
   margin-bottom: 0.5rem;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Contact
 
@@ -2465,7 +2465,7 @@ Contact
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Nirvana
 
@@ -2484,7 +2484,7 @@ Nirvana
   max-height: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Cowboy's garden
 
@@ -2599,7 +2599,7 @@ Cowboy's garden
   padding: 10%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Mootown
 
@@ -2618,7 +2618,7 @@ Mootown
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Homepage
 
@@ -2896,23 +2896,44 @@ Homepage
 /* line 2151, ../sass/screen.scss */
 .bookmark {
   position: fixed;
-  width: 90%;
   top: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 100;
+  background: #F6F6F6;
+}
+/* line 2158, ../sass/screen.scss */
+.bookmark img {
+  width: 50px;
+  margin-left: 7%;
+}
+@media only screen and (min-width: 830px) {
+  /* line 2158, ../sass/screen.scss */
+  .bookmark img {
+    margin-left: 16.9%;
+  }
+}
+
+/* line 2167, ../sass/screen.scss */
+.bookmark-headroom {
+  position: fixed;
+  top: 0;
+  width: 90%;
   z-index: 100;
   margin-left: 7%;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2151, ../sass/screen.scss */
-  .bookmark {
+  /* line 2167, ../sass/screen.scss */
+  .bookmark-headroom {
     margin-left: 16.9%;
   }
 }
-/* line 2160, ../sass/screen.scss */
-.bookmark img {
+/* line 2176, ../sass/screen.scss */
+.bookmark-headroom img {
   width: 50px;
 }
 
-/* line 2167, ../sass/screen.scss */
+/* line 2183, ../sass/screen.scss */
 .cd-scroll-down {
   position: absolute;
   left: 50%;
@@ -2929,12 +2950,12 @@ Homepage
 }
 
 /* No Touch devices */
-/* line 2178, ../sass/screen.scss */
+/* line 2194, ../sass/screen.scss */
 .cd-nav-trigger {
   display: none;
 }
 
-/* line 2182, ../sass/screen.scss */
+/* line 2198, ../sass/screen.scss */
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -2947,11 +2968,11 @@ Homepage
   transform: translateY(-50%);
   z-index: 1;
 }
-/* line 2188, ../sass/screen.scss */
+/* line 2204, ../sass/screen.scss */
 .no-touch #cd-vertical-nav li {
   text-align: right;
 }
-/* line 2192, ../sass/screen.scss */
+/* line 2208, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a {
   display: inline-block;
   /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
@@ -2964,7 +2985,7 @@ Homepage
   content: "";
   display: table;
 }
-/* line 2199, ../sass/screen.scss */
+/* line 2215, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a span {
   float: right;
   display: inline-block;
@@ -2974,7 +2995,7 @@ Homepage
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-/* line 2205, ../sass/screen.scss */
+/* line 2221, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover span {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -2982,15 +3003,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2209, ../sass/screen.scss */
+/* line 2225, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
-/* line 2213, ../sass/screen.scss */
+/* line 2229, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #7f7977;
 }
-/* line 2218, ../sass/screen.scss */
+/* line 2234, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -3009,11 +3030,11 @@ Homepage
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 2232, ../sass/screen.scss */
+/* line 2248, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot#first-dot {
   border-radius: 0;
 }
-/* line 2237, ../sass/screen.scss */
+/* line 2253, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
@@ -3033,7 +3054,7 @@ Homepage
 }
 
 /* Touch devices */
-/* line 2254, ../sass/screen.scss */
+/* line 2270, ../sass/screen.scss */
 .touch .cd-nav-trigger {
   display: block;
   z-index: 2;
@@ -3045,7 +3066,7 @@ Homepage
   border-radius: 0.25em;
   background: rgba(245, 246, 247, 0.9);
 }
-/* line 2265, ../sass/screen.scss */
+/* line 2281, ../sass/screen.scss */
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
@@ -3062,7 +3083,7 @@ Homepage
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 2273, ../sass/screen.scss */
+/* line 2289, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
   content: '';
   height: 100%;
@@ -3072,16 +3093,16 @@ Homepage
   background-color: inherit;
   border-radius: inherit;
 }
-/* line 2283, ../sass/screen.scss */
+/* line 2299, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before {
   top: -9px;
 }
-/* line 2287, ../sass/screen.scss */
+/* line 2303, ../sass/screen.scss */
 .touch .cd-nav-trigger span::after {
   bottom: -9px;
 }
 
-/* line 2293, ../sass/screen.scss */
+/* line 2309, ../sass/screen.scss */
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
@@ -3111,22 +3132,22 @@ Homepage
   border-radius: 0.25em;
   background-color: rgba(245, 246, 247, 0.9);
 }
-/* line 2310, ../sass/screen.scss */
+/* line 2326, ../sass/screen.scss */
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
   color: #555555;
 }
-/* line 2315, ../sass/screen.scss */
+/* line 2331, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
-/* line 2319, ../sass/screen.scss */
+/* line 2335, ../sass/screen.scss */
 .touch #cd-vertical-nav a.is-selected span:last-child {
   color: #c1ad73;
 }
-/* line 2324, ../sass/screen.scss */
+/* line 2340, ../sass/screen.scss */
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3134,15 +3155,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2328, ../sass/screen.scss */
+/* line 2344, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger {
   background-color: transparent;
 }
-/* line 2331, ../sass/screen.scss */
+/* line 2347, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
   background-color: rgba(245, 246, 247, 0);
 }
-/* line 2335, ../sass/screen.scss */
+/* line 2351, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #f5f6f7;
   height: 3px;
@@ -3150,7 +3171,7 @@ Homepage
   border-radius: 0;
   left: -8px;
 }
-/* line 2343, ../sass/screen.scss */
+/* line 2359, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -3159,7 +3180,7 @@ Homepage
   transform: rotate(45deg);
   top: 1px;
 }
-/* line 2348, ../sass/screen.scss */
+/* line 2364, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -3168,18 +3189,18 @@ Homepage
   transform: rotate(135deg);
   bottom: 0;
 }
-/* line 2354, ../sass/screen.scss */
+/* line 2370, ../sass/screen.scss */
 .touch #cd-vertical-nav li:last-child a {
   border-bottom: none;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2360, ../sass/screen.scss */
+  /* line 2376, ../sass/screen.scss */
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
 }
-/* line 2367, ../sass/screen.scss */
+/* line 2383, ../sass/screen.scss */
 .headroom {
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -3188,7 +3209,7 @@ Homepage
   transition: all 200ms linear;
 }
 
-/* line 2374, ../sass/screen.scss */
+/* line 2390, ../sass/screen.scss */
 .headroom--pinned {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -3197,7 +3218,7 @@ Homepage
   transform: translateY(0%);
 }
 
-/* line 2381, ../sass/screen.scss */
+/* line 2397, ../sass/screen.scss */
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -3206,42 +3227,42 @@ Homepage
   transform: translateY(-100%);
 }
 
-/* line 2391, ../sass/screen.scss */
+/* line 2407, ../sass/screen.scss */
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem;
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2391, ../sass/screen.scss */
+  /* line 2407, ../sass/screen.scss */
   #amma-name {
     font-size: 1.4rem;
   }
 }
 
-/* line 2399, ../sass/screen.scss */
+/* line 2415, ../sass/screen.scss */
 #nirvana {
   max-width: 75%;
 }
 
-/* line 2403, ../sass/screen.scss */
+/* line 2419, ../sass/screen.scss */
 #mootown {
   max-width: 75%;
 }
 
-/* line 2407, ../sass/screen.scss */
+/* line 2423, ../sass/screen.scss */
 #cbg {
   max-width: 75%;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2412, ../sass/screen.scss */
+  /* line 2428, ../sass/screen.scss */
   #section7 {
     margin-top: -100px;
     min-height: 80%;
   }
 }
 
-/* line 2419, ../sass/screen.scss */
+/* line 2435, ../sass/screen.scss */
 .selected {
   opacity: 0.5;
   fill: #000;

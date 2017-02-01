@@ -13,7 +13,7 @@
 
 @import 'partials/layout'; // responsive grid and media queries
 
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -31,7 +31,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: 'Neuzeit Grotesk', sans-serif;  
+  font-family: 'Neuzeit Grotesk', sans-serif;
   color: #000000;
   background-color: white;
 }
@@ -53,7 +53,7 @@ svg, svg * {
   pointer-events: all;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -66,14 +66,14 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Work pages
 
@@ -84,7 +84,7 @@ Work pages
   margin: 0 auto;
   padding: 0 0;
   box-sizing: border-box;
-  width: 100%; 
+  width: 100%;
 }
 
 .work {
@@ -98,7 +98,7 @@ Work pages
   font-family: 'Halant', serif;
   font-weight: 400;
   line-height: 1.5;
-  font-size: rem(18); 
+  font-size: rem(18);
   * {
     @include flex(1);
   }
@@ -117,7 +117,7 @@ Work pages
   .text-part-ul span, .text-part-ol span {
     color: $dark-gray;
   }
-}  
+}
 
 .gray {
   background-color: $light-gray;
@@ -149,11 +149,11 @@ Work pages
 }
 
 .mobile-padding-top-2pct {
-  padding-top: 1% !important; 
+  padding-top: 1% !important;
 }
 
 .mobile-padding-bottom-2pct {
-  padding-bottom: 1% !important; 
+  padding-bottom: 1% !important;
 }
 
 .mobile-padding-3pct {
@@ -162,28 +162,28 @@ Work pages
 }
 
 .mobile-padding-top-3pct {
-  padding-top: 3% !important; 
+  padding-top: 3% !important;
 }
 
 .mobile-padding-bottom-3pct {
-  padding-bottom: 3% !important; 
+  padding-bottom: 3% !important;
 }
 
 .mobile-padding-top-5pct {
-  padding-top: 5.5% !important; 
+  padding-top: 5.5% !important;
 }
 
 .mobile-padding-bottom-5pct {
-  padding-bottom: 5.5% !important; 
+  padding-bottom: 5.5% !important;
 }
 
 .mobile-padding-5pct {
-  padding-top: 5.5% !important; 
+  padding-top: 5.5% !important;
   padding-bottom: 5.5% !important;
 }
 
 .mobile-padding-top-8pct {
-  padding-top: 8.4% !important; 
+  padding-top: 8.4% !important;
 }
 
 .mobile-padding-9pct {
@@ -192,46 +192,46 @@ Work pages
 }
 
 .mobile-padding-top-9pct {
-  padding-top: 9% !important; 
+  padding-top: 9% !important;
 }
 
 .mobile-padding-bottom-9pct {
-  padding-bottom: 9% !important; 
+  padding-bottom: 9% !important;
 }
 
 .mobile-padding-12pct {
-  padding-bottom: 12% !important; 
-  padding-top: 12% !important;   
+  padding-bottom: 12% !important;
+  padding-top: 12% !important;
 }
 
 .mobile-padding-bottom-12pct {
-  padding-bottom: 12% !important; 
+  padding-bottom: 12% !important;
 }
 
 .mobile-padding-top-12pct {
-  padding-top: 12% !important; 
+  padding-top: 12% !important;
 }
 
 .mobile-padding-15pct {
-  padding-bottom: 15% !important; 
-  padding-top: 15% !important;   
+  padding-bottom: 15% !important;
+  padding-top: 15% !important;
 }
 
 .mobile-padding-top-15pct {
-  padding-top: 15% !important; 
+  padding-top: 15% !important;
 }
 
 .mobile-padding-bottom-15pct {
-  padding-bottom: 15% !important; 
+  padding-bottom: 15% !important;
 }
 
 .mobile-padding-18pct {
-  padding-bottom: 18% !important; 
-  padding-top: 18% !important;   
+  padding-bottom: 18% !important;
+  padding-top: 18% !important;
 }
 
 .mobile-padding-top-18pct {
-  padding-top: 18% !important; 
+  padding-top: 18% !important;
 }
 
 .no-bottom-margin {
@@ -255,11 +255,11 @@ Work pages
   }
 
   .padding-top-2pct {
-    padding-top: 1% !important; 
+    padding-top: 1% !important;
   }
 
   .padding-bottom-2pct {
-    padding-bottom: 1% !important; 
+    padding-bottom: 1% !important;
   }
 
   .padding-3pct {
@@ -268,23 +268,23 @@ Work pages
   }
 
   .padding-top-3pct {
-    padding-top: 3% !important; 
+    padding-top: 3% !important;
   }
 
   .padding-bottom-3pct {
-    padding-bottom: 3% !important; 
+    padding-bottom: 3% !important;
   }
 
   .padding-top-5pct {
-    padding-top: 5.5% !important; 
+    padding-top: 5.5% !important;
   }
 
   .padding-bottom-5pct {
-    padding-bottom: 5.5% !important; 
+    padding-bottom: 5.5% !important;
   }
 
   .padding-5pct {
-    padding-top: 5.5% !important; 
+    padding-top: 5.5% !important;
     padding-bottom: 5.5% !important;
   }
 
@@ -293,12 +293,12 @@ Work pages
   }
 
   .padding-standard {
-    padding-top: 7% !important; 
+    padding-top: 7% !important;
     padding-bottom: 7% !important;
   }
 
   .padding-top-8pct {
-    padding-top: 8.4% !important; 
+    padding-top: 8.4% !important;
   }
 
   .padding-9pct {
@@ -307,30 +307,30 @@ Work pages
   }
 
   .padding-top-9pct {
-    padding-top: 9% !important; 
+    padding-top: 9% !important;
   }
 
   .padding-bottom-9pct {
-    padding-bottom: 9% !important; 
+    padding-bottom: 9% !important;
   }
 
   .padding-12pct {
-    padding-bottom: 12% !important; 
-    padding-top: 12% !important;   
+    padding-bottom: 12% !important;
+    padding-top: 12% !important;
   }
 
   .padding-bottom-12pct {
-    padding-bottom: 12% !important; 
+    padding-bottom: 12% !important;
   }
 
   .padding-top-12pct {
-    padding-top: 12% !important; 
+    padding-top: 12% !important;
   }
 }
 
 .blue {
   background-color: #182D46;
-  
+
   .work-title {
     color: $light-gray;
   }
@@ -365,7 +365,7 @@ Work pages
 .work-title {
   font-size: rem(38);
   color: #9AA0A3;
-  font-weight: 300; 
+  font-weight: 300;
   text-align: center;
   padding-bottom: 16px;
   @include MQ(M) {
@@ -406,19 +406,19 @@ Work pages
 
 .underline {
   width: 20%;
-  margin-bottom: rem(20); 
+  margin-bottom: rem(20);
   @include MQ(M) {
-    margin-bottom: rem(70);    
+    margin-bottom: rem(70);
   }
 }
 
 .underline-big {
   width: 20%;
-  margin-bottom: rem(20); 
+  margin-bottom: rem(20);
   @include MQ(M) {
-    margin-bottom: rem(90);    
+    margin-bottom: rem(90);
   }
-  
+
 }
 
 .pink {color: $pink;}
@@ -454,7 +454,7 @@ Work pages
   @include MQ(M) {
     padding: 0 27%;
   }
-  
+
   margin-bottom: 10px;
   color: $dark-gray;
   &.img-title {
@@ -500,7 +500,7 @@ Work pages
     display: flex;
     margin-bottom: 0 !important;
     transform: scale(0.7);
-    -webkit-transform: scale(0.7);      
+    -webkit-transform: scale(0.7);
     vertical-align: top;
     margin-top: -5%;
     padding-right: 0%;
@@ -508,7 +508,7 @@ Work pages
   }
   @include MQ(ML) {
     padding-right: 5%;
-    padding-left: 12%;    
+    padding-left: 12%;
   }
 }
 
@@ -537,7 +537,7 @@ Work pages
 
 .text-part-ul {
   list-style: square outside none;
-  margin-left: 0; 
+  margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
   font-size: rem(18);
@@ -553,7 +553,7 @@ Work pages
 
 .work-text-wrapper{
   @include leftfloat;
-  
+
 }
 
 
@@ -576,8 +576,8 @@ Work pages
   font-size: rem(16);
   color: $dark-gray;
   font-variant: small-caps;
-  font-weight: 700; 
-  margin: 0 auto rem(11) auto; 
+  font-weight: 700;
+  margin: 0 auto rem(11) auto;
   span {
     font-size: rem(13);
   }
@@ -687,7 +687,7 @@ Work pages
 
 .footer-left {
   @include MQ(M) {
-   margin-left: 18% !important;   
+   margin-left: 18% !important;
  }
 
 }
@@ -714,7 +714,7 @@ input[type="button"] {
   border-radius: 4px;
   border: 1px solid $gold;
   cursor: pointer;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   @include MQ(L) {
     height: 55px;
     font-size: 16px;
@@ -760,7 +760,7 @@ input[type="button"]:focus {
     //     background-color: #1EAEDB;
     //     border-color: $color-4; }
 
-/* -------------------------------- 
+/* --------------------------------
 
 AMMA
 
@@ -768,10 +768,10 @@ AMMA
 
 .intro-title {
   font-size: rem(38);
-  font-weight: 300; 
+  font-weight: 300;
   @include MQ(M) {
     font-size: rem(50);
-  }    
+  }
   @include MQ(L) {
     font-size: 60px;
   }
@@ -787,7 +787,7 @@ AMMA
   @include MQ(M) {
     font-size: 1.6rem;
     padding-bottom: rem(40);
-  }  
+  }
   @include MQ(L) {
     font-size: 30px;
   }
@@ -836,7 +836,7 @@ AMMA
   .unslider-nav ol li {
     border-color: $pink;
     &.unslider-active {
-      background-color: $pink;      
+      background-color: $pink;
     }
   }
 }
@@ -928,10 +928,10 @@ AMMA
 #amma-sketch1-title {
   margin-top: -11px;
   @include MQ(M) {
-    padding-top: 30px;  
+    padding-top: 30px;
     margin-top: 10px;
-  }  
-  
+  }
+
 }
 
 #amma-sketch1 {
@@ -942,7 +942,7 @@ AMMA
   }
   @include MQ(L) {
     max-width: 30%;
-  }  
+  }
 }
 
 #amma-lowfi-wf {
@@ -979,7 +979,7 @@ AMMA
     &.amma-lowfi-wf-right {
       margin-right: 13.33% !important;
     }
-  }  
+  }
 }
 
 #amma-prio {
@@ -1021,7 +1021,7 @@ AMMA
   @include MQ(M) {
     margin-left: -1%;
   }
-  
+
 }
 
 #amma-moodboard1 {
@@ -1038,8 +1038,8 @@ AMMA
 #amma-styletiles {
   margin-bottom: 2%;
   @include MQ(M) {
-    margin-left: 19%;  
-    margin-right: 19%;  
+    margin-left: 19%;
+    margin-right: 19%;
   }
 
 }
@@ -1116,7 +1116,7 @@ AMMA
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 AMMA Detailed Results
 
@@ -1132,7 +1132,7 @@ AMMA Detailed Results
 
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Dignity Meals
 
@@ -1150,14 +1150,14 @@ Dignity Meals
     @include MQ(M) {
       max-width: 95% !important;
     }
-    
+
   }
 }
 
 #dm-facts, #dm-facts-truck {
   @include MQ(M) {
     padding-left: 35%;
-    padding-right: 35%;    
+    padding-right: 35%;
   }
 
   @include MQ(L) {
@@ -1194,7 +1194,7 @@ Dignity Meals
   color: white;
   .work-title {
     color: white;
-  }  
+  }
   .text-part .text-part-p {
     color: white;
     margin-bottom: 40px;
@@ -1210,7 +1210,7 @@ Dignity Meals
   .unslider-nav ol li {
     border-color: $purple;
     &.unslider-active {
-      background-color: $purple;      
+      background-color: $purple;
     }
   }
 }
@@ -1284,7 +1284,7 @@ img.dm-lowfi-wireframe {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Instashop
 
@@ -1296,7 +1296,7 @@ Instashop
     padding-left: 11.8%;
     padding-right: 11.8%;
     margin-top: rem(60);
-  }  
+  }
   @include MQ(L) {
     padding-left: 10%;
     padding-right: 10%;
@@ -1366,7 +1366,7 @@ Instashop
     border-color: $green;
     &.unslider-active {
       background-color: $green;
-      opacity: 1;     
+      opacity: 1;
     }
   }
 }
@@ -1398,7 +1398,7 @@ Instashop
     @include leftfloat;
     margin: 5%;
     max-width: 23.33%;
-  }  
+  }
 }
 
 #is-desktop-wf-title {
@@ -1436,7 +1436,7 @@ Instashop
   @include MQ(M) {
     margin-left: -31.5%;
     text-align: left;
-  } 
+  }
 }
 
 #is-final-mobile-wrapper {
@@ -1460,7 +1460,7 @@ Instashop
   @include MQ(M) {
     width: 16%;
     margin: 0 2%;
-    margin-bottom: 4%;    
+    margin-bottom: 4%;
     clear: none;
   }
 }
@@ -1481,7 +1481,7 @@ Instashop
   @include MQ(M) {
     margin-left: -24%;
     text-align: left;
-  } 
+  }
 }
 
 #is-final-web-wrapper {
@@ -1512,7 +1512,7 @@ Instashop
   -moz-box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
   box-shadow: -4px 10px 5px 0px rgba(217,217,217,0.11);
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Prahs
 
@@ -1551,10 +1551,10 @@ Prahs
   @include MQ(M) {
     max-width: 56%;
     margin-top: 4%;
-  }  
+  }
 }
 #prahs-mobile-iframe {
-  transform: scale(0.7); 
+  transform: scale(0.7);
   margin-top: -8%;
 }
 
@@ -1567,7 +1567,7 @@ Prahs
   .unslider-nav ol li {
     border-color: $dark-blue;
     &.unslider-active {
-      background-color: $dark-blue;      
+      background-color: $dark-blue;
     }
   }
 }
@@ -1614,7 +1614,7 @@ Prahs
   margin-bottom: 0;
   @include MQ(M) {
     margin-top: rem(60);
-  }  
+  }
 }
 
 #prahs-desktop-wf-title {
@@ -1623,7 +1623,7 @@ Prahs
   margin-top: rem(60);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 About
 
@@ -1713,7 +1713,7 @@ About
   margin-bottom: rem(8);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Contact
 
@@ -1729,7 +1729,7 @@ Contact
   }
   @include MQ(L) {
     padding-left: 5%;
-    padding-right: 5%;      
+    padding-right: 5%;
   }
 
   .required {
@@ -1744,7 +1744,7 @@ Contact
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-color: $gold !important; 
+    border-color: $gold !important;
     }
     margin-bottom: 3.5%;
     text-align: left;
@@ -1778,7 +1778,7 @@ Contact
     min-height: rem(160);
   }
 
-  input[type="text"], input[type="email"], textarea, select { 
+  input[type="text"], input[type="email"], textarea, select {
     outline: none;
   }
 
@@ -1800,7 +1800,7 @@ Contact
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Nirvana
 
@@ -1819,7 +1819,7 @@ Nirvana
   max-height: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Cowboy's garden
 
@@ -1845,7 +1845,7 @@ Cowboy's garden
   @include MQ(M) {
     margin-bottom: rem(40);
   }
-  
+
 }
 
 #cg-wrapper {
@@ -1903,7 +1903,7 @@ Cowboy's garden
 #cg-prev4 {
   padding: 10%;
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Mootown
 
@@ -1918,9 +1918,9 @@ Mootown
       margin-bottom: 10px;
       padding: 0 15%;
     }
-  }  
+  }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Homepage
 
@@ -1934,7 +1934,7 @@ Homepage
   width: 90%;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 
   @include MQ(M) {
     min-height: 90%;
@@ -1960,8 +1960,8 @@ Homepage
     font-weight: 500;
     line-height: rem(30);
     top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);  
+    left: 50%;
+    transform: translate(-50%, -50%);
     @include MQ(M) {
       top: 22%;
       transform: translate(-50%,-87%);
@@ -1992,10 +1992,10 @@ Homepage
     top: 54%;
     left: 53%;
     transform: translate(-50%,-50%);
-    max-height: 95%;    
+    max-height: 95%;
   }
 
-} 
+}
 
 #intro-text {
   display: none;
@@ -2003,7 +2003,7 @@ Homepage
 
 .img-wrapper, .img-wrapper-br, .img-wrapper-dm {
   @include leftfloat;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 
   img {
     max-width:100%;
@@ -2076,9 +2076,9 @@ Homepage
       margin-bottom: -25px;
       @include MQ(M) {
         padding-bottom: 40px;
-        margin-top: -20px; 
+        margin-top: -20px;
       }
-      
+
     }
     @include MQ(L) {
       line-height: 2;
@@ -2127,7 +2127,7 @@ Homepage
     @include MQ(M) {
       font-size: 12px;
       font-size: 1.075rem;
-      
+
       letter-spacing: 0.01px;
       font-weight: 300;
     }
@@ -2150,8 +2150,24 @@ Homepage
 
 .bookmark {
   position: fixed;
-  width: 90%;
   top: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 100;
+  background: #F6F6F6;
+  img {
+    width: 50px;
+    margin-left: 7%;
+    @include MQ(M) {
+      margin-left: 16.9%;
+    }
+  }
+}
+
+.bookmark-headroom {
+  position: fixed;
+  top: 0;
+  width: 90%;
   z-index: 100;
   margin-left: 7%;
   @include MQ(M) {
@@ -2195,7 +2211,7 @@ Homepage
 
     /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
     @include backface-visibility(hidden);
-    
+
     span {
       float: right;
       display: inline-block;
@@ -2203,7 +2219,7 @@ Homepage
     }
 
     &:hover span {
-      @include transform(scale(1)); 
+      @include transform(scale(1));
     }
 
     &:hover .cd-label {
@@ -2213,7 +2229,7 @@ Homepage
     &.is-selected .cd-dot {
       background-color: $silver;
     }
-  } 
+  }
 
   .cd-dot {
     position: relative;
@@ -2227,7 +2243,7 @@ Homepage
     -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
     -moz-transition: -moz-transform 0.2s, background-color 0.5s;
     transition: transform 0.2s, background-color 0.5s;
-    @include transform-origin(50% 50%); 
+    @include transform-origin(50% 50%);
 
     &#first-dot {
       border-radius: 0;
@@ -2320,16 +2336,16 @@ Homepage
       color: $gold;
     }
   }
-  
+
   &.open {
     @include transform(scale(1));
   }
 
   &.open + .cd-nav-trigger {
     background-color: transparent;
-    
+
     span {
-      background-color: rgba($light-gray, 0);  
+      background-color: rgba($light-gray, 0);
     }
 
     span::before, span::after {
@@ -2390,7 +2406,7 @@ Homepage
 
 #amma-name {
   font-variant: small-caps;
-  font-size: 1.175rem; 
+  font-size: 1.175rem;
   @include MQ(L) {
     font-size: 1.4rem;
   }
