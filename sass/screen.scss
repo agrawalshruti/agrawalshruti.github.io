@@ -66,6 +66,10 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
+.hidden {
+  display: none;
+}
+
 /* --------------------------------
 
 Main components
@@ -78,6 +82,8 @@ Main components
 Work pages
 
 -------------------------------- */
+
+
 .work-section {
   position: relative;
   padding: 2em 0;
@@ -379,7 +385,7 @@ Work pages
 .work-subtitle {
   text-transform: uppercase;
   margin: 0 auto;
-  font-size: rem(14);
+  font-size: rem(16);
   font-weight: 600;
   text-align: center;
   @include MQ(L) {
@@ -391,7 +397,7 @@ Work pages
 
 .work-link {
   font-weight: 600;
-  font-size: rem(12);
+  font-size: rem(16);
   text-transform: uppercase;
   text-decoration: underline;
   margin-top: -16px;
@@ -553,9 +559,7 @@ Work pages
 
 .work-text-wrapper{
   @include leftfloat;
-
 }
-
 
 .text-part-title {
   text-transform: uppercase;
@@ -563,11 +567,11 @@ Work pages
   font-weight: 600;
   font-size: rem(12);
   @include MQ(M) {
-    font-size: rem(14);
+    font-size: rem(16);
     margin: 10px auto 20px auto;
   }
   @include MQ(L) {
-    font-size: rem(16);
+    font-size: rem(20);
     margin-bottom: 28px;
   }
 }
@@ -1955,10 +1959,10 @@ Homepage
     text-align: center;
     z-index: 100;
     position: absolute;
-    font-size: rem(16);
+    font-size: rem(18);
     color: $medium-gray;
     font-weight: 500;
-    line-height: rem(30);
+    line-height: rem(35);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2151,16 +2155,74 @@ Homepage
 .bookmark {
   position: fixed;
   top: 0;
-  height: 40px;
+  height: 67px;
   width: 100%;
   z-index: 100;
-  background: #F6F6F6;
+  background: $light-gray;
+  -webkit-box-shadow: 0px 2px 12px -1px rgba(112,112,112,0.36);
+  -moz-box-shadow: 0px 2px 12px -1px rgba(112,112,112,0.36);
+  box-shadow: 0px 2px 12px -1px rgba(112,112,112,0.36);
   img {
-    width: 50px;
+    width: 83px;
     margin-left: 7%;
     @include MQ(M) {
       margin-left: 16.9%;
     }
+  }
+}
+
+.work-nav {
+  position: fixed;
+  height: 100%;
+  right: 7%;
+  top: 0;
+  @include MQ(M) {
+    right: 16.9%;
+  }
+}
+
+.work-nav-title {
+  font-family: 'Halant', serif;
+  font-weight: 500;
+  float: left;
+  padding: 20px 20px 0 20px;
+  height: 67px;
+  line-height: 40px;
+  border-right: 1px solid $dark-gold;
+  vertical-align: baseline;
+  font-size: rem(26);
+  color: $dark-gold;
+}
+
+.work-nav-index {
+  font-family: 'Halant', serif;
+  font-weight: 500;
+  float: left;
+  padding: 20px 12px 0 12px;
+  padding-top: 20px;
+  height: 67px;
+  line-height: 40px;
+  border-right: 1px solid $dark-gold;
+  vertical-align: baseline;
+  font-size: rem(26);
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: $dark-gold;
+  }
+  &:hover {
+    background: $dark-gold;
+    a {
+      color: white;
+    }
+  }
+}
+
+.work-nav-index-active {
+  background: $dark-gold;
+  a {
+    color: white;
   }
 }
 
@@ -2174,7 +2236,7 @@ Homepage
     margin-left: 16.9%;
   }
   img {
-    width: 50px;
+    width: 87px;
   }
 }
 
