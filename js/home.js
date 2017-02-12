@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 }
 
   function desklight (name, onswitch, offswitch) {
-    var desksections = [['desk-amma', 'section3', 400, "#f36094"], ['desk-is1','section5', 500, '#5A073E'], ['desk-is2', 'section5', 500, '#5A073E'], ['desk-prahs', 'section4', 600, '#101A31'], ['desk-dm', 'section2', 200, "#BB2340"], ['desk-brand', 'section7', 800, '#F58727'], ['desk-about', 'url=/about.html', '#7f7977']];
+    var desksections = [['desk-amma', 'section3', 400, "#f36094"], ['desk-is1','section5', 500, '#89B628'], ['desk-is2', 'section5', 500, '#89B628'], ['desk-prahs', 'section4', 600, '#89B628'], ['desk-prahs-flash', 'section4', 600, '#89B628'], ['desk-dm', 'section2', 200, "#BB2340"], ['desk-brand', 'section7', 800, '#F58727'], ['desk-about', 'url=/about.html', '#7f7977']];
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
