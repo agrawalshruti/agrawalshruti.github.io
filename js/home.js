@@ -25,16 +25,17 @@ jQuery(document).ready(function($){
 });
 }
 
+  var desksections = [
+    ['desk-amma', 'section3', 400, "#f36094"],
+    ['desk-is1','section5', 500, '#89B628'],
+    ['desk-is2', 'section5', 500, '#89B628'],
+    ['desk-prahs', 'section4', 600, '#5fa4c2'],
+    ['desk-dm', 'section2', 200, "#BB2340"],
+    ['desk-brand', 'section7', 800, '#F58727'],
+    ['desk-about', 'url=/about.html', 0, '#7f7977']
+  ];
+
   function desklight (name, onswitch, offswitch) {
-    var desksections = [
-      ['desk-amma', 'section3', 400, "#f36094"],
-      ['desk-is1','section5', 500, '#89B628'],
-      ['desk-is2', 'section5', 500, '#89B628'],
-      ['desk-prahs', 'section4', 600, '#5fa4c2'],
-      ['desk-dm', 'section2', 200, "#BB2340"],
-      ['desk-brand', 'section7', 800, '#F58727'],
-      ['desk-about', 'url=/about.html', '#7f7977']
-    ];
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
@@ -53,10 +54,7 @@ jQuery(document).ready(function($){
           desksvg = $('#' + name + '-svg').detach();
           desklightsvg.appendTo('#' + name + '-wrapper');
         });
-
       });
-
-
     });
   }
 
@@ -69,15 +67,22 @@ jQuery(document).ready(function($){
   }
 
   function deskLink(logo, targetName, speed, color) {
+    var logoOverlay = logo + "-overlay"
     var element = $('#' + logo);
-    var overlay = $("#" + logo + "-overlay");
+    var overlay = $("#" + logoOverlay);
     $(overlay).hover(function () {
       $(element).css({fill: color, transition: "0.1s"});
+      scaleElement(logo, 1.2);
+      scaleInnerElements(logo, 1.2);
+      scaleElement(logoOverlay, 1.2);
       if (logo === 'desk-prahs') {
         $('#desk-prahs-flash').css({fill: color, transition: "0.1s"});
       }
     }, function () {
       $(element).css({fill: "#c1ad73", transition: "0.1s"});
+      scaleElement(logo, 1.0);
+      scaleInnerElements(logo, 1.0);
+      scaleElement(logoOverlay, 1.0);
       if (logo === 'desk-prahs') {
         $('#desk-prahs-flash').css({fill: "#c1ad73", transition: "0.1s"});
       }
@@ -94,6 +99,33 @@ jQuery(document).ready(function($){
 
     });
   }
+
+  function scaleElement(element, scale, idParam = true) {
+    if (idParam) {
+      var element = document.getElementById(element);
+    }
+    var bbox=element.getBBox();
+    var cx=bbox.x+(bbox.width/2), cy=bbox.y+(bbox.height/2);   // finding center of element
+    var scalex=scale, scaley=scale;    // your desired scale
+    var saclestr=scalex+','+scaley;
+    var tx=-cx*(scalex-1);
+    var ty=-cy*(scaley-1);
+    var translatestr=tx+','+ty;
+    if (element.id === 'desk-is2-button' && scale !== 1.0) {
+      ty = ty -2.2;
+      translatestr=tx+','+ty;
+      console.log(translatestr);
+    }
+    element.setAttribute('transform','translate('+translatestr+') scale('+saclestr+')');
+  }
+
+  function scaleInnerElements(elementID, scale) {
+    var innerElements = document.getElementsByClassName(elementID + "-inner");
+    for (var i = innerElements.length - 1; i >= 0; i--) {
+      scaleElement(innerElements[i], scale, false);
+    }
+  }
+
 
   desklight('desk', 'lamp-path', 'lamp-p2');
 
