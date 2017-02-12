@@ -26,12 +26,12 @@ jQuery(document).ready(function($){
 }
 
   function desklight (name, onswitch, offswitch) {
-    var desksections = [['desk-amma', 'section3', 400], ['desk-is1','section5', 500], ['desk-is2', 'section5', 500], ['desk-prahs', 'section4', 600], ['desk-dm', 'section2', 200], ['desk-brand', 'section7', 800], ['desk-about', 'url=/about.html']];
+    var desksections = [['desk-amma', 'section3', 400, "#f36094"], ['desk-is1','section5', 500, '#5A073E'], ['desk-is2', 'section5', 500, '#5A073E'], ['desk-prahs', 'section4', 600, '#101A31'], ['desk-dm', 'section2', 200, "#BB2340"], ['desk-brand', 'section7', 800, '#F58727'], ['desk-about', 'url=/about.html', '#7f7977']];
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
       desksections.forEach( function(tuple) {
-        deskLink(tuple[0],tuple[1], tuple[2]);
+        deskLink(tuple[0],tuple[1], tuple[2], tuple[3]);
       });
       deskLink('desk-amma', 'section3');
       $.get('/img/' + name + '-light.svg', function(data) {
@@ -60,15 +60,13 @@ jQuery(document).ready(function($){
       );
   }
 
-  function deskLink(logo, targetName, speed) {
+  function deskLink(logo, targetName, speed, color) {
     var element = $('#' + logo);
     var overlay = $("#" + logo + "-overlay");
     $(overlay).hover(function () {
-      $(element).css({fill: "#d8cbad", transition: "0.1s"});
-      // $(overlay).css({opacity: 0.001, transition: "0.1s"});
+      $(element).css({fill: color, transition: "0.1s"});
     }, function () {
       $(element).css({fill: "#c1ad73", transition: "0.1s"});
-      // $(overlay).css({opacity: 0, transition: "0.1s"});
     });
     $(overlay).click(function () {
       if (targetName.slice(0, 3) == "url") {
