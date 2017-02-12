@@ -72,17 +72,17 @@ jQuery(document).ready(function($){
     var overlay = $("#" + logoOverlay);
     $(overlay).hover(function () {
       $(element).css({fill: color, transition: "0.1s"});
-      scaleElement(logo, 1.2);
+      scaleElement(logo, 1.2, true);
       scaleInnerElements(logo, 1.2);
-      scaleElement(logoOverlay, 1.2);
+      scaleElement(logoOverlay, 1.2, true);
       if (logo === 'desk-prahs') {
         $('#desk-prahs-flash').css({fill: color, transition: "0.1s"});
       }
     }, function () {
       $(element).css({fill: "#c1ad73", transition: "0.1s"});
-      scaleElement(logo, 1.0);
+      scaleElement(logo, 1.0, true);
       scaleInnerElements(logo, 1.0);
-      scaleElement(logoOverlay, 1.0);
+      scaleElement(logoOverlay, 1.0,true);
       if (logo === 'desk-prahs') {
         $('#desk-prahs-flash').css({fill: "#c1ad73", transition: "0.1s"});
       }
@@ -100,7 +100,7 @@ jQuery(document).ready(function($){
     });
   }
 
-  function scaleElement(element, scale, idParam = true) {
+  function scaleElement(element, scale, idParam) {
     if (idParam) {
       var element = document.getElementById(element);
     }
@@ -114,7 +114,6 @@ jQuery(document).ready(function($){
     if (element.id === 'desk-is2-button' && scale !== 1.0) {
       ty = ty -2.2;
       translatestr=tx+','+ty;
-      console.log(translatestr);
     }
     element.setAttribute('transform','translate('+translatestr+') scale('+saclestr+')');
   }
@@ -125,7 +124,6 @@ jQuery(document).ready(function($){
       scaleElement(innerElements[i], scale, false);
     }
   }
-
 
   desklight('desk', 'lamp-path', 'lamp-p2');
 
@@ -147,8 +145,8 @@ jQuery(document).ready(function($){
   //open-close navigation on touch devices
   $('.touch .cd-nav-trigger').on('click', function(){
     $('.touch #cd-vertical-nav').toggleClass('open');
-
   });
+
   //close navigation on touch devices when selectin an elemnt from the list
   $('.touch #cd-vertical-nav a').on('click', function(){
     $('.touch #cd-vertical-nav').removeClass('open');
