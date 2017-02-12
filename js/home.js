@@ -26,7 +26,15 @@ jQuery(document).ready(function($){
 }
 
   function desklight (name, onswitch, offswitch) {
-    var desksections = [['desk-amma', 'section3', 400, "#f36094"], ['desk-is1','section5', 500, '#89B628'], ['desk-is2', 'section5', 500, '#89B628'], ['desk-prahs', 'section4', 600, '#89B628'], ['desk-prahs-flash', 'section4', 600, '#89B628'], ['desk-dm', 'section2', 200, "#BB2340"], ['desk-brand', 'section7', 800, '#F58727'], ['desk-about', 'url=/about.html', '#7f7977']];
+    var desksections = [
+      ['desk-amma', 'section3', 400, "#f36094"],
+      ['desk-is1','section5', 500, '#89B628'],
+      ['desk-is2', 'section5', 500, '#89B628'],
+      ['desk-prahs', 'section4', 600, '#5fa4c2'],
+      ['desk-dm', 'section2', 200, "#BB2340"],
+      ['desk-brand', 'section7', 800, '#F58727'],
+      ['desk-about', 'url=/about.html', '#7f7977']
+    ];
     var desksvg;
     $.get('/img/' + name + '.svg', function(data) {
       $('#'+name).replaceWith($(data).contents());
@@ -65,8 +73,14 @@ jQuery(document).ready(function($){
     var overlay = $("#" + logo + "-overlay");
     $(overlay).hover(function () {
       $(element).css({fill: color, transition: "0.1s"});
+      if (logo === 'desk-prahs') {
+        $('#desk-prahs-flash').css({fill: color, transition: "0.1s"});
+      }
     }, function () {
       $(element).css({fill: "#c1ad73", transition: "0.1s"});
+      if (logo === 'desk-prahs') {
+        $('#desk-prahs-flash').css({fill: "#c1ad73", transition: "0.1s"});
+      }
     });
     $(overlay).click(function () {
       if (targetName.slice(0, 3) == "url") {
