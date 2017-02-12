@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
     ['desk-prahs', 'section4', 600, '#5fa4c2'],
     ['desk-dm', 'section2', 200, "#BB2340"],
     ['desk-brand', 'section7', 800, '#F58727'],
-    ['desk-about', 'url=/about.html', 0, '#7f7977']
+    ['desk-about', 'url=/about.html', 0, '#5A073E']
   ];
 
   function desklight (name, onswitch, offswitch) {
@@ -119,7 +119,6 @@ jQuery(document).ready(function($){
       tx = tx -1;
       translatestr=tx+','+ty;
     }
-
     if(element.getAttribute('class').search('desk-dm-inner-right') !== -1 && scale !== 1.0) {
       tx = tx +1;
       translatestr=tx+','+ty;
