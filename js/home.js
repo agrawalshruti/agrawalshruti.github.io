@@ -115,6 +115,15 @@ jQuery(document).ready(function($){
       ty = ty -2.2;
       translatestr=tx+','+ty;
     }
+    if(element.getAttribute('class').search('desk-dm-inner-left') !== -1 && scale !== 1.0) {
+      tx = tx -1;
+      translatestr=tx+','+ty;
+    }
+
+    if(element.getAttribute('class').search('desk-dm-inner-right') !== -1 && scale !== 1.0) {
+      tx = tx +1;
+      translatestr=tx+','+ty;
+    }
     element.setAttribute('transform','translate('+translatestr+') scale('+saclestr+')');
   }
 
