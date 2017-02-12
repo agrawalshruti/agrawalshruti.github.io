@@ -1951,8 +1951,8 @@ Homepage
   @include MQ(L) {
     min-height: 80%;
   }
-
 }
+
 #section1 {
   min-height: 50%;
   margin-bottom: 4%;
@@ -1974,7 +1974,6 @@ Homepage
       top: 22%;
       transform: translate(-50%,-87%);
     }
-
 
     @include MQ(L) {
       font-size: rem(24);
@@ -2184,7 +2183,6 @@ Homepage
     display: block;
   }
   position: fixed;
-  height: 100%;
   right: 7%;
   top: 0;
   @include MQ(M) {
@@ -2209,8 +2207,7 @@ Homepage
   font-family: 'Halant', serif;
   font-weight: 500;
   float: left;
-  padding: 20px 12px 0 12px;
-  padding-top: 20px;
+  padding: 0 12px;
   height: 67px;
   line-height: 40px;
   border-right: 1px solid $dark-gold;
@@ -2221,6 +2218,8 @@ Homepage
     text-align: center;
     text-decoration: none;
     color: $dark-gold;
+    height: 67px;
+    padding-top: 20px;
   }
   &:hover {
     background: $dark-gold;

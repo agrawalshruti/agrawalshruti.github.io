@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  function checkBackgroundColor(color) {
-
-  }
-
   function updateWorkNavigation() {
      workSections.each(function(){
       $this = $(this);
@@ -13,8 +9,8 @@ $(document).ready(function() {
       if ( ( $this.offset().top - $(window).height()/2 < $(window).scrollTop() ) && ( $this.offset().top + $this.height() - $(window).height()/2 > $(window).scrollTop() ) ) {
         activeWorkNavTitle.removeClass('hidden');
         activeWorkNavIndex.addClass('work-nav-index-active');
-        checkBackgroundColor(dataNumber);
-      }else {
+        $('.bookmark').removeClass('hidden');
+      } else {
         activeWorkNavTitle.addClass('hidden');
         activeWorkNavIndex.removeClass('work-nav-index-active');
       }
@@ -49,8 +45,14 @@ $(document).ready(function() {
   var workNavSections = $('#work-nav');
   var workNavTitles = $('.work-nav-title');
   var workNavIndices = $('.work-nav-index');
+
   $(window).on('scroll', function() {
-    updateWorkNavigation();
+     if($(window).scrollTop() + $(window).height() > $(document).height() - 150 ) {
+     $('.bookmark').addClass('hidden');
+    } else {
+      $('.bookmark').removeClass('hidden');
+      updateWorkNavigation();
+    }
   });
 
   $(workNavIndices).hover(
@@ -60,8 +62,7 @@ $(document).ready(function() {
     },
     function() {
       updateWorkNavigation();
-    }
-    )
+    });
 
   updateWorkNavigation();
 })
