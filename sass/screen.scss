@@ -101,7 +101,8 @@ Work pages
   background-color: white;
   padding-bottom: 7%;
   padding-top: 7%;
-  font-family: 'Halant', serif;
+  font-family: 'Merriweather', serif;
+  // font-family: 'Halant', serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: rem(18);
@@ -414,11 +415,19 @@ Work pages
   }
 }
 
+
 .underline {
   width: 20%;
   margin-bottom: rem(20);
   @include MQ(M) {
     margin-bottom: rem(70);
+  }
+}
+
+.underline-small {
+  width: 20%;
+  margin-bottom: rem(10);
+  @include MQ(M) {
   }
 }
 
@@ -547,10 +556,14 @@ Work pages
 
 .text-part-ul {
   list-style: square outside none;
+  line-height: 1.6;
   margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
   font-size: rem(18);
+  @include MQ(M) {
+    line-height: 2;
+  }
   @include MQ(L) {
     font-size: rem(22);
   }
@@ -615,7 +628,7 @@ Work pages
   font-size: rem(18);
 
   @include MQ(M) {
-    line-height: 1.75;
+    line-height: 2;
     margin-bottom: rem(20);
   }
   @include MQ(L) {
@@ -1286,10 +1299,6 @@ img.dm-lowfi-wireframe {
 
 #dm-reiteration {
   max-width: 80%;
-  @include MQ(M) {
-    max-width: 40%;
-    margin-bottom: rem(60);
-  }
 }
 
 /* --------------------------------
