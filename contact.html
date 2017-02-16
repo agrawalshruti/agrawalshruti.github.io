@@ -6,65 +6,43 @@
 
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--   <link href="/stylesheets/sidebar.css" media="print" rel="stylesheet" type="text/css" /> -->
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-      <![endif]-->
 
-      <link rel="stylesheet" type="text/css" href="/stylesheets/lightbox.min.css" />
-      <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Halant:400,600" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-      <script src="/js/modernizr.js"></script> <!-- Modernizr -->
 
-      <script src="https://use.typekit.net/ktp7jpv.js"></script>
-      <script>try{Typekit.load({ async: true });}catch(e){}</script>
-      <script src="/js/jquery-2.1.1.js"></script>
-      <script src="/js/headroom.min.js"></script>
-      <title>Shruti Agrawal</title>
-    </head>
-    <body>
-      <div class="bookmark-headroom">
-        <a href="/">
-          <img src="/img/logo.svg">
-        </a>
-      </div>
-      <section class="work-section" id="contact-intro-section">
-        <div class="work">
-          <form id='contact_form' action="https://formspree.io/shrutiagrawalny@gmail.com"
+  <link rel="stylesheet" type="text/css" href="/stylesheets/lightbox.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Halant:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <script src="/js/modernizr.js"></script> <!-- Modernizr -->
+
+  <script src="https://use.typekit.net/ktp7jpv.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="/js/jquery-2.1.1.js"></script>
+  <script src="/js/headroom.min.js"></script>
+  <title>Shruti Agrawal</title>
+</head>
+<body>
+  <div class="bookmark-headroom">
+    <a href="/">
+      <img src="/img/logo.svg">
+    </a>
+  </div>
+  <section class="work-section" id="contact-intro-section">
+    <div class="work">
+      <form id='contact_form' action="https://formspree.io/shrutiagrawalny@gmail.com"
       method="POST">
-<!--             <div class="text-part">
-              <p class="text-part-p" id='thanks' style='display: none;'>
-                Thanks for contacting me, I'll be in touch soon!
-              </p>
-            </div> -->
+      <div id="form-fields">
+        <input class='required' name='name' placeholder='Name' type='text' id="name">
+        <input class='required' name='company' placeholder='Company Name' type='text' id="company">
+        <input class='required email'  name="_replyto" placeholder='E-mail' type='email'>
+        <textarea class='required' name='message' placeholder='Message' id="message"></textarea>
+        <input class='button' type="submit" value="Send">
+      </div>
+    </form>
+  </div>
+</section>
 
-            <div id="form-fields">
-<!--                               <div class="group">
-      <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Name</label>
-    </div>
-
-    <div class="group">
-      <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Email</label>
-    </div> -->
-              <input class='required' name='name' placeholder='Name' type='text' id="name">
-              <input class='required' name='company' placeholder='Company Name' type='text' id="company">
-              <input class='required email'  name="_replyto" placeholder='E-mail' type='email'>
-              <textarea class='required' name='message' placeholder='Message' id="message"></textarea>
-              <input class='button' type="submit" value="Send">
-            </div>
-          </form>
-        </div>
-      </section>
-
-      <script src="js/main.js"></script>
-    </body>
-    </html>
+<script src="js/main.js"></script>
+</body>
+</html>
