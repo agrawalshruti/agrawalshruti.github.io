@@ -223,17 +223,17 @@ Work pages
 }
 /* line 123, ../sass/screen.scss */
 .work .text-part-ul span, .work .text-part-ol span {
-  color: #555555;
+  color: #444444;
 }
 
 /* line 128, ../sass/screen.scss */
 .gray {
   background-color: #f5f6f7;
-  color: #555555;
+  color: #444444;
 }
 /* line 133, ../sass/screen.scss */
 .gray .text-part-ul span {
-  color: #555555;
+  color: #444444;
 }
 /* line 136, ../sass/screen.scss */
 .gray img {
@@ -622,7 +622,7 @@ Work pages
 
 /* line 435, ../sass/screen.scss */
 .text-gray {
-  color: #555555;
+  color: #444444;
 }
 
 /* line 436, ../sass/screen.scss */
@@ -723,7 +723,7 @@ Work pages
   box-sizing: border-box;
   padding: 0 15%;
   margin-bottom: 10px;
-  color: #555555;
+  color: #444444;
 }
 @media only screen and (min-width: 830px) {
   /* line 461, ../sass/screen.scss */
@@ -896,7 +896,7 @@ Work pages
 /* line 583, ../sass/screen.scss */
 .text-part-subtitle {
   font-size: 1rem;
-  color: #555555;
+  color: #444444;
   font-variant: small-caps;
   font-weight: 700;
   margin: 0 auto 0.6875rem auto;
@@ -939,7 +939,7 @@ Work pages
 @media only screen and (min-width: 830px) {
   /* line 611, ../sass/screen.scss */
   .text-part-p {
-    line-height: 2;
+    line-height: 1.75;
     margin-bottom: 1.25rem;
   }
 }
@@ -1840,7 +1840,7 @@ Instashop
   width: 16.3%;
   border-style: solid;
   border-width: 1.25px;
-  border-color: #555555;
+  border-color: #444444;
 }
 
 /* line 1324, ../sass/screen.scss */
@@ -2264,7 +2264,7 @@ About
 /* line 1640, ../sass/screen.scss */
 .about, .about-intro {
   font-weight: 500;
-  color: #555555;
+  color: #444444;
 }
 /* line 1643, ../sass/screen.scss */
 .about a, .about-intro a {
@@ -2321,7 +2321,7 @@ About
 
 /* line 1687, ../sass/screen.scss */
 #resume-title {
-  color: #555555;
+  color: #444444;
 }
 
 /* line 1691, ../sass/screen.scss */
@@ -2418,7 +2418,7 @@ Contact
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 0.5rem;
-  color: #555555;
+  color: #444444;
   font-family: 'usual', sans-serif;
   font-weight: 600;
   font-size: 0.875rem;
@@ -2794,7 +2794,7 @@ Homepage
   height: auto;
   margin: 0 auto;
   box-sizing: border-box;
-  color: #555555;
+  color: #444444;
   font-family: 'Halant', serif;
   margin-bottom: 20%;
   margin-top: 6%;
@@ -2894,7 +2894,7 @@ Homepage
 }
 /* line 2145, ../sass/screen.scss */
 .text-wrapper p a {
-  color: #555555;
+  color: #444444;
   font-weight: 700;
 }
 
@@ -3169,7 +3169,7 @@ Homepage
   position: absolute;
   height: 4px;
   width: 4px;
-  background-color: #555555;
+  background-color: #444444;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -3235,7 +3235,7 @@ Homepage
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
-  color: #555555;
+  color: #444444;
 }
 /* line 2406, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {

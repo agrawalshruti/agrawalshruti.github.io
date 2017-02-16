@@ -13,11 +13,11 @@
   /*border-radius: 7.5px;*/
   overflow: hidden;
   text-indent: -999em;
-  border: 1px solid #555555;
+  border: 1px solid #444444;
   cursor: pointer;
 }
 /* line 24, ../../sass/unslider/dots.scss */
 .unslider-nav ol li.unslider-active {
-  background: #555555;
+  background: #444444;
   cursor: default;
 }

@@ -615,7 +615,7 @@ Work pages
   font-size: rem(18);
 
   @include MQ(M) {
-    line-height: 2;
+    line-height: 1.75;
     margin-bottom: rem(20);
   }
   @include MQ(L) {
