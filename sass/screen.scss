@@ -560,7 +560,7 @@ Work pages
   margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
-  font-size: rem(16);
+  font-size: rem(15);
   @include MQ(M) {
     line-height: 2;
   }
@@ -625,7 +625,7 @@ Work pages
   line-height: 1.6;
   font-weight: 300;
   margin-bottom: rem(14);
-  font-size: rem(16);
+  font-size: rem(15);
 
   @include MQ(M) {
     line-height: 2;
