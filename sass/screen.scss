@@ -374,8 +374,9 @@ Work pages
 
 .work-title {
   font-size: rem(38);
+  font-family: 'Roboto Condensed', sans-serif;
   color: #9AA0A3;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
   @include MQ(M) {
@@ -559,7 +560,7 @@ Work pages
   margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
-  font-size: rem(15);
+  font-size: rem(16);
   @include MQ(M) {
     line-height: 2;
   }
@@ -624,7 +625,7 @@ Work pages
   line-height: 1.6;
   font-weight: 300;
   margin-bottom: rem(14);
-  font-size: rem(15);
+  font-size: rem(16);
 
   @include MQ(M) {
     line-height: 2;
@@ -787,7 +788,8 @@ AMMA
 
 .intro-title {
   font-size: rem(38);
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
   @include MQ(M) {
     font-size: rem(50);
   }
@@ -2081,9 +2083,9 @@ Homepage
     padding-bottom: 17px;
     margin-left: -2px;
     font-size: rem(34);
-    font-family: "usual light",sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     color: $medium-gray;
 
     &.brand-title {
