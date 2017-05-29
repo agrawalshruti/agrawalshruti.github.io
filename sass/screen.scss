@@ -101,8 +101,7 @@ Work pages
   background-color: white;
   padding-bottom: 7%;
   padding-top: 7%;
-  font-family: 'Merriweather', serif;
-  // font-family: 'Halant', serif;
+  font-family: 'Source Sans Pro', serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: rem(18);
@@ -375,8 +374,9 @@ Work pages
 
 .work-title {
   font-size: rem(38);
+  font-family: 'Roboto Condensed', sans-serif;
   color: #9AA0A3;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
   @include MQ(M) {
@@ -560,7 +560,7 @@ Work pages
   margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
-  font-size: rem(15);
+  font-size: rem(16);
   @include MQ(M) {
     line-height: 2;
   }
@@ -625,7 +625,7 @@ Work pages
   line-height: 1.6;
   font-weight: 300;
   margin-bottom: rem(14);
-  font-size: rem(15);
+  font-size: rem(16);
 
   @include MQ(M) {
     line-height: 2;
@@ -788,7 +788,8 @@ AMMA
 
 .intro-title {
   font-size: rem(38);
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
   @include MQ(M) {
     font-size: rem(50);
   }
@@ -2068,7 +2069,7 @@ Homepage
 .text-wrapper{
   @include leftfloat;
   color: $dark-gray;
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   margin-bottom: 20%;
   margin-top: 6%;
   @include MQ(M) {
@@ -2082,9 +2083,9 @@ Homepage
     padding-bottom: 17px;
     margin-left: -2px;
     font-size: rem(34);
-    font-family: "usual light",sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     color: $medium-gray;
 
     &.brand-title {
@@ -2199,7 +2200,7 @@ Homepage
 }
 
 .work-nav-title {
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   font-weight: 500;
   float: left;
   padding: 20px 20px 0 20px;
@@ -2212,7 +2213,7 @@ Homepage
 }
 
 .work-nav-index {
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   font-weight: 500;
   float: left;
   padding: 0 12px;
