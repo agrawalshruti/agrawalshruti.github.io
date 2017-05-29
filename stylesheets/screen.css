@@ -2801,7 +2801,7 @@ Homepage
   margin: 0 auto;
   box-sizing: border-box;
   color: #444444;
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   margin-bottom: 20%;
   margin-top: 6%;
 }
@@ -2961,7 +2961,7 @@ Homepage
 
 /* line 2200, ../sass/screen.scss */
 .work-nav-title {
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   font-weight: 500;
   float: left;
   padding: 20px 20px 0 20px;
@@ -2975,7 +2975,7 @@ Homepage
 
 /* line 2213, ../sass/screen.scss */
 .work-nav-index {
-  font-family: 'Halant', serif;
+  font-family: 'Old Standard TT', serif;
   font-weight: 500;
   float: left;
   padding: 0 12px;
