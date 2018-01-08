@@ -1982,6 +1982,7 @@ Homepage
     @include MQ(M) {
       top: 22%;
       transform: translate(-50%,-87%);
+      font-size: rem(18);
     }
 
     @include MQ(L) {
@@ -2083,7 +2084,6 @@ Homepage
     padding-bottom: 17px;
     margin-left: -2px;
     font-size: rem(34);
-    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
     color: $medium-gray;
