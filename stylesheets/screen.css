@@ -2397,8 +2397,8 @@ Contact
 @media only screen and (min-width: 830px) {
   /* line 1739, ../sass/screen.scss */
   #form-fields {
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 @media only screen and (min-width: 1824px) {
