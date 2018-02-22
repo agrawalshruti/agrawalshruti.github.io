@@ -852,7 +852,7 @@ Work pages
   margin-left: 0;
   padding-left: 1em;
   margin-bottom: 20px;
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 @media only screen and (min-width: 830px) {
   /* line 557, ../sass/screen.scss */
@@ -948,7 +948,7 @@ Work pages
   line-height: 1.6;
   font-weight: 300;
   margin-bottom: 0.875rem;
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 @media only screen and (min-width: 830px) {
   /* line 624, ../sass/screen.scss */
@@ -2880,8 +2880,7 @@ Homepage
 }
 /* line 2137, ../sass/screen.scss */
 .text-wrapper p {
-  font-size: 1rem;
-  font-size: 1.03rem;
+  font-size: 1.0625rem;
   word-spacing: -.1em;
   line-height: 1.7;
 }
@@ -2900,18 +2899,18 @@ Homepage
     font-size: 1.375rem;
   }
 }
-/* line 2154, ../sass/screen.scss */
+/* line 2153, ../sass/screen.scss */
 .text-wrapper p a {
   color: #222222;
   font-weight: 700;
 }
 
-/* line 2163, ../sass/screen.scss */
+/* line 2162, ../sass/screen.scss */
 .new-row {
   clear: both !important;
 }
 
-/* line 2167, ../sass/screen.scss */
+/* line 2166, ../sass/screen.scss */
 .bookmark {
   position: fixed;
   top: 0;
@@ -2920,7 +2919,7 @@ Homepage
   z-index: 100;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2167, ../sass/screen.scss */
+  /* line 2166, ../sass/screen.scss */
   .bookmark {
     background: #f5f6f7;
     -webkit-box-shadow: 0px 2px 12px -1px rgba(112, 112, 112, 0.36);
@@ -2928,20 +2927,20 @@ Homepage
     box-shadow: 0px 2px 12px -1px rgba(112, 112, 112, 0.36);
   }
 }
-/* line 2179, ../sass/screen.scss */
+/* line 2178, ../sass/screen.scss */
 .bookmark img {
   width: 50px;
   margin-left: 7%;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2179, ../sass/screen.scss */
+  /* line 2178, ../sass/screen.scss */
   .bookmark img {
     margin-left: 16.9%;
     width: 83px;
   }
 }
 
-/* line 2189, ../sass/screen.scss */
+/* line 2188, ../sass/screen.scss */
 .work-nav {
   display: none;
   position: fixed;
@@ -2949,19 +2948,19 @@ Homepage
   top: 0;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2189, ../sass/screen.scss */
+  /* line 2188, ../sass/screen.scss */
   .work-nav {
     display: block;
   }
 }
 @media only screen and (min-width: 830px) {
-  /* line 2189, ../sass/screen.scss */
+  /* line 2188, ../sass/screen.scss */
   .work-nav {
     right: 16.9%;
   }
 }
 
-/* line 2202, ../sass/screen.scss */
+/* line 2201, ../sass/screen.scss */
 .work-nav-title {
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
@@ -2975,7 +2974,7 @@ Homepage
   color: #bfad55;
 }
 
-/* line 2215, ../sass/screen.scss */
+/* line 2214, ../sass/screen.scss */
 .work-nav-index {
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
@@ -2987,7 +2986,7 @@ Homepage
   vertical-align: baseline;
   font-size: 1.625rem;
 }
-/* line 2225, ../sass/screen.scss */
+/* line 2224, ../sass/screen.scss */
 .work-nav-index a {
   display: block;
   text-align: center;
@@ -2996,25 +2995,25 @@ Homepage
   height: 67px;
   padding-top: 20px;
 }
-/* line 2233, ../sass/screen.scss */
+/* line 2232, ../sass/screen.scss */
 .work-nav-index:hover {
   background: #bfad55;
 }
-/* line 2235, ../sass/screen.scss */
+/* line 2234, ../sass/screen.scss */
 .work-nav-index:hover a {
   color: white;
 }
 
-/* line 2241, ../sass/screen.scss */
+/* line 2240, ../sass/screen.scss */
 .work-nav-index-active {
   background: #bfad55;
 }
-/* line 2243, ../sass/screen.scss */
+/* line 2242, ../sass/screen.scss */
 .work-nav-index-active a {
   color: white;
 }
 
-/* line 2248, ../sass/screen.scss */
+/* line 2247, ../sass/screen.scss */
 .bookmark-headroom {
   position: fixed;
   top: 0;
@@ -3023,23 +3022,23 @@ Homepage
   margin-left: 7%;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2248, ../sass/screen.scss */
+  /* line 2247, ../sass/screen.scss */
   .bookmark-headroom {
     margin-left: 16.9%;
   }
 }
-/* line 2257, ../sass/screen.scss */
+/* line 2256, ../sass/screen.scss */
 .bookmark-headroom img {
   width: 50px;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2257, ../sass/screen.scss */
+  /* line 2256, ../sass/screen.scss */
   .bookmark-headroom img {
     width: 83px;
   }
 }
 
-/* line 2267, ../sass/screen.scss */
+/* line 2266, ../sass/screen.scss */
 .cd-scroll-down {
   position: absolute;
   left: 50%;
@@ -3056,12 +3055,12 @@ Homepage
 }
 
 /* No Touch devices */
-/* line 2278, ../sass/screen.scss */
+/* line 2277, ../sass/screen.scss */
 .cd-nav-trigger {
   display: none;
 }
 
-/* line 2282, ../sass/screen.scss */
+/* line 2281, ../sass/screen.scss */
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -3074,11 +3073,11 @@ Homepage
   transform: translateY(-50%);
   z-index: 1;
 }
-/* line 2288, ../sass/screen.scss */
+/* line 2287, ../sass/screen.scss */
 .no-touch #cd-vertical-nav li {
   text-align: right;
 }
-/* line 2292, ../sass/screen.scss */
+/* line 2291, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a {
   display: inline-block;
   /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
@@ -3091,7 +3090,7 @@ Homepage
   content: "";
   display: table;
 }
-/* line 2299, ../sass/screen.scss */
+/* line 2298, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a span {
   float: right;
   display: inline-block;
@@ -3101,7 +3100,7 @@ Homepage
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-/* line 2305, ../sass/screen.scss */
+/* line 2304, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover span {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3109,15 +3108,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2309, ../sass/screen.scss */
+/* line 2308, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
-/* line 2313, ../sass/screen.scss */
+/* line 2312, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #7f7977;
 }
-/* line 2318, ../sass/screen.scss */
+/* line 2317, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -3136,11 +3135,11 @@ Homepage
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 2332, ../sass/screen.scss */
+/* line 2331, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot#first-dot {
   border-radius: 0;
 }
-/* line 2337, ../sass/screen.scss */
+/* line 2336, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
@@ -3160,7 +3159,7 @@ Homepage
 }
 
 /* Touch devices */
-/* line 2354, ../sass/screen.scss */
+/* line 2353, ../sass/screen.scss */
 .touch .cd-nav-trigger {
   display: block;
   z-index: 2;
@@ -3172,7 +3171,7 @@ Homepage
   border-radius: 0.25em;
   background: rgba(245, 246, 247, 0.9);
 }
-/* line 2365, ../sass/screen.scss */
+/* line 2364, ../sass/screen.scss */
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
@@ -3189,7 +3188,7 @@ Homepage
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 2373, ../sass/screen.scss */
+/* line 2372, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
   content: '';
   height: 100%;
@@ -3199,16 +3198,16 @@ Homepage
   background-color: inherit;
   border-radius: inherit;
 }
-/* line 2383, ../sass/screen.scss */
+/* line 2382, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before {
   top: -9px;
 }
-/* line 2387, ../sass/screen.scss */
+/* line 2386, ../sass/screen.scss */
 .touch .cd-nav-trigger span::after {
   bottom: -9px;
 }
 
-/* line 2393, ../sass/screen.scss */
+/* line 2392, ../sass/screen.scss */
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
@@ -3238,22 +3237,22 @@ Homepage
   border-radius: 0.25em;
   background-color: rgba(245, 246, 247, 0.9);
 }
-/* line 2410, ../sass/screen.scss */
+/* line 2409, ../sass/screen.scss */
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
   color: #222222;
 }
-/* line 2415, ../sass/screen.scss */
+/* line 2414, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
-/* line 2419, ../sass/screen.scss */
+/* line 2418, ../sass/screen.scss */
 .touch #cd-vertical-nav a.is-selected span:last-child {
   color: #c1ad73;
 }
-/* line 2424, ../sass/screen.scss */
+/* line 2423, ../sass/screen.scss */
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3261,15 +3260,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2428, ../sass/screen.scss */
+/* line 2427, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger {
   background-color: transparent;
 }
-/* line 2431, ../sass/screen.scss */
+/* line 2430, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
   background-color: rgba(245, 246, 247, 0);
 }
-/* line 2435, ../sass/screen.scss */
+/* line 2434, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #f5f6f7;
   height: 3px;
@@ -3277,7 +3276,7 @@ Homepage
   border-radius: 0;
   left: -8px;
 }
-/* line 2443, ../sass/screen.scss */
+/* line 2442, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -3286,7 +3285,7 @@ Homepage
   transform: rotate(45deg);
   top: 1px;
 }
-/* line 2448, ../sass/screen.scss */
+/* line 2447, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -3295,18 +3294,18 @@ Homepage
   transform: rotate(135deg);
   bottom: 0;
 }
-/* line 2454, ../sass/screen.scss */
+/* line 2453, ../sass/screen.scss */
 .touch #cd-vertical-nav li:last-child a {
   border-bottom: none;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2460, ../sass/screen.scss */
+  /* line 2459, ../sass/screen.scss */
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
 }
-/* line 2467, ../sass/screen.scss */
+/* line 2466, ../sass/screen.scss */
 .headroom {
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -3315,7 +3314,7 @@ Homepage
   transition: all 200ms linear;
 }
 
-/* line 2474, ../sass/screen.scss */
+/* line 2473, ../sass/screen.scss */
 .headroom--pinned {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -3324,7 +3323,7 @@ Homepage
   transform: translateY(0%);
 }
 
-/* line 2481, ../sass/screen.scss */
+/* line 2480, ../sass/screen.scss */
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -3333,42 +3332,42 @@ Homepage
   transform: translateY(-100%);
 }
 
-/* line 2491, ../sass/screen.scss */
+/* line 2490, ../sass/screen.scss */
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem;
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2491, ../sass/screen.scss */
+  /* line 2490, ../sass/screen.scss */
   #amma-name {
     font-size: 1.4rem;
   }
 }
 
-/* line 2499, ../sass/screen.scss */
+/* line 2498, ../sass/screen.scss */
 #nirvana {
   max-width: 75%;
 }
 
-/* line 2503, ../sass/screen.scss */
+/* line 2502, ../sass/screen.scss */
 #mootown {
   max-width: 75%;
 }
 
-/* line 2507, ../sass/screen.scss */
+/* line 2506, ../sass/screen.scss */
 #cbg {
   max-width: 75%;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2512, ../sass/screen.scss */
+  /* line 2511, ../sass/screen.scss */
   #section7 {
     margin-top: -100px;
     min-height: 80%;
   }
 }
 
-/* line 2519, ../sass/screen.scss */
+/* line 2518, ../sass/screen.scss */
 .selected {
   opacity: 0.5;
   fill: #000;
