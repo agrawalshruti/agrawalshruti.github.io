@@ -223,17 +223,17 @@ Work pages
 }
 /* line 123, ../sass/screen.scss */
 .work .text-part-ul span, .work .text-part-ol span {
-  color: #444444;
+  color: #222222;
 }
 
 /* line 128, ../sass/screen.scss */
 .gray {
   background-color: #f5f6f7;
-  color: #444444;
+  color: #222222;
 }
 /* line 133, ../sass/screen.scss */
 .gray .text-part-ul span {
-  color: #444444;
+  color: #222222;
 }
 /* line 136, ../sass/screen.scss */
 .gray img {
@@ -629,7 +629,7 @@ Work pages
 
 /* line 444, ../sass/screen.scss */
 .text-gray {
-  color: #444444;
+  color: #222222;
 }
 
 /* line 445, ../sass/screen.scss */
@@ -730,7 +730,7 @@ Work pages
   box-sizing: border-box;
   padding: 0 15%;
   margin-bottom: 10px;
-  color: #444444;
+  color: #222222;
 }
 @media only screen and (min-width: 830px) {
   /* line 470, ../sass/screen.scss */
@@ -910,7 +910,7 @@ Work pages
 /* line 596, ../sass/screen.scss */
 .text-part-subtitle {
   font-size: 1rem;
-  color: #444444;
+  color: #222222;
   font-variant: small-caps;
   font-weight: 700;
   margin: 0 auto 0.6875rem auto;
@@ -1848,7 +1848,7 @@ Instashop
   width: 16.3%;
   border-style: solid;
   border-width: 1.25px;
-  border-color: #444444;
+  border-color: #222222;
 }
 
 /* line 1333, ../sass/screen.scss */
@@ -2272,7 +2272,7 @@ About
 /* line 1649, ../sass/screen.scss */
 .about, .about-intro {
   font-weight: 500;
-  color: #444444;
+  color: #222222;
 }
 /* line 1652, ../sass/screen.scss */
 .about a, .about-intro a {
@@ -2329,7 +2329,7 @@ About
 
 /* line 1696, ../sass/screen.scss */
 #resume-title {
-  color: #444444;
+  color: #222222;
 }
 
 /* line 1700, ../sass/screen.scss */
@@ -2426,7 +2426,7 @@ Contact
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 0.5rem;
-  color: #444444;
+  color: #222222;
   font-family: 'usual', sans-serif;
   font-weight: 600;
   font-size: 0.875rem;
@@ -2803,7 +2803,7 @@ Homepage
   height: auto;
   margin: 0 auto;
   box-sizing: border-box;
-  color: #444444;
+  color: #222222;
   font-family: 'Old Standard TT', serif;
   margin-bottom: 20%;
   margin-top: 6%;
@@ -2902,7 +2902,7 @@ Homepage
 }
 /* line 2154, ../sass/screen.scss */
 .text-wrapper p a {
-  color: #444444;
+  color: #222222;
   font-weight: 700;
 }
 
@@ -3177,7 +3177,7 @@ Homepage
   position: absolute;
   height: 4px;
   width: 4px;
-  background-color: #444444;
+  background-color: #222222;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -3243,7 +3243,7 @@ Homepage
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
-  color: #444444;
+  color: #222222;
 }
 /* line 2415, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {
