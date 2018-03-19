@@ -102,7 +102,7 @@ Work pages
   padding-bottom: 7%;
   padding-top: 7%;
   font-family: 'Source Sans Pro', serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   font-size: rem(18);
   * {
@@ -537,9 +537,9 @@ Work pages
     display: block;
   }
 }
-.bold {
-  font-weight: 600 !important;
-}
+// .bold {
+//   font-weight: 600 !important;
+// }
 
 .text-part-ol {
   list-style-type: lower-roman;
@@ -623,9 +623,9 @@ Work pages
 
 .text-part-p {
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: rem(14);
-  font-size: rem(17);
+  font-size: rem(18);
 
   @include MQ(M) {
     line-height: 2;

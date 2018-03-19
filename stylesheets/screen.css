@@ -194,7 +194,7 @@ Work pages
   padding-bottom: 7%;
   padding-top: 7%;
   font-family: 'Source Sans Pro', serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   font-size: 1.125rem;
 }
@@ -826,11 +826,6 @@ Work pages
   }
 }
 
-/* line 540, ../sass/screen.scss */
-.bold {
-  font-weight: 600 !important;
-}
-
 /* line 544, ../sass/screen.scss */
 .text-part-ol {
   list-style-type: lower-roman;
@@ -946,9 +941,9 @@ Work pages
 /* line 624, ../sass/screen.scss */
 .text-part-p {
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0.875rem;
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
 }
 @media only screen and (min-width: 830px) {
   /* line 624, ../sass/screen.scss */
