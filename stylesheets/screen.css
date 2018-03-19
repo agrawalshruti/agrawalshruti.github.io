@@ -1192,13 +1192,13 @@ AMMA
 
 /* line 837, ../sass/screen.scss */
 #amma-phone {
-  margin-top: 2%;
+  margin-top: 1%;
 }
 @media only screen and (min-width: 830px) {
   /* line 837, ../sass/screen.scss */
   #amma-phone {
-    padding-left: 6.2%;
-    padding-right: 6.2%;
+    padding-left: 4.2%;
+    padding-right: 4.2%;
   }
 }
 
