@@ -794,6 +794,7 @@ AMMA
   font-family: 'Rufina', serif;
   @include MQ(M) {
     font-size: rem(50);
+    padding-bottom: rem(32);
   }
   @include MQ(L) {
     font-size: 60px;
