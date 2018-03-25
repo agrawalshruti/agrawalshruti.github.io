@@ -377,7 +377,7 @@ Work pages
 
 .work-title {
   font-size: rem(38);
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Prata', serif;
   font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
@@ -395,9 +395,9 @@ Work pages
   font-size: rem(16);
   font-weight: 600;
   text-align: center;
-  @include MQ(L) {
+  @include MQ(M) {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   &.pink {color: $pink;}
 }
@@ -791,7 +791,7 @@ AMMA
 .intro-title {
   font-size: rem(38);
   font-weight: 400;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Prata', serif;
   @include MQ(M) {
     font-size: rem(50);
   }
@@ -2033,7 +2033,7 @@ Homepage
 .text-wrapper{
   @include leftfloat;
   color: $dark-gray;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Prata', serif;
   margin-bottom: 20%;
   margin-top: 6%;
   @include MQ(M) {
@@ -2162,7 +2162,7 @@ Homepage
 }
 
 .work-nav-title {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Prata', serif;
   font-weight: 500;
   float: left;
   padding: 20px 20px 0 20px;
@@ -2174,7 +2174,7 @@ Homepage
 }
 
 .work-nav-index {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Prata', serif;
   font-weight: 500;
   float: left;
   padding: 0 12px;
