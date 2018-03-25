@@ -338,8 +338,8 @@ Work pages
   }
 }
 
-.blue {
-  background-color: #182D46;
+.dark-gray-bg {
+  background-color: $dark-gray;
 
   .work-title {
     color: $light-gray;
@@ -381,6 +381,7 @@ Work pages
   font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
+  letter-spacing: 0.47px;
   @include MQ(M) {
     font-size: rem(48);
   }
@@ -2171,7 +2172,7 @@ Homepage
   line-height: 40px;
   border-right: 1px solid $dark-gray;
   vertical-align: baseline;
-  font-size: rem(26);
+  font-size: rem(18);
 }
 
 .work-nav-index {
@@ -2183,7 +2184,7 @@ Homepage
   line-height: 40px;
   border-right: 1px solid $dark-gray;
   vertical-align: baseline;
-  font-size: rem(26);
+  font-size: rem(22);
   a {
     display: block;
     text-align: center;
