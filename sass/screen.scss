@@ -2032,30 +2032,28 @@ Homepage
   }
 }
 .main-page-top {
-  margin-top: 7% !important;
+  margin-top: 10% !important;
 }
 .text-wrapper{
   @include leftfloat;
   display: block;
   color: $dark-gray;
   font-family: 'Rufina', serif;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
   clear: both;
   @include MQ(M) {
-    width: 50%;
     padding-right: 3.5%;
     padding-left: 17%;
     margin-bottom: 0;
   }
   h2 {
     line-height: 1.6;
-    padding-bottom: 17px;
     margin-left: -2px;
     font-size: rem(64);
     font-style: normal;
     font-weight: 400;
     color: $dark-gray;
-
+    display: inline;
     &.brand-title {
       margin-bottom: -25px;
       @include MQ(M) {
@@ -2102,9 +2100,12 @@ Homepage
   }
 
   p {
+    margin-left: 20px;
+    margin-top: -15px;
+    display: inline-block;
     font-size: rem(17);
     word-spacing: -.1em;
-    line-height: 1.7;
+    line-height: 120px;
 
     @include MQ(M) {
       font-size: 12px;
