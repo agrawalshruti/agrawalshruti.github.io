@@ -2039,12 +2039,11 @@ Homepage
   display: block;
   color: $dark-gray;
   font-family: 'Rufina', serif;
-  margin-bottom: 12%;
+  margin-bottom: 1.25rem;
   clear: both;
   @include MQ(M) {
     padding-right: 3.5%;
     padding-left: 17%;
-    margin-bottom: 0;
   }
   h2 {
     line-height: 1.6;
@@ -2104,7 +2103,7 @@ Homepage
     display: inline-block;
     font-size: rem(17);
     word-spacing: -.1em;
-    line-height: 2.7;
+    line-height: 1.7;
     color: $dark-gray;
     &.brand {
       display: block;
