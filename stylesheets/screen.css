@@ -535,7 +535,7 @@ Work pages
 /* line 378, ../sass/screen.scss */
 .work-title {
   font-size: 2.375rem;
-  font-family: 'Prata', serif;
+  font-family: 'Rufina', serif;
   font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
@@ -1128,7 +1128,7 @@ AMMA
 .intro-title {
   font-size: 2.375rem;
   font-weight: 400;
-  font-family: 'Prata', serif;
+  font-family: 'Rufina', serif;
 }
 @media only screen and (min-width: 830px) {
   /* line 791, ../sass/screen.scss */
@@ -2767,7 +2767,7 @@ Homepage
   margin: 0 auto;
   box-sizing: border-box;
   color: #222222;
-  font-family: 'Prata', serif;
+  font-family: 'Rufina', serif;
   margin-bottom: 20%;
   margin-top: 6%;
 }
@@ -2925,7 +2925,7 @@ Homepage
 
 /* line 2164, ../sass/screen.scss */
 .work-nav-title {
-  font-family: 'Prata', serif;
+  font-family: 'Rufina', serif;
   font-weight: 500;
   float: left;
   padding: 20px 20px 0 20px;
@@ -2938,7 +2938,7 @@ Homepage
 
 /* line 2176, ../sass/screen.scss */
 .work-nav-index {
-  font-family: 'Prata', serif;
+  font-family: 'Rufina', serif;
   font-weight: 500;
   float: left;
   padding: 0 12px;
