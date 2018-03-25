@@ -2100,13 +2100,16 @@ Homepage
   }
 
   p {
-    margin-left: 20px;
-    margin-top: -15px;
+    margin-left: 18px;
     display: inline-block;
     font-size: rem(17);
     word-spacing: -.1em;
-    line-height: 120px;
-
+    line-height: 2.7;
+    color: $dark-gray;
+    &.brand {
+      display: block;
+      margin-left: 0;
+    }
     @include MQ(M) {
       font-size: 12px;
       font-size: 1.075rem;
