@@ -2031,26 +2031,27 @@ Homepage
     }
   }
 }
-
+.main-page-top {
+  margin-top: 7% !important;
+}
 .text-wrapper{
   @include leftfloat;
   display: block;
   color: $dark-gray;
   font-family: 'Rufina', serif;
-  margin-bottom: 20%;
-  margin-top: 6%;
+  margin-bottom: 8%;
   clear: both;
   @include MQ(M) {
     width: 50%;
     padding-right: 3.5%;
-    padding-left: 12%;
+    padding-left: 17%;
     margin-bottom: 0;
   }
   h2 {
     line-height: 1.6;
     padding-bottom: 17px;
     margin-left: -2px;
-    font-size: rem(38);
+    font-size: rem(64);
     font-style: normal;
     font-weight: 400;
     color: $dark-gray;
