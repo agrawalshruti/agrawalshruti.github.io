@@ -724,7 +724,7 @@ input[type="button"] {
   height: 38px;
   padding: 0 30px;
   margin-top: 24px;
-  color: $gold;
+  color: $dark-gray;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -735,7 +735,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid $gold;
+  border: 1px solid $dark-gray;
   cursor: pointer;
   box-sizing: border-box;
   @include MQ(L) {
@@ -757,8 +757,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: white;
-  border-color: $gold;
-  background-color: $gold;
+  border-color: $dark-gray;
+  background-color: $dark-gray;
   outline: 0;
   opacity: 1; }
     // .button.button-primary,
@@ -2034,10 +2034,12 @@ Homepage
 
 .text-wrapper{
   @include leftfloat;
+  display: block;
   color: $dark-gray;
   font-family: 'Rufina', serif;
   margin-bottom: 20%;
   margin-top: 6%;
+  clear: both;
   @include MQ(M) {
     width: 50%;
     padding-right: 3.5%;
@@ -2051,7 +2053,7 @@ Homepage
     font-size: rem(38);
     font-style: normal;
     font-weight: 400;
-    color: $medium-gray;
+    color: $dark-gray;
 
     &.brand-title {
       margin-bottom: -25px;
@@ -2074,7 +2076,6 @@ Homepage
     letter-spacing: 0.8px;
     font-weight: 800;
     margin-top: -8px;
-    color: #b59f62;
 
     &#dm-subtitle {
       margin-top: -5px;
