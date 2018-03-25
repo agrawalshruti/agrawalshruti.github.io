@@ -2931,13 +2931,12 @@ Homepage
   padding: 20px 20px 0 20px;
   height: 67px;
   line-height: 40px;
-  border-right: 1px solid #bfad55;
+  border-right: 1px solid #222222;
   vertical-align: baseline;
   font-size: 1.625rem;
-  color: #bfad55;
 }
 
-/* line 2177, ../sass/screen.scss */
+/* line 2176, ../sass/screen.scss */
 .work-nav-index {
   font-family: 'Old Standard TT', serif;
   font-weight: 500;
@@ -2945,38 +2944,38 @@ Homepage
   padding: 0 12px;
   height: 67px;
   line-height: 40px;
-  border-right: 1px solid #bfad55;
+  border-right: 1px solid #222222;
   vertical-align: baseline;
   font-size: 1.625rem;
 }
-/* line 2187, ../sass/screen.scss */
+/* line 2186, ../sass/screen.scss */
 .work-nav-index a {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #bfad55;
+  color: #222222;
   height: 67px;
   padding-top: 20px;
 }
-/* line 2195, ../sass/screen.scss */
+/* line 2194, ../sass/screen.scss */
 .work-nav-index:hover {
-  background: #bfad55;
+  background: #222222;
 }
-/* line 2197, ../sass/screen.scss */
+/* line 2196, ../sass/screen.scss */
 .work-nav-index:hover a {
   color: white;
 }
 
-/* line 2203, ../sass/screen.scss */
+/* line 2202, ../sass/screen.scss */
 .work-nav-index-active {
-  background: #bfad55;
+  background: #222222;
 }
-/* line 2205, ../sass/screen.scss */
+/* line 2204, ../sass/screen.scss */
 .work-nav-index-active a {
   color: white;
 }
 
-/* line 2210, ../sass/screen.scss */
+/* line 2209, ../sass/screen.scss */
 .bookmark-headroom {
   position: fixed;
   top: 0;
@@ -2985,23 +2984,23 @@ Homepage
   margin-left: 7%;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2210, ../sass/screen.scss */
+  /* line 2209, ../sass/screen.scss */
   .bookmark-headroom {
     margin-left: 16.9%;
   }
 }
-/* line 2219, ../sass/screen.scss */
+/* line 2218, ../sass/screen.scss */
 .bookmark-headroom img {
   width: 50px;
 }
 @media only screen and (min-width: 830px) {
-  /* line 2219, ../sass/screen.scss */
+  /* line 2218, ../sass/screen.scss */
   .bookmark-headroom img {
     width: 83px;
   }
 }
 
-/* line 2229, ../sass/screen.scss */
+/* line 2228, ../sass/screen.scss */
 .cd-scroll-down {
   position: absolute;
   left: 50%;
@@ -3018,12 +3017,12 @@ Homepage
 }
 
 /* No Touch devices */
-/* line 2240, ../sass/screen.scss */
+/* line 2239, ../sass/screen.scss */
 .cd-nav-trigger {
   display: none;
 }
 
-/* line 2244, ../sass/screen.scss */
+/* line 2243, ../sass/screen.scss */
 .no-touch #cd-vertical-nav {
   position: fixed;
   right: 40px;
@@ -3036,11 +3035,11 @@ Homepage
   transform: translateY(-50%);
   z-index: 1;
 }
-/* line 2250, ../sass/screen.scss */
+/* line 2249, ../sass/screen.scss */
 .no-touch #cd-vertical-nav li {
   text-align: right;
 }
-/* line 2254, ../sass/screen.scss */
+/* line 2253, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a {
   display: inline-block;
   /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
@@ -3053,7 +3052,7 @@ Homepage
   content: "";
   display: table;
 }
-/* line 2261, ../sass/screen.scss */
+/* line 2260, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a span {
   float: right;
   display: inline-block;
@@ -3063,7 +3062,7 @@ Homepage
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-/* line 2267, ../sass/screen.scss */
+/* line 2266, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover span {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3071,15 +3070,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2271, ../sass/screen.scss */
+/* line 2270, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a:hover .cd-label {
   opacity: 1;
 }
-/* line 2275, ../sass/screen.scss */
+/* line 2274, ../sass/screen.scss */
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
   background-color: #7f7977;
 }
-/* line 2280, ../sass/screen.scss */
+/* line 2279, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
@@ -3098,11 +3097,11 @@ Homepage
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 2294, ../sass/screen.scss */
+/* line 2293, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-dot#first-dot {
   border-radius: 0;
 }
-/* line 2299, ../sass/screen.scss */
+/* line 2298, ../sass/screen.scss */
 .no-touch #cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
@@ -3122,7 +3121,7 @@ Homepage
 }
 
 /* Touch devices */
-/* line 2316, ../sass/screen.scss */
+/* line 2315, ../sass/screen.scss */
 .touch .cd-nav-trigger {
   display: block;
   z-index: 2;
@@ -3134,7 +3133,7 @@ Homepage
   border-radius: 0.25em;
   background: rgba(245, 246, 247, 0.9);
 }
-/* line 2327, ../sass/screen.scss */
+/* line 2326, ../sass/screen.scss */
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
@@ -3151,7 +3150,7 @@ Homepage
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 2335, ../sass/screen.scss */
+/* line 2334, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
   content: '';
   height: 100%;
@@ -3161,16 +3160,16 @@ Homepage
   background-color: inherit;
   border-radius: inherit;
 }
-/* line 2345, ../sass/screen.scss */
+/* line 2344, ../sass/screen.scss */
 .touch .cd-nav-trigger span::before {
   top: -9px;
 }
-/* line 2349, ../sass/screen.scss */
+/* line 2348, ../sass/screen.scss */
 .touch .cd-nav-trigger span::after {
   bottom: -9px;
 }
 
-/* line 2355, ../sass/screen.scss */
+/* line 2354, ../sass/screen.scss */
 .touch #cd-vertical-nav {
   position: fixed;
   z-index: 1;
@@ -3200,22 +3199,22 @@ Homepage
   border-radius: 0.25em;
   background-color: rgba(245, 246, 247, 0.9);
 }
-/* line 2372, ../sass/screen.scss */
+/* line 2371, ../sass/screen.scss */
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
   border-bottom: 1px solid rgba(245, 246, 247, 0.1);
   color: #222222;
 }
-/* line 2377, ../sass/screen.scss */
+/* line 2376, ../sass/screen.scss */
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
-/* line 2381, ../sass/screen.scss */
+/* line 2380, ../sass/screen.scss */
 .touch #cd-vertical-nav a.is-selected span:last-child {
   color: #c1ad73;
 }
-/* line 2386, ../sass/screen.scss */
+/* line 2385, ../sass/screen.scss */
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -3223,15 +3222,15 @@ Homepage
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 2390, ../sass/screen.scss */
+/* line 2389, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger {
   background-color: transparent;
 }
-/* line 2393, ../sass/screen.scss */
+/* line 2392, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
   background-color: rgba(245, 246, 247, 0);
 }
-/* line 2397, ../sass/screen.scss */
+/* line 2396, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #f5f6f7;
   height: 3px;
@@ -3239,7 +3238,7 @@ Homepage
   border-radius: 0;
   left: -8px;
 }
-/* line 2405, ../sass/screen.scss */
+/* line 2404, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -3248,7 +3247,7 @@ Homepage
   transform: rotate(45deg);
   top: 1px;
 }
-/* line 2410, ../sass/screen.scss */
+/* line 2409, ../sass/screen.scss */
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -3257,18 +3256,18 @@ Homepage
   transform: rotate(135deg);
   bottom: 0;
 }
-/* line 2416, ../sass/screen.scss */
+/* line 2415, ../sass/screen.scss */
 .touch #cd-vertical-nav li:last-child a {
   border-bottom: none;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2422, ../sass/screen.scss */
+  /* line 2421, ../sass/screen.scss */
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
 }
-/* line 2429, ../sass/screen.scss */
+/* line 2428, ../sass/screen.scss */
 .headroom {
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -3277,7 +3276,7 @@ Homepage
   transition: all 200ms linear;
 }
 
-/* line 2436, ../sass/screen.scss */
+/* line 2435, ../sass/screen.scss */
 .headroom--pinned {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -3286,7 +3285,7 @@ Homepage
   transform: translateY(0%);
 }
 
-/* line 2443, ../sass/screen.scss */
+/* line 2442, ../sass/screen.scss */
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -3295,42 +3294,42 @@ Homepage
   transform: translateY(-100%);
 }
 
-/* line 2453, ../sass/screen.scss */
+/* line 2452, ../sass/screen.scss */
 #amma-name {
   font-variant: small-caps;
   font-size: 1.175rem;
 }
 @media only screen and (min-width: 1824px) {
-  /* line 2453, ../sass/screen.scss */
+  /* line 2452, ../sass/screen.scss */
   #amma-name {
     font-size: 1.4rem;
   }
 }
 
-/* line 2461, ../sass/screen.scss */
+/* line 2460, ../sass/screen.scss */
 #nirvana {
   max-width: 75%;
 }
 
-/* line 2465, ../sass/screen.scss */
+/* line 2464, ../sass/screen.scss */
 #mootown {
   max-width: 75%;
 }
 
-/* line 2469, ../sass/screen.scss */
+/* line 2468, ../sass/screen.scss */
 #cbg {
   max-width: 75%;
 }
 
 @media only screen and (min-width: 830px) {
-  /* line 2474, ../sass/screen.scss */
+  /* line 2473, ../sass/screen.scss */
   #section7 {
     margin-top: -100px;
     min-height: 80%;
   }
 }
 
-/* line 2481, ../sass/screen.scss */
+/* line 2480, ../sass/screen.scss */
 .selected {
   opacity: 0.5;
   fill: #000;

@@ -2168,10 +2168,9 @@ Homepage
   padding: 20px 20px 0 20px;
   height: 67px;
   line-height: 40px;
-  border-right: 1px solid $dark-gold;
+  border-right: 1px solid $dark-gray;
   vertical-align: baseline;
   font-size: rem(26);
-  color: $dark-gold;
 }
 
 .work-nav-index {
@@ -2181,19 +2180,19 @@ Homepage
   padding: 0 12px;
   height: 67px;
   line-height: 40px;
-  border-right: 1px solid $dark-gold;
+  border-right: 1px solid $dark-gray;
   vertical-align: baseline;
   font-size: rem(26);
   a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: $dark-gold;
+    color: $dark-gray;
     height: 67px;
     padding-top: 20px;
   }
   &:hover {
-    background: $dark-gold;
+    background: $dark-gray;
     a {
       color: white;
     }
@@ -2201,7 +2200,7 @@ Homepage
 }
 
 .work-nav-index-active {
-  background: $dark-gold;
+  background: $dark-gray;
   a {
     color: white;
   }
