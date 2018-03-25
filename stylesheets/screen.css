@@ -488,24 +488,24 @@ Work pages
   }
 }
 /* line 341, ../sass/screen.scss */
-.dark-gray-bg {
-  background-color: #222222;
+.bg-black {
+  background-color: black;
 }
 /* line 344, ../sass/screen.scss */
-.dark-gray-bg .work-title {
+.bg-black .work-title {
   color: #f5f6f7;
 }
 /* line 348, ../sass/screen.scss */
-.dark-gray-bg .text-part-p {
+.bg-black .text-part-p {
   color: white;
   margin-bottom: 40px;
 }
 /* line 352, ../sass/screen.scss */
-.dark-gray-bg .text-part-ul {
+.bg-black .text-part-ul {
   color: white;
 }
 /* line 354, ../sass/screen.scss */
-.dark-gray-bg .text-part-ul span {
+.bg-black .text-part-ul span {
   color: white;
 }
 
@@ -992,7 +992,7 @@ Work pages
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #bfad55;
+  color: #222222;
 }
 @media only screen and (min-width: 830px) {
   /* line 659, ../sass/screen.scss */
@@ -1004,14 +1004,14 @@ Work pages
 }
 /* line 671, ../sass/screen.scss */
 .footer-title a {
-  color: #bfad55;
+  color: #222222;
 }
 
 /* line 676, ../sass/screen.scss */
 .footer-text {
   text-transform: uppercase;
   font-size: 0.75rem;
-  color: #bfad55;
+  color: #222222;
   font-weight: 500;
   padding-top: 5%;
 }
@@ -1023,7 +1023,7 @@ Work pages
 }
 /* line 685, ../sass/screen.scss */
 .footer-text a {
-  color: #bfad55;
+  color: #222222;
   text-decoration: underline;
 }
 

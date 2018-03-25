@@ -338,8 +338,8 @@ Work pages
   }
 }
 
-.dark-gray-bg {
-  background-color: $dark-gray;
+.bg-black {
+  background-color: black;
 
   .work-title {
     color: $light-gray;
@@ -667,23 +667,23 @@ Work pages
   text-transform: uppercase;
   font-size: rem(12);
   font-weight: 500;
-  color: $dark-gold;
+  color: $dark-gray;
   a {
-    color: $dark-gold;
+    color: $dark-gray;
   }
 }
 
 .footer-text {
   text-transform: uppercase;
   font-size: rem(12);
-  color: $dark-gold;
+  color: $dark-gray;
   font-weight: 500;
   padding-top: 5%;
   @include MQ(M) {
     padding-top: 0;
   }
   a {
-    color: $dark-gold;
+    color: $dark-gray;
     text-decoration: underline;
   }
 }
