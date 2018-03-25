@@ -105,13 +105,13 @@ Work pages
   font-weight: 500;
   line-height: 1.5;
   font-size: rem(18);
+  color: $dark-gray;
   * {
     @include flex(1);
   }
   &.intro {
     margin-top: 5%;
     text-align: center;
-    color: #9AA0A3;
   }
 
   img {
@@ -349,8 +349,11 @@ Work pages
     color: white;
     margin-bottom: 40px;
   }
-  .text-part-ul span {
+  .text-part-ul {
     color: white;
+    span {
+      color: white;
+    }
   }
 }
 
@@ -375,7 +378,6 @@ Work pages
 .work-title {
   font-size: rem(38);
   font-family: 'Old Standard TT', serif;
-  color: #9AA0A3;
   font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
@@ -812,7 +814,6 @@ AMMA
   @include MQ(L) {
     font-size: 30px;
   }
-  color: #aaaaaa;
   font-weight: 500;
 }
 
@@ -830,7 +831,6 @@ AMMA
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'Neuzeit Grotesk', sans-serif;
-  color: #aaaaaa;
   letter-spacing: rem(0.4);
 }
 
@@ -851,15 +851,6 @@ AMMA
 .persona {
   width: 100%;
   margin: 10px auto;
-}
-
-#amma-stage1, #amma-styletile-wrapper, #amma-lowfi-wf-wrapper {
-  .unslider-nav ol li {
-    border-color: $pink;
-    &.unslider-active {
-      background-color: $pink;
-    }
-  }
 }
 
 .amma-graph-left-wrapper {
@@ -1220,19 +1211,8 @@ Dignity Meals
     color: white;
     margin-bottom: 40px;
   }
-  // padding-top: 4%;
-  // padding-bottom: 9%;
   .text-part-ul span {
     color: white;
-  }
-}
-
-#dm-lowfi-wireframes-wrapper {
-  .unslider-nav ol li {
-    border-color: $purple;
-    &.unslider-active {
-      background-color: $purple;
-    }
   }
 }
 
@@ -1378,16 +1358,6 @@ Instashop
   padding-right: 12%;
 }
 
-#is-wf-wrapper {
-  .unslider-nav ol li {
-    border-color: $green;
-    &.unslider-active {
-      background-color: $green;
-      opacity: 1;
-    }
-  }
-}
-
 #is-wf-ul, #amma-ut-ul {
   padding-left: 0;
   li {
@@ -1403,9 +1373,6 @@ Instashop
   font-size: rem(16);
 }
 
-#is-mobile-wf-title {
-  // margin-top: rem(50);
-}
 #is-mobile-wf {
   @include MQ(M) {
     max-width: 47%;
@@ -1442,10 +1409,6 @@ Instashop
     padding-left: 8%;
     padding-right: 8%;
   }
-}
-
-#is-affinity-map {
-  background-color: $green;
 }
 
 #is-final-mobile-title {
